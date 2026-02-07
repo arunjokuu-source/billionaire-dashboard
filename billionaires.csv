@@ -1,0 +1,2592 @@
+position,wealth,industry,age,country_of_residence,city_of_residence,gender,continent,source
+1,211000,Fashion & Retail,74,France,Paris,M,Europe,LVMH
+2,180000,Automotive,51,United States,Austin,M,North America,"Tesla, SpaceX"
+3,114000,Technology,59,United States,Medina,M,North America,Amazon
+4,107000,Technology,78,United States,Lanai,M,North America,Oracle
+5,106000,Finance & Investments,92,United States,Omaha,M,North America,Berkshire Hathaway
+6,104000,Technology,67,United States,Medina,M,North America,Microsoft
+7,94500,Media & Entertainment,81,United States,New York,M,North America,Bloomberg LP
+8,93000,Telecom,83,Mexico,Mexico City,M,North America,Telecom
+9,83400,Diversified,65,India,Mumbai,M,Asia,Diversified
+10,80700,Technology,67,United States,Hunts Point,M,North America,Microsoft
+11,80500,Fashion & Retail,69,France,Paris,F,Europe,L'Oréal
+12,79200,Technology,50,United States,Palo Alto,M,North America,Google
+13,77300,Fashion & Retail,87,Spain,La Coruna,M,Europe,Zara
+14,76000,Technology,49,United States,Los Altos,M,North America,Google
+15,68000,Food & Beverage,68,China,Hangzhou,M,Asia,"Beverages, pharmaceuticals"
+16,64400,Technology,38,United States,Palo Alto,M,North America,Facebook
+17,59000,Diversified,87,United States,Wichita,M,North America,Koch Industries
+17,59000,Diversified,60,United States,New York,F,North America,Koch Industries
+19,58800,Fashion & Retail,74,United States,Bentonville,M,North America,Walmart
+20,57600,Fashion & Retail,78,United States,Bentonville,M,North America,Walmart
+21,56700,Fashion & Retail,73,United States,Fort Worth,F,North America,Walmart
+22,54400,Media & Entertainment,65,Canada,Toronto,M,North America,Media
+23,50100,Technology,58,United States,Austin,M,North America,Dell Technologies
+24,47200,Diversified,60,India,Ahmedabad,M,Asia,"Infrastructure, commodities"
+25,45100,Fashion & Retail,85,United States,Hillsboro,M,North America,Nike
+26,45000,Technology,39,China,Beijing,M,Asia,TikTok
+27,42900,Fashion & Retail,83,Germany,Neckarsulm,M,Europe,Retail
+28,40100,Fashion & Retail,86,France,Paris,M,Europe,Luxury goods
+29,39100,Logistics,85,Switzerland,Schindellegi,M,Europe,Shipping
+30,38900,Food & Beverage,58,Belgium,Brussels,M,Europe,"Nutella, chocolates"
+31,38300,Food & Beverage,83,United States,The Plains,F,North America,"Candy, pet food"
+31,38300,Food & Beverage,87,United States,Jackson,M,North America,"Candy, pet food"
+33,38000,Diversified,94,Hong Kong,Unknown,M,Asia,Diversified
+34,35300,Technology,51,China,Shenzhen,M,Asia,Internet media
+35,35000,Gambling & Casinos,77,United States,Las Vegas,F,North America,Casinos
+35,35000,Finance & Investments,54,United States,Miami,M,North America,Hedge funds
+37,34700,Food & Beverage,30,Austria,Salzburg,M,Europe,Red Bull
+38,33400,Automotive,54,China,Ningde,M,Asia,Batteries
+39,32600,Fashion & Retail,74,Japan,Tokyo,M,Asia,Fashion retail
+40,32100,Diversified,65,United Kingdom,London,M,Europe,"Music, chemicals"
+41,31600,Fashion & Retail,74,United States,New York,M,North America,Chanel
+41,31600,Fashion & Retail,72,United States,New York,M,North America,Chanel
+43,31200,Logistics,82,Switzerland,Geneva,M,Europe,Shipping
+43,31200,Logistics,78,Switzerland,Geneva,F,Europe,Shipping
+45,30200,Technology,43,China,Shanghai,M,Asia,E-commerce
+46,29700,Manufacturing,87,Germany,Kuenzelsau,M,Europe,Fasteners
+47,29500,Real Estate,95,Hong Kong,Hong Kong,M,Asia,Real estate
+48,28500,Finance & Investments,64,United States,Haverford,M,North America,"Trading, investments"
+49,28100,Finance & Investments,84,United States,East Setauket,M,North America,Hedge funds
+50,27800,Finance & Investments,76,United States,New York,M,North America,Investments
+51,27400,Automotive,60,Germany,Bad Homburg,F,Europe,"BMW, pharmaceuticals"
+52,27000,Metals & Mining,69,Australia,Perth,F,Oceania,Mining
+53,26700,Technology,51,China,Hangzhou,M,Asia,Online games
+54,26600,Metals & Mining,69,Mexico,Mexico City,M,North America,Mining
+55,25600,Technology,77,India,Delhi,M,Asia,software services
+56,25500,Energy,74,Indonesia,Jakarta,M,Asia,Coal
+57,25300,Finance & Investments,78,United States,Palm Beach,M,North America,Discount brokerage
+58,25200,Metals & Mining,51,United Arab Emirates,Ras Al Khaimah,M,Asia,"Fertilizers, coal"
+59,24600,Automotive,56,Germany,Frankfurt,M,Europe,BMW
+60,24400,Technology,52,United States,Seattle,F,North America,Amazon
+61,24200,Finance & Investments,82,Indonesia,Kudus,M,Asia,"Banking, tobacco"
+62,23700,Metals & Mining,62,Russia,Moscow,M,Europe,Metals
+63,23500,Technology,58,China,Hangzhou,M,Asia,E-commerce
+64,23400,Manufacturing,80,China,Foshan,M,Asia,Home appliances
+65,23100,Metals & Mining,80,Chile,Santiago,F,South America,Mining
+65,23100,Manufacturing,83,Indonesia,Kudus,M,Asia,"Banking, tobacco"
+67,22900,Manufacturing,70,United Kingdom,London,M,Europe,Chemicals
+68,22600,Healthcare,81,India,Pune,M,Asia,Vaccines
+69,22400,Telecom,65,Japan,Tokyo,M,Asia,"Internet, telecom"
+70,22100,Metals & Mining,66,Russia,Moscow,M,Europe,"Steel, transport"
+71,22000,Food & Beverage,52,France,Laval,M,Europe,Cheese
+72,21600,Finance & Investments,61,United States,Milton,F,North America,Fidelity
+72,21600,Energy,67,Russia,Moscow,M,Europe,"Gas, chemicals"
+74,21200,Fashion & Retail,36,United States,Chicago,M,North America,Walmart
+74,21200,Service,52,China,Shenzhen,M,Asia,Package delivery
+76,21100,Technology,60,United States,Los Altos,M,North America,Semiconductors
+77,21000,Fashion & Retail,90,United States,New York,M,North America,Estee Lauder
+77,21000,Manufacturing,77,Japan,Osaka,M,Asia,Sensors
+79,20900,Metals & Mining,57,Russia,Moscow,M,Europe,"Steel, investments"
+80,20500,Energy,72,Russia,Moscow,M,Europe,Oil
+81,20200,Healthcare,84,United States,Nashville,M,North America,Hospitals
+82,19600,Metals & Mining,61,Australia,Perth,M,Oceania,Mining
+83,19100,Finance & Investments,73,United States,Greenwich,M,North America,Hedge funds
+84,19000,Automotive,59,China,Hangzhou,M,Asia,Automobiles
+84,19000,Metals & Mining,55,China,Shenzhen,M,Asia,"Mining, copper products"
+86,18900,Diversified,72,Monaco,Monte Carlo,M,Europe,"Real estate, shipping"
+86,18900,Food & Beverage,57,China,Nanyang,M,Asia,Pig breeding
+88,18700,Automotive,57,China,Shenzhen,M,Asia,"Batteries, automobiles"
+89,18500,Energy,77,United States,Oklahoma City,M,North America,Oil & gas
+89,18500,Finance & Investments,65,United States,Palm Beach,M,North America,Hedge funds
+89,18500,Energy,70,Russia,Moscow,M,Europe,"Oil, gas"
+92,18000,Finance & Investments,61,United States,Franklin,M,North America,Quicken Loans
+93,17700,Metals & Mining,72,United Kingdom,London,M,Europe,Steel
+94,17500,Finance & Investments,66,United States,Greenwich,M,North America,Hedge funds
+94,17500,Finance & Investments,87,United States,Indian Creek,M,North America,Investments
+94,17500,Metals & Mining,73,India,Hisar,F,Asia,Steel
+97,17400,Real Estate,90,United States,Newport Beach,M,North America,Real estate
+97,17400,Fashion & Retail,83,United States,Eau Claire,M,North America,Home improvement stores
+99,17100,Media & Entertainment,92,United States,New York,M,North America,"Newspapers, TV network"
+100,16700,Finance & Investments,70,Switzerland,Crans-Montana,F,Europe,Banking
+101,16500,Fashion & Retail,72,Germany,Mulheim an der Ruhr,M,Europe,"Aldi, Trader Joe's"
+101,16500,Finance & Investments,55,Czech Republic,Prague,F,Europe,"Finance, telecommunications"
+103,16300,Healthcare,72,China,Shenzhen,M,Asia,medical devices
+104,16200,Fashion & Retail,75,Sweden,Stockholm,M,Europe,H&M
+104,16200,Technology,67,United States,Atherton,M,North America,Google
+106,16000,Finance & Investments,55,Switzerland,Geneva,M,Europe,Hedge funds
+107,15900,Food & Beverage,67,China,Foshan,M,Asia,Soy sauce
+108,15800,Fashion & Retail,65,Germany,Unknown,M,Europe,Supermarkets
+108,15800,Food & Beverage,83,Switzerland,Zurich,M,Europe,Beer
+108,15800,Real Estate,76,Hong Kong,Hong Kong,M,Asia,Real estate
+112,15600,Healthcare,67,India,Mumbai,M,Asia,Pharmaceuticals
+113,15500,Technology,45,United States,San Jose,M,North America,Wireless networking
+114,15300,Fashion & Retail,68,India,Mumbai,M,Asia,"Retail, investments"
+115,15200,Automotive,56,China,Ningde,M,Asia,Batteries
+116,14900,Diversified,83,Thailand,Bangkok,M,Asia,Diversified
+116,14900,Fashion & Retail,81,United States,Oklahoma City,M,North America,Retail
+118,14800,Food & Beverage,78,Thailand,Bangkok,M,Asia,"Alcohol, real estate"
+119,14700,Food & Beverage,68,United Kingdom,London,F,Europe,Heineken
+120,14600,Healthcare,60,China,Shenzhen,M,Asia,Medical devices
+121,14500,Automotive,59,China,Baoding,M,Asia,Automobiles
+122,14400,Metals & Mining,69,Uzbekistan,Tashkent,M,Asia,"Steel, telecom, investments"
+123,14300,Manufacturing,95,Singapore,Singapore,M,Asia,Paints
+124,14200,Diversified,55,India,Mumbai,M,Asia,Commodities
+124,14200,Manufacturing,65,Nigeria,Lagos,M,Africa,"Cement, sugar"
+126,14100,Real Estate,93,Hong Kong,Hong Kong,F,Asia,Real estate
+127,14000,Diversified,67,United Kingdom,London,M,Europe,Shipping
+128,13900,Healthcare,57,China,Changsha,M,Asia,Hospitals
+128,13900,Gambling & Casinos,94,Hong Kong,Hong Kong,M,Asia,Casinos/hotels
+130,13700,Logistics,78,United Kingdom,London,M,Europe,Shipping
+130,13700,Construction & Engineering,76,United States,Afton,F,North America,Building supplies
+130,13700,Technology,47,United States,Atherton,M,North America,WhatsApp
+133,13300,Sports,80,United States,Dallas,M,North America,Dallas Cowboys
+133,13300,Energy,80,United States,Tulsa,M,North America,"Oil & gas, banking"
+133,13300,Real Estate,71,Hong Kong,Hong Kong,M,Asia,Real estate
+136,13200,Automotive,60,China,Guangzhou,M,Asia,"Automobiles, batteries"
+137,13100,Real Estate,90,Australia,Sydney,M,Oceania,Real estate
+138,12900,Finance & Investments,64,India,Mumbai,M,Asia,Banking
+138,12900,Sports,75,United States,Electra,M,North America,"Sports, real estate"
+140,12600,Energy,58,United Kingdom,London,M,Europe,"Oil, banking, telecom"
+141,12300,Energy,57,Thailand,Bangkok,M,Asia,Energy
+142,12200,Metals & Mining,50,China,Yinchuan,M,Asia,Coal
+142,12200,Healthcare,69,China,Chongqing,M,Asia,Vaccines
+144,12100,Automotive,72,United States,Naples,M,North America,Auto parts
+145,12000,Technology,59,United States,Palo Alto,F,North America,"Apple, Disney"
+146,11800,Diversified,99,Hong Kong,Hong Kong,M,Asia,"Palm oil, shipping, property"
+147,11600,Real Estate,82,United States,New York,M,North America,Real estate
+148,11500,Technology,38,United Arab Emirates,Dubai,M,Asia,Messaging app
+148,11500,Healthcare,73,Germany,Tegernsee,M,Europe,Pharmaceuticals
+148,11500,Healthcare,73,Germany,Tegernsee,M,Europe,Pharmaceuticals
+151,11400,Food & Beverage,59,China,Chengdu,M,Asia,Agribusiness
+151,11400,Fashion & Retail,50,United States,Bryn Mawr,M,North America,Online retail
+153,11300,Finance & Investments,74,United States,New York,M,North America,Hedge funds
+153,11300,Manufacturing,69,Israel,Herzliya,M,Asia,"Fertilizer, real estate"
+153,11300,Manufacturing,62,Australia,Melbourne,M,Oceania,Manufacturing
+153,11300,Finance & Investments,57,Switzerland,Frauenfeld,M,Europe,Investments
+157,11100,Fashion & Retail,88,Italy,Milan,M,Europe,Luxury goods
+157,11100,Fashion & Retail,72,South Africa,Cape Town,M,Africa,Luxury goods
+159,11000,Finance & Investments,58,Hong Kong,Hong Kong,M,Asia,Video surveillance
+159,11000,Technology,51,China,Shenzhen,M,Asia,Internet media
+161,10900,Finance & Investments,83,United States,Denver,M,North America,"Energy, sports, entertainment"
+161,10900,Fashion & Retail,85,United States,Oklahoma City,F,North America,Gas stations
+161,10900,Fashion & Retail,67,Mexico,Mexico City,M,North America,"Retail, media"
+164,10700,Media & Entertainment,93,United States,New York,M,North America,Media
+165,10600,Sports,81,United States,Brookline,M,North America,"Manufacturing, New England Patriots"
+165,10600,Food & Beverage,73,Brazil,Sao Paulo,M,South America,Beer
+167,10500,Finance & Investments,57,Russia,Moscow,M,Europe,Gold
+167,10500,Fashion & Retail,39,China,Guangzhou,M,Asia,E-commerce
+167,10500,Finance & Investments,45,United Arab Emirates,Dubai,M,Asia,Cryptocurrency exchange
+170,10300,Finance & Investments,70,United States,Dallas,M,North America,"Banks, real estate"
+171,10200,Technology,43,Australia,Sydney,M,Oceania,Software
+171,10200,Healthcare,60,United States,Bloomington,M,North America,Medical devices
+171,10200,Technology,82,United States,Incline Village,M,North America,Business software
+171,10200,Energy,64,United States,Houston,M,North America,Oil
+171,10200,Manufacturing,74,Russia,Magnitogorsk,M,Europe,Steel
+171,10200,Technology,41,Singapore,Singapore,M,Asia,Facebook
+171,10200,Automotive,58,Germany,Herzogenaurach,M,Europe,Auto parts
+171,10200,Fashion & Retail,74,United States,Jackson,F,North America,Walmart
+179,10100,Technology,43,Australia,Sydney,M,Oceania,Software
+179,10100,Diversified,81,Malaysia,Kuala Lumpur,M,Asia,"Banking, property"
+179,10100,Real Estate,59,China,Beijing,F,Asia,Real estate
+182,10000,Energy,85,United States,Midland,M,North America,Oil
+183,9900,Service,74,China,Shanghai,M,Asia,Diversified
+184,9800,Diversified,74,United Arab Emirates,Dubai,M,Asia,"Infrastructure, commodities"
+184,9800,Fashion & Retail,80,Switzerland,Martigny,M,Europe,Hermes
+184,9800,Logistics,51,France,Marseille,M,Europe,Shipping
+184,9800,Logistics,53,France,Marseille,M,Europe,Shipping
+184,9800,Logistics,55,France,Marseille,F,Europe,Shipping
+184,9800,Finance & Investments,75,Sweden,Stockholm,M,Europe,Investments
+190,9700,Manufacturing,63,Russia,Moscow,M,Europe,Fertilizers
+190,9700,Finance & Investments,59,South Korea,Seoul,M,Asia,Private equity
+190,9700,Technology,53,China,Beijing,M,Asia,Smartphones
+190,9700,Manufacturing,76,Germany,Haiger,M,Europe,Manufacturing
+190,9700,Healthcare,64,China,Lianyungang,M,Asia,Pharmaceuticals
+195,9600,Technology,70,United States,Keene,M,North America,Warehouse automation
+195,9600,Energy,70,China,Xingtai,M,Asia,Solar panels
+195,9600,Manufacturing,67,China,Ningbo,M,Asia,Chemicals
+195,9600,Food & Beverage,58,United States,Los Angeles,F,North America,"Candy, pet food"
+195,9600,Food & Beverage,62,United States,Alexandria,F,North America,"Candy, pet food"
+195,9600,Food & Beverage,64,United States,New York,F,North America,"Candy, pet food"
+195,9600,Food & Beverage,66,United States,Philadelphia,F,North America,"Candy, pet food"
+202,9500,Finance & Investments,71,France,Paris,M,Europe,Investments
+202,9500,Diversified,94,Canada,Vancouver,M,North America,Diversified
+204,9400,Healthcare,57,Switzerland,Gstaad,M,Europe,"Biotech, investments"
+204,9400,Technology,44,China,Beijing,M,Asia,Food delivery
+206,9300,Technology,41,United States,San Francisco,M,North America,Airbnb
+206,9300,Manufacturing,75,United Kingdom,Gloucestershire,M,Europe,Vacuums
+208,9200,Diversified,56,Russia,Moscow,M,Europe,"Steel, investments"
+208,9200,Diversified,79,Sweden,Stockholm,F,Europe,Diversified
+208,9200,Energy,47,Czech Republic,Prague,M,Europe,"Energy, investments"
+208,9200,Media & Entertainment,82,United States,Elizabeth,M,North America,Cable television
+208,9200,Technology,77,India,Bangalore,M,Asia,Software services
+208,9200,Finance & Investments,85,United States,Woodside,M,North America,Discount brokerage
+208,9200,Fashion & Retail,63,United States,Beverly Hills,M,North America,Hardware stores
+215,9000,Technology,72,United States,Palo Alto,M,North America,Google
+215,9000,Metals & Mining,66,Switzerland,Ruschlikon,M,Europe,Mining
+215,9000,Real Estate,55,Germany,Hamburg,M,Europe,Real estate
+215,9000,Food & Beverage,73,Canada,Vancouver,M,North America,Alcoholic beverages
+215,9000,Manufacturing,57,China,Changzhou,M,Asia,Hydraulic machinery
+220,8900,Food & Beverage,68,United Kingdom,London,M,Europe,Packaging
+220,8900,Food & Beverage,63,United Kingdom,Surrey,M,Europe,Packaging
+220,8900,Food & Beverage,70,United Kingdom,Newmarket,F,Europe,Packaging
+223,8800,Fashion & Retail,47,Russia,Moscow region,F,Europe,Ecommerce
+223,8800,Technology,71,United States,Woodside,M,North America,Venture capital
+223,8800,Technology,49,China,Beijing,M,Asia,E-commerce
+223,8800,Technology,38,United States,San Francisco,M,North America,Facebook
+223,8800,Technology,55,United States,Honolulu,M,North America,"EBay, PayPal"
+223,8800,Energy,64,China,Ningde,M,Asia,Batteries
+223,8800,Energy,72,United Kingdom,London,F,Europe,Oil
+230,8700,Manufacturing,52,China,Wujiang,M,Asia,Chemicals
+230,8700,Fashion & Retail,79,Germany,Hamburg,M,Europe,"Retail, real estate"
+232,8600,Finance & Investments,71,United States,New York,M,North America,Private equity
+232,8600,Finance & Investments,67,New Zealand,Auckland,M,Oceania,Investments
+232,8600,Food & Beverage,68,India,Delhi,M,Asia,"Soft drinks, fast food"
+232,8600,Technology,79,Germany,Heidelberg,M,Europe,Software
+232,8600,Food & Beverage,75,Switzerland,St. Gallen,M,Europe,Beer
+232,8600,Real Estate,73,Philippines,Manila,M,Asia,Real estate
+232,8600,Technology,67,United States,Palo Alto,M,North America,Google
+239,8500,Finance & Investments,47,United States,New York,M,North America,Investments
+239,8500,Fashion & Retail,74,United States,Electra,F,North America,Walmart
+239,8500,Manufacturing,55,China,Xi'an,M,Asia,Solar wafers and modules
+242,8400,Media & Entertainment,75,United States,Atlanta,M,North America,"Media, automotive"
+242,8400,Metals & Mining,77,South Africa,Johannesburg,M,Africa,Diamonds
+242,8400,Media & Entertainment,72,Australia,New South Wales,F,Oceania,"Media, automotive"
+242,8400,Metals & Mining,77,China,Binzhou,F,Asia,Aluminum products
+246,8300,Fashion & Retail,75,United States,Springfield,M,North America,Sporting goods retail
+246,8300,Fashion & Retail,81,Monaco,Monte Carlo,M,Europe,Drugstores
+246,8300,Finance & Investments,67,Switzerland,Thurgau,F,Europe,Investments
+249,8200,Real Estate,75,Hong Kong,Hong Kong,M,Asia,Real estate
+249,8200,Energy,61,Russia,Moscow,M,Europe,"Oil, banking, telecom"
+249,8200,Diversified,62,Nigeria,Lagos,M,Africa,"Cement, sugar"
+249,8200,Finance & Investments,79,United States,Atherton,M,North America,Private equity
+249,8200,Real Estate,91,India,Delhi,M,Asia,Real estate
+249,8200,Real Estate,68,China,Beijing,M,Asia,Real estate
+249,8200,Real Estate,41,China,Foshan,F,Asia,Real estate
+256,8100,Diversified,69,France,Paris,M,Europe,Diversified
+256,8100,Diversified,66,France,Paris,M,Europe,Diversified
+256,8100,Food & Beverage,65,United States,Houston,M,North America,"Houston Rockets, entertainment"
+256,8100,Diversified,58,France,Paris,F,Europe,Diversified
+256,8100,Gambling & Casinos,54,Switzerland,Verbier,M,Europe,"Oil and gas, IT, lotteries"
+261,8000,Technology,39,United States,San Francisco,M,North America,Airbnb
+261,8000,Energy,66,Russia,Moscow,M,Europe,Oil
+261,8000,Fashion & Retail,93,United States,Atlanta,M,North America,Home Depot
+261,8000,Finance & Investments,85,United States,Winnetka,M,North America,Insurance
+261,8000,Finance & Investments,60,United States,Austin,M,North America,Private equity
+261,8000,Metals & Mining,58,Czech Republic,Prague,M,Europe,Coal mines
+261,8000,Finance & Investments,76,Monaco,Unknown,M,Europe,Investments
+268,7900,Finance & Investments,52,United States,Miami Beach,M,North America,Private equity
+268,7900,Fashion & Retail,52,China,Quanzhou,M,Asia,Sports apparel
+268,7900,Fashion & Retail,71,United States,Henderson,F,North America,Walmart
+268,7900,Technology,54,South Korea,Seoul,M,Asia,Samsung
+268,7900,Finance & Investments,54,United States,New York,M,North America,Private equity
+268,7900,Finance & Investments,72,United States,New York,M,North America,Hedge funds
+268,7900,Metals & Mining,57,Russia,Moscow,M,Europe,Metals and mining
+268,7900,Diversified,50,Austria,Vienna,M,Europe,"Real estate, construction"
+276,7800,Telecom,73,United States,Saddle River,M,North America,Telecom
+276,7800,Manufacturing,66,China,Hangzhou,M,Asia,Petrochemicals
+276,7800,Manufacturing,94,Taiwan,Taipei,M,Asia,Petrochemicals
+276,7800,Technology,53,China,Shanghai,M,Asia,Financial information
+276,7800,Manufacturing,58,China,Guangzhou,M,Asia,Furniture
+276,7800,Fashion & Retail,75,Taiwan,Taoyuan,M,Asia,Shoes
+282,7700,Food & Beverage,55,France,Laval,M,Europe,Cheese
+282,7700,Food & Beverage,42,France,Laval,F,Europe,Cheese
+282,7700,Media & Entertainment,80,United States,Beverly Hills,M,North America,"Movies, record labels"
+282,7700,Technology,54,China,Beijing,M,Asia,Internet search
+282,7700,Service,71,China,Chengdu,M,Asia,Agribusiness
+282,7700,Technology,68,United States,Newport Beach,M,North America,Semiconductors
+282,7700,Healthcare,68,United States,Naples,M,North America,Medical devices
+282,7700,Real Estate,61,Norway,Oslo,M,Europe,Real estate
+290,7600,Energy,54,China,Hefei,M,Asia,Photovoltaic equipment
+290,7600,Healthcare,89,India,Ahmedabad,M,Asia,Pharmaceuticals
+290,7600,Manufacturing,67,United Kingdom,London,M,Europe,Chemicals
+290,7600,Technology,41,United States,Austin,M,North America,Airbnb
+290,7600,Real Estate,64,Singapore,Singapore,M,Asia,Real Estate
+290,7600,Manufacturing,66,United Kingdom,London,M,Europe,Chemicals
+290,7600,Real Estate,85,United States,New York,M,North America,Real estate
+290,7600,Technology,59,Hong Kong,Hong Kong,M,Asia,E-commerce
+290,7600,Healthcare,62,China,Shanghai,F,Asia,Pharmaceuticals
+299,7500,Sports,80,United States,Atlanta,M,North America,Home Depot
+299,7500,Fashion & Retail,85,United States,San Antonio,M,North America,Supermarkets
+299,7500,Fashion & Retail,59,China,Quanzhou,M,Asia,Sports apparel
+299,7500,Finance & Investments,68,United States,Palm Beach,M,North America,Hedge funds
+299,7500,Finance & Investments,79,United States,New York,M,North America,Private equity
+299,7500,Food & Beverage,52,Singapore,Singapore,M,Asia,Restaurants
+305,7400,Technology,80,United States,Cary,M,North America,Software
+305,7400,Manufacturing,70,United Kingdom,London,M,Europe,Petrochemicals
+305,7400,Fashion & Retail,59,China,Ningbo,M,Asia,"Textiles, apparel"
+305,7400,Real Estate,71,Singapore,Singapore,M,Asia,Real estate
+305,7400,Manufacturing,72,United States,Santa Barbara,M,North America,"Manufacturing, investments"
+305,7400,Construction & Engineering,62,Egypt,Cairo,M,Africa,"Construction, investments"
+305,7400,Food & Beverage,81,United States,Adel,M,North America,Agriculture
+312,7300,Manufacturing,91,India,Kolkata,M,Asia,Cement
+312,7300,Metals & Mining,59,Russia,Moscow,M,Europe,"Mining, metals, machinery"
+312,7300,Fashion & Retail,50,Denmark,Aarhus,M,Europe,Fashion retail
+312,7300,Logistics,63,Philippines,Manila,M,Asia,Ports
+312,7300,Technology,55,China,Shenzhen,F,Asia,Electronics components
+317,7200,Finance & Investments,65,United States,Gladwyne,M,North America,"Trading, investments"
+317,7200,Technology,72,Taiwan,Taipei,M,Asia,Electronics
+317,7200,Real Estate,68,United States,Palm Beach,M,North America,"Real estate, investments"
+317,7200,Finance & Investments,79,United States,Malibu,M,North America,Auto loans
+317,7200,Energy,78,United States,Houston,M,North America,Pipelines
+317,7200,Finance & Investments,41,United Arab Emirates,Dubai,M,Asia,Fintech
+317,7200,Fashion & Retail,61,Japan,Tokyo,M,Asia,Personal care goods
+317,7200,Food & Beverage,77,China,Hangzhou,M,Asia,Beverages
+325,7100,Technology,79,United States,Madison,F,North America,Healthcare software
+325,7100,Gambling & Casinos,76,Austria,Vienna,M,Europe,Gambling
+325,7100,Service,61,United States,Lexington,F,North America,Self storage
+325,7100,Manufacturing,66,China,Changsha,M,Asia,Construction equipment
+325,7100,Healthcare,72,Switzerland,Lausanne,M,Europe,Health care
+325,7100,Finance & Investments,94,Singapore,Singapore,M,Asia,Banking
+325,7100,Manufacturing,71,China,Ningbo,M,Asia,Electronics
+332,7000,Technology,58,United States,San Francisco,M,North America,Business software
+332,7000,Media & Entertainment,37,United Kingdom,London,M,Europe,Online games
+332,7000,Media & Entertainment,41,United Kingdom,London,M,Europe,Online games
+332,7000,Technology,77,United States,Redlands,M,North America,Mapping software
+332,7000,Manufacturing,80,India,Mumbai,M,Asia,Paints
+332,7000,Fashion & Retail,83,United States,New York,M,North America,Apparel
+332,7000,Real Estate,74,Hong Kong,Hong Kong,M,Asia,Real estate
+332,7000,Diversified,55,India,Mumbai,F,Asia,Diversified
+332,7000,Diversified,58,India,Mumbai,M,Asia,Diversified
+332,7000,Food & Beverage,69,United States,Hobe Sound,M,North America,Food distribution
+332,7000,Food & Beverage,67,United States,Palm Beach,M,North America,Food distribution
+332,7000,Food & Beverage,71,United States,Port Washington,M,North America,Beverages
+344,6900,Diversified,62,Mexico,Unknown,M,North America,Diversified
+344,6900,Diversified,87,United States,Los Angeles,F,North America,"Homebuilding, insurance"
+344,6900,Food & Beverage,89,United States,St. Louis,F,North America,Cargill
+344,6900,Finance & Investments,55,United States,New York,M,North America,Hedge fund
+344,6900,Technology,58,China,Huizhou,M,Asia,Lithium batteries
+344,6900,Real Estate,80,United States,Lighthouse Point,M,North America,Real estate
+344,6900,Fashion & Retail,54,Spain,La Coruna,F,Europe,Zara
+344,6900,Healthcare,68,United States,Portage,F,North America,Medical equipment
+352,6800,Energy,59,United States,Houston,F,North America,Pipelines
+352,6800,Diversified,86,Italy,Milan,M,Europe,Media
+352,6800,Gambling & Casinos,55,United Kingdom,Stoke-on-Trent,F,Europe,Online gambling
+352,6800,Energy,40,United States,Houston,M,North America,Pipelines
+352,6800,Energy,53,United States,Houston,F,North America,Pipelines
+352,6800,Finance & Investments,58,United States,Boston,M,North America,Fidelity
+352,6800,Finance & Investments,61,United States,Los Altos,M,North America,Tech investments
+352,6800,Technology,94,United States,Woodside,M,North America,Intel
+352,6800,Finance & Investments,53,United States,Millburn,M,North America,Hedge funds
+352,6800,Finance & Investments,61,United States,Scarsdale,M,North America,Hedge funds
+352,6800,Diversified,65,Russia,Moscow,M,Europe,"Metals, investments"
+352,6800,Technology,58,China,Shenzhen,M,Asia,Electronics components
+352,6800,Energy,61,United States,Houston,F,North America,Pipelines
+365,6700,Finance & Investments,72,United States,Dallas,M,North America,Money management
+365,6700,Finance & Investments,56,United Kingdom,London,M,Europe,Hedge funds
+365,6700,Manufacturing,75,Denmark,Billund,M,Europe,Lego
+365,6700,Manufacturing,47,Denmark,Billund,F,Europe,Lego
+365,6700,Manufacturing,44,Denmark,Billund,M,Europe,Lego
+365,6700,Healthcare,80,Italy,Fiesole,F,Europe,Pharmaceuticals
+365,6700,Automotive,55,China,Ningde,M,Asia,Batteries
+365,6700,Manufacturing,60,China,Hangzhou,M,Asia,Solar panel components
+365,6700,Manufacturing,54,Switzerland,Feldmeilen,F,Europe,Chemicals
+365,6700,Telecom,55,France,Paris,M,Europe,"Internet, telecom"
+365,6700,Energy,72,United States,Boca Raton,M,North America,Natural gas
+365,6700,Real Estate,84,United States,Los Angeles,M,North America,Real estate
+365,6700,Real Estate,83,United States,Atherton,M,North America,Real estate
+365,6700,Finance & Investments,92,United States,Katonah,M,North America,Hedge funds
+365,6700,Technology,71,United States,Irvine,M,North America,Computer hardware
+365,6700,Manufacturing,39,Denmark,Billund,F,Europe,Lego
+365,6700,Technology,81,United States,Rolling Hills,M,North America,Computer hardware
+365,6700,Food & Beverage,65,China,Quanzhou,M,Asia,"Snacks, beverages"
+383,6600,Manufacturing,47,Switzerland,Wilen bei Wollerau,F,Europe,Chemicals
+383,6600,Food & Beverage,68,United States,Atlanta,M,North America,Chick-fil-A
+383,6600,Food & Beverage,70,United States,Atlanta,M,North America,Chick-fil-A
+383,6600,Food & Beverage,67,United States,Hampton,F,North America,Chick-fil-A
+383,6600,Finance & Investments,78,United States,New York,M,North America,Hedge funds
+383,6600,Technology,63,United States,Newport Coast,M,North America,Semiconductors
+383,6600,Finance & Investments,47,Germany,Munich,F,Europe,Investments
+390,6500,Finance & Investments,80,United States,Fort Worth,M,North America,Private equity
+390,6500,Technology,58,United States,Medina,F,North America,Microsoft
+390,6500,Fashion & Retail,91,Eswatini (Swaziland),Ezulwini,M,Africa,"Retail, real estate"
+390,6500,Real Estate,93,United States,Chevy Chase,F,North America,Real estate
+390,6500,Real Estate,84,United Kingdom,London,M,Europe,"Investments, real estate"
+390,6500,Diversified,81,Monaco,Monaco,M,Europe,"Real estate, investments"
+390,6500,Real Estate,51,Switzerland,Crans Montana,M,Europe,Real estate
+397,6400,Finance & Investments,71,Sweden,Gothenberg,M,Europe,Investments
+397,6400,Sports,62,United States,Hobe Sound,M,North America,"Staffing, Baltimore Ravens"
+397,6400,Finance & Investments,69,United States,New York,M,North America,Hedge funds
+397,6400,Healthcare,59,China,Beijing,F,Asia,Biomedical products
+397,6400,Energy,60,France,Paris,M,Europe,"Oil, banking, telecom"
+397,6400,Manufacturing,56,Monaco,Monaco,M,Europe,Fertilizer
+397,6400,Finance & Investments,90,Colombia,Bogota,M,South America,Banking
+397,6400,Logistics,88,United States,Missoula,M,North America,"Construction, mining"
+405,6300,Construction & Engineering,77,United Kingdom,Gloucestershire,M,Europe,Construction equipment
+405,6300,Energy,58,China,Changzhou,M,Asia,Solar equipment
+405,6300,Finance & Investments,66,United Kingdom,London,M,Europe,Private equity
+405,6300,Healthcare,85,France,Lyon,M,Europe,Pharmaceuticals
+405,6300,Energy,59,China,Langfang,M,Asia,Natural gas distribution
+405,6300,Manufacturing,96,Israel,Tel Aviv,M,Asia,Metalworking tools
+411,6200,Food & Beverage,59,Mexico,Mexico City,F,North America,"Beer, investments"
+411,6200,Diversified,85,Sweden,Stockholm,M,Europe,Investments
+411,6200,Service,89,Netherlands,Amsterdam,M,Europe,Temp agency
+411,6200,Food & Beverage,59,China,Shenzhen,M,Asia,Beverages
+411,6200,Manufacturing,59,China,Ningbo,M,Asia,Power strips
+411,6200,Manufacturing,51,China,Ningbo,M,Asia,Power strip
+411,6200,Finance & Investments,60,Poland,Kielce,M,Europe,Investments
+418,6100,Diversified,69,Nigeria,Lagos,M,Africa,"Telecom, oil"
+418,6100,Finance & Investments,58,United States,Beverly Hills,M,North America,Private equity
+418,6100,Fashion & Retail,79,Germany,Hamburg,M,Europe,Coffee
+418,6100,Fashion & Retail,72,Germany,Hamburg,M,Europe,Coffee
+418,6100,Energy,81,Hong Kong,Hong Kong,M,Asia,"Hotels, energy"
+425,6000,Metals & Mining,64,Russia,Moscow,M,Europe,"Steel, mining"
+425,6000,Real Estate,46,Austria,Unknown,M,Europe,"Real estate, retail"
+425,6000,Real Estate,85,United States,Chicago,M,North America,Real estate
+425,6000,Fashion & Retail,74,Canada,Montreal,M,North America,Convinience stores
+425,6000,Technology,63,United States,Reno,M,North America,Security software
+425,6000,Fashion & Retail,65,India,Mumbai,M,Asia,"Retail, investments"
+425,6000,Diversified,88,Thailand,Bangkok,M,Asia,Diversified
+425,6000,Finance & Investments,86,Bahamas,Albany,M,North America,Investments
+425,6000,Finance & Investments,92,Israel,Tel Aviv,M,Asia,Investments
+425,6000,Finance & Investments,76,United States,Los Angeles,M,North America,Investments
+425,6000,Technology,71,United States,St. Louis,M,North America,IT provider
+425,6000,Fashion & Retail,85,United States,New Albany,M,North America,Retail
+437,5900,Real Estate,60,China,Chengdu,M,Asia,Real estate
+437,5900,Diversified,93,Thailand,Bangkok,M,Asia,Diversified
+437,5900,Finance & Investments,61,United States,Darien,M,North America,Hedge funds
+437,5900,Finance & Investments,62,United States,Los Angeles,M,North America,Finance
+437,5900,Food & Beverage,66,China,Shanghai,M,Asia,"Food, beverages"
+442,5800,Finance & Investments,58,United States,Miami,M,North America,Private equity
+442,5800,Healthcare,75,Denmark,Humlebaek,M,Europe,Medical devices
+442,5800,Healthcare,70,United States,Los Angeles,M,North America,Pharmaceuticals
+445,5700,Metals & Mining,56,Ukraine,Donetsk,M,Europe,"Steel, coal"
+445,5700,Healthcare,88,United States,Atlanta,M,North America,Medical equipment
+445,5700,Media & Entertainment,76,Cayman Islands,Grand Cayman,M,North America,Record label
+445,5700,Energy,93,Canada,Saint John,M,North America,Oil
+445,5700,Real Estate,71,Sweden,Stockholm,M,Europe,"Real estate, investments"
+445,5700,Construction & Engineering,77,Switzerland,Jona,M,Europe,Cement
+445,5700,Logistics,83,Hong Kong,Hong Kong,M,Asia,Shipping
+445,5700,Finance & Investments,51,United States,New York,M,North America,Investments
+445,5700,Finance & Investments,59,United States,North Palm Beach,M,North America,Investments
+445,5700,Finance & Investments,56,United States,New York,M,North America,Investments
+455,5600,Logistics,41,Greece,Unknown,F,Europe,Shipping
+455,5600,Energy,79,United States,Dallas,M,North America,"Oil, real estate"
+455,5600,Logistics,52,China,Shanghai,M,Asia,Package delivery
+455,5600,Automotive,81,India,Delhi,M,Asia,Motorcycles
+455,5600,Finance & Investments,87,United States,Sands Point,M,North America,Investments
+455,5600,Healthcare,56,China,Shanghai,M,Asia,Pharmaceutical ingredients
+455,5600,Finance & Investments,65,United States,Branford,F,North America,"Hotels, investments"
+455,5600,Service,69,United States,Dallas,M,North America,"Hotels, investments"
+455,5600,Gambling & Casinos,51,Israel,Tel Aviv,M,Asia,Gambling software
+455,5600,Healthcare,65,South Korea,Seoul,M,Asia,Biotech
+455,5600,Automotive,59,China,Ningbo,M,Asia,Auto parts
+466,5500,Service,73,United States,Bal Harbour,M,North America,Carnival Cruises
+466,5500,Media & Entertainment,65,United States,Palisades,M,North America,"Media, automotive"
+466,5500,Technology,66,Taiwan,Taipei,M,Asia,Electronics
+466,5500,Technology,32,United States,San Francisco,M,North America,Payments software
+466,5500,Technology,34,United States,San Francisco,M,North America,Payment software
+466,5500,Manufacturing,93,United States,Redding,M,North America,"Timberland, lumber mills"
+466,5500,Automotive,77,Italy,Modena,M,Europe,Automobiles
+466,5500,Automotive,58,United States,Houston,M,North America,Toyota dealerships
+466,5500,Diversified,95,Canada,Saint John,M,North America,Diversified
+466,5500,Manufacturing,68,China,Chengdu,M,Asia,Chemicals
+466,5500,Healthcare,81,Germany,Heidelberg,M,Europe,Pharmaceuticals
+466,5500,Finance & Investments,58,Germany,Ulm,M,Europe,Pharmaceuticals
+466,5500,Manufacturing,66,United States,Potomac,M,North America,"Manufacturing, investments"
+466,5500,Media & Entertainment,78,United States,East Hampton,F,North America,"Media, automotive"
+466,5500,Finance & Investments,57,Hong Kong,Hong Kong,M,Asia,Finance
+466,5500,Finance & Investments,78,United States,New York,M,North America,Hedge funds
+466,5500,Healthcare,80,Italy,Venice,M,Europe,Medical packaging
+466,5500,Media & Entertainment,80,United States,Southampton,F,North America,"Media, automotive"
+466,5500,Technology,68,Australia,Sydney,M,Oceania,Software
+466,5500,Diversified,56,China,Beijing,F,Asia,Biotech
+486,5400,Fashion & Retail,77,Italy,Milan,M,Europe,Luxury goods
+486,5400,Manufacturing,81,India,Mumbai,M,Asia,Paints
+486,5400,Finance & Investments,43,United States,Bloomfield Hills,M,North America,Mortgage lender
+486,5400,Technology,68,Singapore,Singapore,M,Asia,IT provider
+486,5400,Diversified,58,China,Suzhou,M,Asia,"Textiles, petrochemicals"
+486,5400,Manufacturing,77,Switzerland,Lucerne,M,Europe,Kitchen appliances
+486,5400,Fashion & Retail,73,Italy,Milan,F,Europe,Luxury goods
+486,5400,Fashion & Retail,70,Germany,Passau,M,Europe,Consumer goods
+486,5400,Fashion & Retail,58,Germany,Munich,M,Europe,Consumer goods
+486,5400,Fashion & Retail,59,Austria,Vienna,M,Europe,Consumer goods
+486,5400,Fashion & Retail,71,Austria,Vienna,F,Europe,Consumer goods
+497,5300,Finance & Investments,49,United States,Darien,M,North America,Finance
+497,5300,Real Estate,64,United States,Los Angeles,M,North America,Real estate
+497,5300,Manufacturing,60,Turkey,Istanbul,M,Asia,Carpet
+497,5300,Finance & Investments,59,United States,Boston,F,North America,Fidelity
+497,5300,Finance & Investments,65,United States,Atherton,M,North America,Venture capital
+497,5300,Diversified,78,Indonesia,Jakarta,M,Asia,Petrochemicals
+497,5300,Finance & Investments,72,United States,Chicago,M,North America,"Hotels, investments"
+497,5300,Food & Beverage,80,United States,Beverly Hills,F,North America,Agriculture
+497,5300,Food & Beverage,86,United States,Beverly Hills,M,North America,Agriculture
+497,5300,Service,78,United States,Atlanta,M,North America,Pest control
+497,5300,Finance & Investments,62,United States,Chicago,M,North America,"Finance, asset management"
+497,5300,Manufacturing,81,United States,Saint Petersburg,M,North America,Furniture
+497,5300,Food & Beverage,77,Germany,Visbek,M,Europe,Poultry genetics
+497,5300,Fashion & Retail,67,United Arab Emirates,Abu Dhabi,M,Asia,Retail
+511,5200,Finance & Investments,56,United States,Greenwich,M,North America,Investments
+511,5200,Food & Beverage,53,China,Foshan,F,Asia,Soy sauce
+511,5200,Real Estate,59,United States,Charleston,M,North America,Real estate management
+511,5200,Fashion & Retail,71,China,Changshu,M,Asia,Apparel
+511,5200,Fashion & Retail,71,United Arab Emirates,Dubai,M,Asia,Retail
+511,5200,Telecom,85,Malaysia,Kuala Lumpur,M,Asia,"Telecoms, media, oil-services"
+511,5200,Technology,73,Taiwan,Taipei,M,Asia,Electronics
+511,5200,Food & Beverage,82,United States,Islamorada,M,North America,Frozen foods
+511,5200,Gambling & Casinos,49,United Kingdom,Isle of Man,M,Europe,Online gambling
+511,5200,Technology,74,United States,Medina,M,North America,Microsoft
+511,5200,Real Estate,78,United States,Oak Brook,M,North America,"Plush toys, real estate"
+511,5200,Real Estate,81,United States,Chicago,M,North America,"Real estate, private equity"
+523,5100,Manufacturing,49,China,Beijing,M,Asia,Steel
+523,5100,Finance & Investments,59,India,Mumbai,F,Asia,Investments
+523,5100,Finance & Investments,90,United States,Palm Beach,M,North America,Franklin Templeton
+523,5100,Media & Entertainment,49,South Korea,Seoul,M,Asia,Online games
+523,5100,Finance & Investments,61,United States,Miami Beach,M,North America,Private equity
+523,5100,Logistics,64,Norway,Vettre,M,Europe,"Shipping, seafood"
+523,5100,Finance & Investments,65,United States,New York,M,North America,Private equity
+523,5100,Healthcare,71,Hong Kong,Hong Kong,M,Asia,Pharmaceuticals
+523,5100,Technology,75,United States,Palo Alto,M,North America,Software
+523,5100,Healthcare,88,United States,Wilson,M,North America,Medical devices
+523,5100,Sports,72,United States,Youngstown,F,North America,San Francisco 49ers
+534,5000,Finance & Investments,79,United States,New York,M,North America,Money management
+534,5000,Energy,75,United States,Fort Worth,M,North America,"Oil, investments"
+534,5000,Healthcare,55,Switzerland,Gstaad,F,Europe,Biotech and investments
+534,5000,Finance & Investments,43,United Kingdom,London,M,Europe,Trading
+534,5000,Technology,69,Switzerland,Zurich,M,Europe,"Software, investments"
+534,5000,Telecom,56,United States,Boston,M,North America,Telecom
+534,5000,Healthcare,50,Russia,Moscow,M,Europe,Pharmaceuticals
+534,5000,Technology,57,South Korea,Seoul,M,Asia,Online services
+534,5000,Fashion & Retail,50,United States,New York,F,North America,Estée Lauder
+534,5000,Fashion & Retail,83,France,Lille,M,Europe,Sporting goods
+534,5000,Media & Entertainment,78,United States,San Anselmo,M,North America,Star Wars
+534,5000,Sports,86,United States,Houston,F,North America,"Energy, sports"
+534,5000,Healthcare,57,Germany,Mainz,M,Europe,Biotechnology
+534,5000,Real Estate,64,Germany,Munich,F,Europe,Real estate
+534,5000,Healthcare,59,Switzerland,Basel,M,Europe,Dental implants
+534,5000,Food & Beverage,64,Turkey,Istanbul,M,Asia,Food
+534,5000,Fashion & Retail,66,Canada,Vancouver,M,North America,Lululemon
+534,5000,Real Estate,59,China,Beijing,F,Asia,Real estate
+552,4900,Manufacturing,79,United States,Newton,M,North America,New Balance
+552,4900,Healthcare,72,India,Hyderabad,M,Asia,Pharmaceuticals
+552,4900,Technology,81,United States,San Francisco,F,North America,Dolby Laboratories
+552,4900,Technology,84,Argentina,Buenos Aires,M,South America,E-commerce
+552,4900,Service,81,United States,Naples,M,North America,Payroll services
+552,4900,Finance & Investments,53,United States,New York,M,North America,Investments
+552,4900,Finance & Investments,67,Georgia,Tbilisi,M,Europe,Investments
+552,4900,Metals & Mining,94,Indonesia,Jakarta,M,Asia,"Palm oil, nickel mining"
+552,4900,Healthcare,77,Switzerland,Binningen,M,Europe,Medical devices
+552,4900,Food & Beverage,86,Canada,Montreal,M,North America,Cheese
+552,4900,Automotive,72,United States,Phoenix,M,North America,U-Haul
+552,4900,Sports,58,United States,Potomac,M,North America,Washington Commanders
+552,4900,Diversified,60,Indonesia,Jakarta,M,Asia,Diversified
+552,4900,Energy,67,United States,Dallas,M,North America,Pipelines
+552,4900,Fashion & Retail,50,China,Beijing,M,Asia,E-commerce
+567,4800,Fashion & Retail,58,United Kingdom,Hertfordshire,M,Europe,Sports retailing
+567,4800,Fashion & Retail,50,Poland,"Krotoszyn,",M,Europe,Supermarkets
+567,4800,Healthcare,79,Germany,Koenigstein,M,Europe,Hospitals
+567,4800,Fashion & Retail,69,United States,Knoxville,M,North America,"Gas stations, retail"
+567,4800,Manufacturing,64,United States,Racine,M,North America,Cleaning products
+567,4800,Manufacturing,67,United States,Racine,M,North America,Cleaning products
+567,4800,Manufacturing,66,United States,Racine,F,North America,Cleaning products
+567,4800,Technology,68,United States,Portola Valley,M,North America,Venture capital
+567,4800,Technology,64,United States,Austin,F,North America,IT provider
+567,4800,Manufacturing,63,United States,Virginia Beach,F,North America,Cleaning products
+567,4800,Healthcare,70,India,Ahmedabad,M,Asia,Pharmaceuticals
+567,4800,Manufacturing,78,Hong Kong,Hong Kong,M,Asia,Manufacturing
+567,4800,Finance & Investments,62,China,Shanghai,M,Asia,Mining
+580,4700,Diversified,88,Portugal,Grijo,F,Europe,"Energy, investments"
+580,4700,Sports,76,United States,New Orleans,F,North America,New Orleans Saints
+580,4700,Technology,78,Taiwan,Taipei,M,Asia,Electronics
+580,4700,Manufacturing,63,Turkey,Istanbul,M,Asia,Carpet
+580,4700,Finance & Investments,54,Brazil,Sao paulo,M,South America,Banking
+580,4700,Real Estate,68,Canada,Toronto,M,North America,Real estate
+580,4700,Technology,77,South Korea,Seoul,F,Asia,Samsung
+580,4700,Manufacturing,50,China,Shanghai,M,Asia,Hair dryers
+580,4700,Media & Entertainment,68,United States,Croton-on-Hudson,M,North America,Bloomberg LP
+580,4700,Diversified,76,China,Longkou,M,Asia,"Aluminum, diversified"
+580,4700,Media & Entertainment,52,United States,Cary,M,North America,Video games
+591,4600,Food & Beverage,61,United States,Austin,M,North America,Vodka
+591,4600,Media & Entertainment,64,United States,Dallas,M,North America,"Online media, Dallas Mavericks"
+591,4600,Media & Entertainment,96,United States,Oyster Bay,M,North America,Cable television
+591,4600,Technology,46,United States,San Francisco,M,North America,"Twitter, Square"
+591,4600,Energy,56,China,Wujiang,F,Asia,Petrochemicals
+591,4600,Metals & Mining,62,Kazakhstan,Almaty,M,Asia,Mining
+591,4600,Finance & Investments,55,Taiwan,Taipei,M,Asia,Financial services
+591,4600,Fashion & Retail,79,United States,New York,M,North America,Estee Lauder
+591,4600,Manufacturing,54,China,Fushun,M,Asia,Renewable energy
+591,4600,Media & Entertainment,45,Singapore,Singapore,M,Asia,Gaming
+591,4600,Telecom,56,Hong Kong,Hong Kong,M,Asia,Telecom
+591,4600,Fashion & Retail,69,United States,Grand Rapids,M,North America,Supermarkets
+591,4600,Fashion & Retail,71,United States,Grand Rapids,M,North America,Supermarkets
+591,4600,Fashion & Retail,65,United States,Grand Rapids,M,North America,Supermarkets
+591,4600,Food & Beverage,79,Algeria,Algiers,M,Africa,Food
+591,4600,Logistics,78,United States,Memphis,M,North America,FedEx
+591,4600,Finance & Investments,62,United States,Miami,M,North America,Private equity
+591,4600,Manufacturing,34,Germany,Battenberg,M,Europe,"Heating, cooling equipment"
+591,4600,Food & Beverage,52,United States,Delray Beach,M,North America,Energy drinks
+591,4600,Healthcare,66,China,Wuhan,M,Asia,Healthcare
+611,4500,Food & Beverage,55,Mexico,Unknown,M,North America,Tequila
+611,4500,Technology,82,Germany,Walldorf,M,Europe,Software
+611,4500,Technology,56,China,Weifang,M,Asia,Acoustic components
+611,4500,Technology,54,United States,Austin,M,North America,Software
+611,4500,Food & Beverage,83,Switzerland,Zurich,M,Europe,Dairy
+611,4500,Technology,76,India,Bangalore,M,Asia,Software services
+611,4500,Fashion & Retail,71,Norway,Trondheim,M,Europe,"Retail, real estate"
+611,4500,Finance & Investments,60,United States,New York,M,North America,Private equity
+611,4500,Real Estate,70,United Arab Emirates,Dubai,M,Asia,Real estate
+611,4500,Finance & Investments,41,Brazil,Sao Paulo,M,South America,Fintech
+611,4500,Manufacturing,59,China,Guangzhou,M,Asia,Chemicals
+611,4500,Diversified,72,Taiwan,Taipei,M,Asia,Retail
+611,4500,Manufacturing,65,China,Wenzhou,M,Asia,"Chemicals, spandex"
+624,4400,Healthcare,50,United States,Boston,M,North America,"Biotech, vaccines"
+624,4400,Technology,89,United States,Dallas,F,North America,"Computer services, real estate"
+624,4400,Manufacturing,88,United States,San Diego,M,North America,Defense
+624,4400,Service,63,United States,Cockeysville,M,North America,Staffing & recruiting
+624,4400,Construction & Engineering,64,Spain,Madrid,M,Europe,Construction
+624,4400,Healthcare,81,Switzerland,Liestal,M,Europe,Biochemicals
+624,4400,Fashion & Retail,58,Germany,Munich,M,Europe,Retail
+624,4400,Real Estate,67,India,Mumbai,M,Asia,Real estate
+624,4400,Sports,71,United States,Wynnewood,M,North America,Philadelphia Eagles
+624,4400,Finance & Investments,66,United States,Chicago,M,North America,Investment research
+624,4400,Manufacturing,65,China,Suzhou,M,Asia,Home-cleaning robots
+624,4400,Metals & Mining,54,Russia,Moscow,M,Europe,Titanium
+636,4300,Telecom,59,Switzerland,Zermatt,M,Europe,Telecom
+636,4300,Finance & Investments,46,United States,Los Angeles,M,North America,Private equity
+636,4300,Finance & Investments,63,Spain,A Coruña,M,Europe,Banking
+636,4300,Finance & Investments,49,United States,Los Angeles,M,North America,Private equity
+636,4300,Healthcare,61,China,Beijing,M,Asia,Pharmaceuticals
+636,4300,Logistics,91,United States,Fayetteville,F,North America,Trucking
+636,4300,Food & Beverage,90,United States,Bingham Farms,F,North America,Little Caesars Pizza
+636,4300,Diversified,61,Canada,Edmonton,M,North America,Pharmacies
+636,4300,Metals & Mining,62,Russia,Verkhniaya Pyshma,M,Europe,Metals
+636,4300,Finance & Investments,56,Kazakhstan,Almaty,M,Asia,Banking
+636,4300,Finance & Investments,55,Kazakhstan,Almaty,F,Asia,Banking
+636,4300,Food & Beverage,61,United States,Rancho Santa Fe,F,North America,Cargill
+636,4300,Real Estate,75,United States,San Francisco,M,North America,Real estate
+636,4300,Diversified,54,Vietnam,Hanoi,M,Asia,Diversified
+636,4300,Healthcare,64,United States,New York,M,North America,Medical equipment
+636,4300,Finance & Investments,66,Taiwan,Taipei,M,Asia,Finance
+636,4300,Finance & Investments,65,Taiwan,Taipei,M,Asia,Finance
+636,4300,Technology,42,China,Shenzhen,M,Asia,Drones
+636,4300,Manufacturing,74,China,Ningbo,M,Asia,Solar inverters
+636,4300,Technology,58,China,Beijing,M,Asia,Business software
+636,4300,Finance & Investments,83,United States,Coral Gables,M,North America,Investments
+659,4200,Service,65,Israel,Tel Aviv,F,Asia,Carnival Cruises
+659,4200,Finance & Investments,68,Latvia,Unknown,M,Europe,"Oil, banking, telecom"
+659,4200,Real Estate,82,China,Beijing,F,Asia,Real estate
+659,4200,Real Estate,57,China,Shenzhen,M,Asia,Real estate
+659,4200,Finance & Investments,87,United States,Erie,M,North America,Insurance
+659,4200,Finance & Investments,82,United States,Burlingame,M,North America,Franklin Templeton
+659,4200,Energy,72,Indonesia,Jakarta,F,Asia,Coal
+659,4200,Technology,74,United States,Leawood,M,North America,Navigation equipment
+659,4200,Finance & Investments,82,France,Paris,M,Europe,Finance
+659,4200,Technology,53,United States,Glencoe,M,North America,"Groupon, investments"
+659,4200,Technology,55,China,Shenzhen,M,Asia,Smartphones
+659,4200,Finance & Investments,59,China,Shenzhen,M,Asia,Investments
+659,4200,Technology,68,United States,San Francisco,M,North America,Venture capital
+659,4200,Service,60,United States,Los Angeles,F,North America,"Hotels, investments"
+659,4200,Automotive,73,United States,Phoenix,M,North America,U-Haul
+659,4200,Technology,58,United States,Los Angeles,M,North America,EBay
+659,4200,Food & Beverage,40,United States,Glendora,F,North America,In-N-Out Burger
+659,4200,Fashion & Retail,73,Indonesia,Jakarta,M,Asia,Supermarkets
+659,4200,Diversified,71,Indonesia,Jakarta,M,Asia,Diversified
+659,4200,Finance & Investments,55,United States,Los Angeles,M,North America,"Facebook, investments"
+679,4100,Food & Beverage,68,Czech Republic,Prague,M,Europe,Agriculture
+679,4100,Service,83,France,Paris,F,Europe,Food services
+679,4100,Media & Entertainment,83,Germany,Munich,M,Europe,Publishing
+679,4100,Food & Beverage,87,United States,Plantation,M,North America,Beverages
+679,4100,Energy,74,United States,New York,M,North America,"Oil, real estate"
+679,4100,Technology,70,United States,Woodside,M,North America,Software
+679,4100,Food & Beverage,54,Italy,Milan,M,Europe,Spirits
+679,4100,Manufacturing,66,Finland,Kirkkonummi,M,Europe,"Elevators, escalators"
+679,4100,Manufacturing,55,China,Putian,M,Asia,Paint
+679,4100,Service,83,United States,East Aurora,M,North America,Food service
+679,4100,Fashion & Retail,56,Russia,Moscow,M,Europe,"Tobacco distribution, retail"
+679,4100,Food & Beverage,73,United States,Coatesville,F,North America,Campbell Soup
+679,4100,Diversified,61,Brazil,Rio de Janeiro,M,South America,"Banking, minerals"
+679,4100,Finance & Investments,66,Brazil,Rio de Janeiro,M,South America,"Banking, minerals"
+679,4100,Sports,76,United States,Phoenix,M,North America,"Billboards, Los Angeles Angels"
+679,4100,Manufacturing,63,Switzerland,Weiningen,M,Europe,Train cars
+679,4100,Real Estate,88,United States,Beverly Hills,M,North America,Real estate
+679,4100,Diversified,82,Australia,Perth,M,Oceania,"Construction equipment, media"
+679,4100,Technology,60,United States,Los Altos Hills,M,North America,Cybersecurity
+679,4100,Healthcare,57,China,Beijing,M,Asia,Biotech
+699,4000,Energy,80,United States,Fort Worth,M,North America,"Oil, investments"
+699,4000,Technology,48,United States,Atlanta,M,North America,Email marketing
+699,4000,Food & Beverage,75,United States,Unknown,F,North America,Subway
+699,4000,Diversified,56,China,Shanghai,M,Asia,Conglomerate
+699,4000,Manufacturing,77,India,Delhi,F,Asia,Electrical equipment
+699,4000,Sports,73,United States,Boca Raton,M,North America,Sports
+699,4000,Technology,46,United States,Los Angeles,M,North America,Uber
+699,4000,Manufacturing,61,Malaysia,Petaling Jaya,M,Asia,Aluminum
+699,4000,Technology,51,United States,Atlanta,M,North America,Email marketing
+699,4000,Manufacturing,65,China,Yuxi,M,Asia,Battery separators
+699,4000,Technology,42,Canada,Ottawa,M,North America,E-commerce
+699,4000,Automotive,79,United States,Salt Lake City,F,North America,Car dealerships
+699,4000,Telecom,63,India,Delhi,M,Asia,Telecom
+699,4000,Telecom,67,India,Delhi,M,Asia,Telecom
+699,4000,Media & Entertainment,80,United States,Palm Beach,M,North America,Marvel comics
+699,4000,Finance & Investments,90,United States,Chevy Chase,M,North America,"Banking, real estate"
+699,4000,Telecom,68,Italy,Milan,M,Europe,Telecom
+699,4000,Media & Entertainment,76,United States,Pacific Palisades,M,North America,Movies
+699,4000,Healthcare,75,Poland,Konstancin,M,Europe,Pharmaceuticals
+699,4000,Energy,69,Switzerland,Geneva,M,Europe,Oil trading
+699,4000,Metals & Mining,74,Mexico,Mexico City,M,North America,Steel
+699,4000,Diversified,73,China,Shaoxing,M,Asia,Valves
+721,3900,Manufacturing,76,Germany,Bruchsal,M,Europe,Auto parts
+721,3900,Food & Beverage,72,United States,Livingston,M,North America,Cargill
+721,3900,Food & Beverage,73,United States,Birchwood,M,North America,Cargill
+721,3900,Finance & Investments,91,Thailand,Bangkok,M,Asia,"Insurance, beverages"
+721,3900,Finance & Investments,65,China,Beijing,M,Asia,Insurance
+721,3900,Automotive,85,South Korea,Seoul,M,Asia,Hyundai
+721,3900,Finance & Investments,67,Cayman Islands,George Town,M,North America,Investments
+721,3900,Fashion & Retail,83,Italy,Treviso,M,Europe,Coffee makers
+721,3900,Healthcare,83,Germany,Hamburg,M,Europe,Optometry
+721,3900,Energy,94,United States,Dallas,M,North America,Oil
+721,3900,Sports,63,United States,Carmel,M,North America,Indianapolis Colts
+721,3900,Diversified,74,Thailand,Bangkok,F,Asia,Diversified
+721,3900,Food & Beverage,69,United States,Bozeman,F,North America,Cargill
+721,3900,Healthcare,78,Brazil,Rio de Janeiro,M,South America,Hospitals
+721,3900,Diversified,76,Brazil,Sao Paulo,M,South America,"Banking, minerals"
+721,3900,Diversified,63,Brazil,Sao Paulo,M,South America,"Banking, minerals"
+721,3900,Gambling & Casinos,60,United States,Seattle,M,North America,Videogames
+721,3900,Fashion & Retail,56,Germany,Bielefeld,M,Europe,Consumer goods
+721,3900,Fashion & Retail,50,Germany,Bielefeld,M,Europe,Consumer goods
+721,3900,Fashion & Retail,44,Germany,Bielefeld,F,Europe,Consumer goods
+721,3900,Manufacturing,62,China,Jiaxing,M,Asia,Glass
+721,3900,Finance & Investments,63,United States,Steamboat Springs,M,North America,Venture capital
+721,3900,Finance & Investments,70,Taiwan,Taipei,M,Asia,Finance
+721,3900,Food & Beverage,79,India,Mumbai,M,Asia,Consumer goods
+721,3900,Healthcare,73,China,Shijiazhuang,M,Asia,Pharmaceuticals
+721,3900,Manufacturing,57,China,Ningbo,M,Asia,Semiconductors
+721,3900,Healthcare,60,China,Shenzhen,M,Asia,Pharmaceuticals
+748,3800,Service,63,India,Delhi,M,Asia,Aviation
+748,3800,Construction & Engineering,80,Italy,Rome,M,Europe,"Cement, diversified"
+748,3800,Media & Entertainment,81,United States,New York,M,North America,Online media
+748,3800,Finance & Investments,61,United States,New York,M,North America,Investments
+748,3800,Finance & Investments,63,United States,New York,M,North America,Private equity
+748,3800,Service,69,United States,Miami,M,North America,Airline
+748,3800,Food & Beverage,61,United States,Chicago,M,North America,Poultry processing
+748,3800,Media & Entertainment,87,United States,Nashville,F,North America,"Book distribution, transportation"
+748,3800,Automotive,41,China,Beijing,M,Asia,Electric vehicles
+748,3800,Real Estate,64,United States,Dallas,M,North America,Real estate
+748,3800,Real Estate,82,India,Mumbai,M,Asia,Real estate
+748,3800,Energy,71,United States,Dallas,M,North America,Oil & gas
+748,3800,Telecom,58,Japan,Tokyo,M,Asia,Mobile phone retailer
+748,3800,Healthcare,54,China,Xiamen,M,Asia,Healthcare
+748,3800,Finance & Investments,73,Taiwan,Taipei,M,Asia,Finance
+748,3800,Service,77,United States,Westlake,M,North America,Aircraft leasing
+748,3800,Manufacturing,77,United States,Lake Forest,F,North America,Packaging materials
+748,3800,Manufacturing,77,United States,Lake Forest,M,North America,Packaging materials
+766,3700,Finance & Investments,51,United States,Austin,M,North America,Fintech
+766,3700,Finance & Investments,76,United States,Coconut Grove,M,North America,Insurance
+766,3700,Real Estate,71,United States,New York,M,North America,Real estate
+766,3700,Real Estate,56,United Kingdom,London,M,Europe,Real estate
+766,3700,Technology,59,China,Wuhan,M,Asia,Imaging systems
+766,3700,Logistics,66,United States,Greenwich,M,North America,Logistics
+766,3700,Real Estate,56,China,Shanghai,M,Asia,"Hotels, motels"
+766,3700,Media & Entertainment,50,China,Shanghai,M,Asia,Advertising
+766,3700,Technology,60,United States,St. Louis,M,North America,IT provider
+766,3700,Real Estate,77,United States,New York,M,North America,Real estate
+766,3700,Finance & Investments,47,Kazakhstan,Almaty,M,Asia,Fintech
+766,3700,Fashion & Retail,68,United Kingdom,Merseyside,M,Europe,Retail
+766,3700,Manufacturing,78,Japan,Kyoto,M,Asia,Motors
+766,3700,Finance & Investments,62,United States,Miami Beach,M,North America,Hedge funds
+766,3700,Fashion & Retail,88,Chile,Santiago,M,South America,Retail
+766,3700,Service,62,United States,Los Angeles,M,North America,"Hotels, investments"
+766,3700,Technology,75,United States,Cary,M,North America,Software
+766,3700,Food & Beverage,69,United States,Seattle,M,North America,Starbucks
+766,3700,Fashion & Retail,82,United States,Naples,M,North America,Best Buy
+766,3700,Real Estate,74,Israel,Netanya,M,Asia,Real estate
+766,3700,Manufacturing,56,China,Wuxi,M,Asia,Electrical equipment
+787,3600,Diversified,56,India,Pune,M,Asia,Diversified
+787,3600,Diversified,53,India,Pune,M,Asia,Diversified
+787,3600,Finance & Investments,71,Italy,Florence,M,Europe,Venture capital
+787,3600,Finance & Investments,63,United States,San Francisco,M,North America,Private equity
+787,3600,Automotive,47,Switzerland,Anzere,M,Europe,"Auto parts, distribution"
+787,3600,Food & Beverage,84,Bermuda,Unknown,F,North America,Beer
+787,3600,Real Estate,82,Canada,Vancouver,M,North America,Hotels
+787,3600,Finance & Investments,65,United Kingdom,London,M,Europe,Banking
+787,3600,Gambling & Casinos,60,Hong Kong,Hong Kong,F,Asia,Casinos
+787,3600,Finance & Investments,59,Switzerland,Geneva,M,Europe,Hedge funds
+787,3600,Automotive,61,China,Beijing,M,Asia,Car dealerships
+787,3600,Finance & Investments,80,United States,Short Hills,M,North America,Investments
+787,3600,Finance & Investments,53,Kazakhstan,Almaty,M,Asia,Fintech
+787,3600,Finance & Investments,37,United States,New York City,M,North America,Venture capital
+787,3600,Real Estate,83,Hong Kong,Hong Kong,M,Asia,Real estate
+787,3600,Real Estate,71,Hong Kong,Hong Kong,M,Asia,Real estate
+787,3600,Finance & Investments,67,United States,Greenwich,M,North America,Hedge funds
+787,3600,Diversified,75,United Kingdom,London,M,Europe,Diversified
+787,3600,Fashion & Retail,67,Japan,Tokyo,M,Asia,Shoes
+787,3600,Technology,84,Japan,Tokyo,M,Asia,Software
+787,3600,Technology,37,Australia,Sydney,M,Oceania,Software
+787,3600,Technology,35,Australia,Sydney,F,Oceania,Software
+787,3600,Finance & Investments,58,United States,Springfield,M,North America,"Hotels, investments"
+787,3600,Fashion & Retail,73,Spain,Valencia,M,Europe,Supermarkets
+787,3600,Real Estate,82,United States,New York,M,North America,Real estate
+787,3600,Fashion & Retail,63,Switzerland,Geneva,M,Europe,Fashion investments
+787,3600,Logistics,80,Hong Kong,Hong Kong,M,Asia,Shipping
+787,3600,Food & Beverage,60,China,Chengdu,M,Asia,Liquor
+787,3600,Automotive,61,China,Shenzhen,M,Asia,"Automobiles, batteries"
+787,3600,Technology,57,China,Shenzhen,F,Asia,Smartphone components
+787,3600,Manufacturing,54,China,Tianjin,M,Asia,"Electric bikes, scooters"
+818,3500,Fashion & Retail,33,United States,Los Angeles,M,North America,Eyeglasses
+818,3500,Healthcare,65,Brazil,Sao Paulo,M,South America,Generic drugs
+818,3500,Finance & Investments,62,China,Fuzhou,M,Asia,Investments
+818,3500,Manufacturing,87,Italy,Cernusco Lombardone,M,Europe,Microchip testing
+818,3500,Finance & Investments,76,United States,Vienna,M,North America,Private equity
+818,3500,Fashion & Retail,66,United States,Muttontown,M,North America,Eyeglasses
+818,3500,Fashion & Retail,18,Italy,Milan,M,Europe,Eyeglases
+818,3500,Fashion & Retail,27,Italy,Milan,M,Europe,Eyeglasses
+818,3500,Fashion & Retail,21,Italy,Milan,M,Europe,Eyeglasses
+818,3500,Fashion & Retail,64,Italy,Rome,F,Europe,Eyeglasses
+818,3500,Fashion & Retail,61,Luxembourg,Luxembourg,F,Europe,Eyeglasses
+818,3500,Finance & Investments,70,Germany,Dusseldorf,M,Europe,Investing
+818,3500,Fashion & Retail,57,China,Xian,F,Asia,Skincare
+818,3500,Technology,58,United States,Pleasanton,M,North America,Software
+818,3500,Energy,65,Russia,Moscow,M,Europe,"Oil, coal, real estate"
+818,3500,Manufacturing,81,Hong Kong,Hong Kong,M,Asia,Paper
+818,3500,Food & Beverage,54,China,Beijing,M,Asia,Infant formula
+818,3500,Finance & Investments,61,United States,New York,M,North America,Hedge funds
+818,3500,Food & Beverage,60,Switzerland,Davos,F,Europe,Commodities
+818,3500,Healthcare,90,Thailand,Bangkok,M,Asia,Hospitals
+818,3500,Finance & Investments,88,United States,New York,M,North America,Investments
+818,3500,Fashion & Retail,76,Germany,Lower-Saxony,M,Europe,Drugstores
+818,3500,Construction & Engineering,71,Russia,Moscow,M,Europe,"Construction, pipes, banking"
+818,3500,Fashion & Retail,61,Italy,Como,M,Europe,Winter jackets
+818,3500,Healthcare,65,Germany,Northeim,F,Europe,Biopharmaceuticals
+818,3500,Automotive,66,India,Delhi,M,Asia,Auto parts
+818,3500,Finance & Investments,45,United States,New York,M,North America,Private equity
+818,3500,Technology,70,United States,Woodside,M,North America,Business software
+818,3500,Manufacturing,75,Netherlands,Eindhoven,M,Europe,Manufacturing
+818,3500,Diversified,58,China,Beijing,M,Asia,Fertilizer
+818,3500,Technology,54,United States,Los Altos Hills,M,North America,Cybersecurity
+818,3500,Logistics,65,China,Qingdao,M,Asia,Shipping
+818,3500,Fashion & Retail,65,Monaco,Monaco,F,Europe,Eyeglasses
+818,3500,Manufacturing,56,Canada,Windsor,M,North America,Steel
+852,3400,Finance & Investments,56,United States,New York,M,North America,Hedge funds
+852,3400,Energy,55,Thailand,Bangkok,M,Asia,Renewable energy
+852,3400,Metals & Mining,52,Russia,Yekaterinburg,M,Europe,Metals
+852,3400,Food & Beverage,69,Philippines,Manila,M,Asia,Diversified
+852,3400,Food & Beverage,50,India,Haridwar,M,Asia,Consumer goods
+852,3400,Manufacturing,52,Switzerland,Wilen bei Wollerau,M,Europe,Chemicals
+852,3400,Diversified,72,British Virgin Islands,Necker Island,M,North America,Virgin
+852,3400,Finance & Investments,64,South Korea,Seoul,M,Asia,Finance
+852,3400,Food & Beverage,63,Italy,Milan,F,Europe,Spirits
+852,3400,Fashion & Retail,84,Switzerland,Gstaad,M,Europe,Diamond jewelry
+852,3400,Media & Entertainment,86,United States,Boston,M,North America,Cable television
+852,3400,Sports,75,United States,Palm Beach,M,North America,"Johnson & Johnson, sports"
+852,3400,Finance & Investments,66,United States,New York,M,North America,Investments
+852,3400,Fashion & Retail,62,United States,New York,M,North America,Estee Lauder
+852,3400,Food & Beverage,68,United States,Bryn Mawr,M,North America,Tobacco
+852,3400,Fashion & Retail,58,Japan,Tokyo,M,Asia,Online retail
+852,3400,Technology,72,United States,Scottsdale,M,North America,Web hosting
+852,3400,Finance & Investments,81,United States,Little Jackson Hole,M,North America,TD Ameritrade
+852,3400,Real Estate,88,United States,Indianapolis,M,North America,Real estate
+852,3400,Healthcare,65,India,Mumbai,F,Asia,Pharmaceuticals
+852,3400,Media & Entertainment,59,Germany,Stuttgart,M,Europe,Publishing
+852,3400,Food & Beverage,81,Switzerland,Zug,M,Europe,Flavorings
+852,3400,Healthcare,54,China,Chongqing,M,Asia,Pharmaceuticals
+852,3400,Technology,52,China,Hangzhou,M,Asia,Software
+852,3400,Technology,53,United States,Santa Clara,M,North America,Zoom Video Communications
+852,3400,Media & Entertainment,75,United States,New York,M,North America,Bloomberg LP
+878,3300,Construction & Engineering,75,France,Montpellier,M,Europe,"Scaffolding, cement mixers"
+878,3300,Finance & Investments,49,United States,Houston,M,North America,Hedge funds
+878,3300,Manufacturing,81,United States,Brownsville,M,North America,Hearing aids
+878,3300,Manufacturing,56,China,Lianyungang,M,Asia,Quartz products
+878,3300,Food & Beverage,77,United States,Paradise Valley,M,North America,Campbell Soup
+878,3300,Food & Beverage,68,Brazil,Rio de Janeiro,M,South America,Beer
+878,3300,Automotive,79,Switzerland,Küsnacht,M,Europe,Car dealerships
+878,3300,Technology,55,China,Hangzhou,M,Asia,Surveillance equipment
+878,3300,Real Estate,88,Australia,Melbourne,M,Oceania,Shopping malls
+878,3300,Construction & Engineering,72,Canada,Oakville,M,North America,Homebuilding
+878,3300,Diversified,82,Singapore,Singapore,M,Asia,Diversified
+878,3300,Finance & Investments,59,United States,Sag Harbor,M,North America,Investments
+878,3300,Media & Entertainment,78,Israel,Tel Aviv,M,Asia,Movie making
+878,3300,Fashion & Retail,79,Japan,Hokkaido,M,Asia,Home furnishings
+878,3300,Metals & Mining,77,Chile,Santiago,M,South America,Fertilizer
+878,3300,Finance & Investments,77,United States,St. Louis,M,North America,Discount brokerage
+878,3300,Diversified,88,United States,Las Vegas,M,North America,"Casinos, real estate"
+878,3300,Telecom,68,Egypt,Cairo,M,Africa,Telecom
+878,3300,Finance & Investments,55,China,Hong Kong,M,Asia,Venture capital
+878,3300,Technology,54,Israel,Tel Aviv,M,Asia,Software
+878,3300,Finance & Investments,71,Canada,Toronto,M,North America,Finance and investments
+878,3300,Finance & Investments,38,United Kingdom,London,M,Europe,Fintech
+878,3300,Finance & Investments,48,United States,Larchmont,M,North America,Hedge fund
+878,3300,Finance & Investments,74,United States,Dallas,M,North America,Investments
+878,3300,Manufacturing,59,United States,St. Petersburg,M,North America,Furniture
+878,3300,Fashion & Retail,73,Singapore,Singapore,M,Asia,Retail
+905,3200,Fashion & Retail,85,Italy,Treviso,F,Europe,"Fashion retail, investments"
+905,3200,Fashion & Retail,87,Italy,Ponzano Veneto,M,Europe,"Fashion retail, investments"
+905,3200,Manufacturing,82,India,Delhi,M,Asia,Chemicals
+905,3200,Finance & Investments,70,United Kingdom,London,M,Europe,"Supermarkets, investments"
+905,3200,Manufacturing,64,China,Guangzhou,M,Asia,Household chemicals
+905,3200,Fashion & Retail,69,Italy,Solomeo,M,Europe,Fashion
+905,3200,Manufacturing,84,Mexico,Mexico City,M,North America,Chemicals
+905,3200,Healthcare,86,Italy,torino,M,Europe,Biotech
+905,3200,Media & Entertainment,70,United States,Denver,M,North America,Satellite TV
+905,3200,Technology,56,United States,Palo Alto,M,North America,Yahoo
+905,3200,Logistics,85,Australia,Melbourne,M,Oceania,"Logistics, real estate"
+905,3200,Fashion & Retail,55,Russia,Krasnodar,M,Europe,Retail
+905,3200,Technology,67,India,Bangalore,M,Asia,Software services
+905,3200,Fashion & Retail,60,Brazil,Brusque,M,South America,Department stores
+905,3200,Finance & Investments,69,United Kingdom,London,M,Europe,Investment
+905,3200,Healthcare,60,China,Shaoxing,M,Asia,Pharmaceuticals
+905,3200,Finance & Investments,71,United States,New York,M,North America,Investments
+905,3200,Technology,52,South Korea,Seoul,F,Asia,Samsung
+905,3200,Manufacturing,55,China,Xinyu,M,Asia,Lithium
+905,3200,Manufacturing,54,China,Shanghai,M,Asia,Manufacturing
+905,3200,Healthcare,59,India,Ahmedabad,M,Asia,"Pharmaceuticals, power"
+905,3200,Healthcare,68,India,Ahmedabad,M,Asia,"Pharmaceuticals, power"
+905,3200,Metals & Mining,61,Switzerland,Zug,M,Europe,"Mining, commodities"
+905,3200,Real Estate,72,United States,Beverly Hills,M,North America,Real estate
+905,3200,Automotive,86,United States,Birmingham,M,North America,Cars
+905,3200,Construction & Engineering,69,United Arab Emirates,Dubai,M,Asia,Construction
+905,3200,Finance & Investments,73,United States,Bethesda,M,North America,Private equity
+905,3200,Food & Beverage,70,United States,Irvine,M,North America,Energy drinks
+905,3200,Service,71,Germany,Bremen,M,Europe,Ticketing service
+905,3200,Energy,84,United States,Tulsa,F,North America,"Oil & gas, investments"
+905,3200,Manufacturing,77,Italy,Bologna,F,Europe,Packaging
+905,3200,Fashion & Retail,60,China,Beijing,M,Asia,Retail
+905,3200,Finance & Investments,66,United States,Little Rock,M,North America,Investment banking
+905,3200,Healthcare,66,United States,Fort Collins,F,North America,Medical equipment
+905,3200,Logistics,52,Russia,Moscow,M,Europe,"Transport, engineering, real estate"
+905,3200,Technology,48,Germany,Heidelberg,M,Europe,Software
+905,3200,Technology,53,Germany,Wiesloch,M,Europe,Software
+905,3200,Finance & Investments,67,United States,New York,M,North America,Electronic trading
+905,3200,Food & Beverage,67,China,Daye,M,Asia,Wine
+905,3200,Gambling & Casinos,81,United States,Palm Beach,M,North America,"Casinos, hotels"
+905,3200,Gambling & Casinos,65,United States,Franklin,M,North America,Video games
+905,3200,Manufacturing,87,China,Changzhou,M,Asia,Auto parts
+949,3100,Manufacturing,76,China,Fuqing,M,Asia,Auto parts
+949,3100,Gambling & Casinos,53,United Kingdom,Stoke-On-Trent,M,Europe,Online gambling
+949,3100,Finance & Investments,37,United States,Bal Harbour,M,North America,Investments
+949,3100,Food & Beverage,55,China,Chengdu,M,Asia,Flavorings
+949,3100,Manufacturing,72,India,Delhi,M,Asia,Paints
+949,3100,Manufacturing,75,India,Delhi,M,Asia,Paints
+949,3100,Finance & Investments,77,Switzerland,Wilen,M,Europe,Investments
+949,3100,Manufacturing,85,France,Paris,M,Europe,Aviation
+949,3100,Real Estate,50,Russia,Moscow,M,Europe,Real estate
+949,3100,Media & Entertainment,46,United States,Newbury Park,M,North America,Digital advertising
+949,3100,Technology,62,United States,Santa Cruz,M,North America,Netflix
+949,3100,Service,82,Switzerland,Lucerne,M,Europe,Education
+949,3100,Fashion & Retail,73,Brazil,Sao Jose dos Pinhais,M,South America,Cosmetics
+949,3100,Manufacturing,73,Singapore,Singapore,M,Asia,Palm oil
+949,3100,Fashion & Retail,52,United States,New York,F,North America,Estee Lauder
+949,3100,Food & Beverage,90,United States,Highland Park,M,North America,Meat processing
+949,3100,Manufacturing,71,Hong Kong,Hong Kong,M,Asia,Glass
+949,3100,Manufacturing,67,Russia,Saint Petersburg,M,Europe,Chemical industry
+949,3100,Metals & Mining,59,Switzerland,Kanton Schwyz,M,Europe,"Mining, commodities"
+949,3100,Fashion & Retail,46,India,Kolkata,M,Asia,Readymade garments
+949,3100,Diversified,67,Monaco,Monaco,M,Europe,Diversified
+949,3100,Finance & Investments,66,United States,Providence,M,North America,Private equity
+949,3100,Real Estate,71,Hong Kong,Hong Kong,M,Asia,Real estate
+949,3100,Real Estate,59,United States,New York,F,North America,Real estate
+949,3100,Finance & Investments,51,Switzerland,Unknown,M,Europe,Banking
+949,3100,Finance & Investments,63,United States,Chicago,F,North America,"Hotels, investments"
+949,3100,Diversified,79,Indonesia,Jakarta,M,Asia,Diversified
+949,3100,Fashion & Retail,67,Italy,Bassano del Grappa,M,Europe,Fashion
+949,3100,Media & Entertainment,80,Germany,Berlin,F,Europe,Publishing
+949,3100,Real Estate,74,Hong Kong,Hong Kong,F,Asia,Real estate
+949,3100,Finance & Investments,35,Kazakhstan,Almaty,M,Asia,Stock brokerage
+949,3100,Fashion & Retail,74,United States,Idaho Falls,M,North America,"Nutrition, wellness products"
+949,3100,Media & Entertainment,53,South Korea,Jeju-do,F,Asia,Online games
+982,3000,Diversified,63,United Arab Emirates,Dubai,M,Asia,Diversified
+982,3000,Diversified,94,Turkey,Istanbul,F,Asia,Diversified
+982,3000,Real Estate,61,United States,Beverly Hills,M,North America,"Real estate, investments"
+982,3000,Energy,85,United States,The Woodlands,M,North America,Oil & gas
+982,3000,Automotive,90,United States,Miami,M,North America,"Art, car dealerships"
+982,3000,Technology,66,Switzerland,Zurich,F,Europe,"Software, investments"
+982,3000,Healthcare,70,China,Luancheng,M,Asia,Pharmaceuticals
+982,3000,Food & Beverage,80,France,Paris,M,Europe,Spirits
+982,3000,Real Estate,69,Hong Kong,Hong Kong,F,Asia,Real estate
+982,3000,Fashion & Retail,60,United States,Clearwater,M,North America,Hair care products
+982,3000,Real Estate,63,China,Guangzhou,M,Asia,Real estate
+982,3000,Finance & Investments,73,United States,McLean,M,North America,Private equity
+982,3000,Fashion & Retail,95,Canada,Montreal,M,North America,Drugstores
+982,3000,Real Estate,76,United States,Tampa,M,North America,Shopping centers
+982,3000,Finance & Investments,57,United States,St. John,M,North America,Private equity
+982,3000,Metals & Mining,62,China,Zhuji,M,Asia,"Copper, education"
+982,3000,Automotive,65,United States,Tempe,M,North America,Used cars
+982,3000,Food & Beverage,76,Singapore,Singapore,M,Asia,Frozen foods
+982,3000,Diversified,75,Mexico,Mexico City,M,North America,Banking
+982,3000,Manufacturing,66,Italy,Milan,F,Europe,Hearing aids
+982,3000,Real Estate,64,China,Shenzhen,M,Asia,Real estate
+982,3000,Manufacturing,67,India,Delhi,M,Asia,Chemicals
+982,3000,Fashion & Retail,71,Germany,Brunswick,M,Europe,Fashion retail
+982,3000,Healthcare,51,Switzerland,Grimisuat,M,Europe,Pharmaceuticals
+982,3000,Fashion & Retail,73,Taiwan,Taipei,M,Asia,Supermarkets
+982,3000,Technology,67,China,Xiamen,M,Asia,Electronics
+982,3000,Food & Beverage,71,India,Mumbai,M,Asia,Consumer goods
+982,3000,Healthcare,59,France,Nantes,M,Europe,Laboratory services
+982,3000,Healthcare,68,Switzerland,Basel,F,Europe,Pharmaceuticals
+982,3000,Finance & Investments,67,United States,New York,M,North America,Hedge funds
+982,3000,Healthcare,67,India,Mumbai,M,Asia,Pharmaceuticals
+982,3000,Fashion & Retail,71,China,Wenzhou,M,Asia,Fashion retail
+982,3000,Fashion & Retail,86,United Kingdom,London,M,Europe,Sports apparel
+982,3000,Food & Beverage,64,United States,Delray Beach,M,North America,Liquor
+982,3000,Real Estate,55,Sweden,Göteborg,M,Europe,Real estate
+982,3000,Food & Beverage,54,China,Chengdu,M,Asia,Restaurants
+982,3000,Manufacturing,63,Singapore,Singapore,M,Asia,Palm oil
+982,3000,Diversified,60,China,Urumqi,M,Asia,Diversified
+982,3000,Diversified,73,Singapore,Singapore,M,Asia,Diversified
+982,3000,Service,65,United Arab Emirates,Dubai,M,Asia,Education
+982,3000,Media & Entertainment,42,Singapore,Singapore,M,Asia,Gaming
+982,3000,Healthcare,60,China,Hangzhou,M,Asia,Pharmaceuticals
+982,3000,Finance & Investments,50,Hong Kong,Hong Kong,M,Asia,Investments
+982,3000,Manufacturing,65,China,Shanghai,M,Asia,Solar panel materials
+1027,2900,Fashion & Retail,69,Spain,Barcelona,M,Europe,Fashion retail
+1027,2900,Automotive,82,Italy,Bergamo,M,Europe,Automotive brakes
+1027,2900,Healthcare,65,China,Taixing,M,Asia,Pharmaceuticals
+1027,2900,Real Estate,60,United States,Greensboro,M,North America,Real estate
+1027,2900,Telecom,70,United Kingdom,Stoke-on-Trent,M,Europe,Mobile phones
+1027,2900,Technology,79,United States,Palm Beach,M,North America,"Netscape, investments"
+1027,2900,Fashion & Retail,66,Canada,Montreal,M,North America,Convenience stores
+1027,2900,Fashion & Retail,78,United States,Austin,M,North America,"Hair products, tequila"
+1027,2900,Sports,92,United Kingdom,London,M,Europe,Formula One
+1027,2900,Technology,79,Israel,Tel Aviv,M,Asia,"Defense, hotels"
+1027,2900,Media & Entertainment,74,United States,Sarasota,M,North America,Live entertainment
+1027,2900,Manufacturing,73,China,Hangzhou,M,Asia,Furniture
+1027,2900,Construction & Engineering,75,Switzerland,Luzerne,M,Europe,Engineering
+1027,2900,Healthcare,68,Germany,Ohningen,F,Europe,Medical devices
+1027,2900,Real Estate,73,United States,Fort Worth,M,North America,Homebuilding
+1027,2900,Real Estate,56,Russia,Moscow,M,Europe,Real estate
+1027,2900,Diversified,38,Turkey,Istanbul,F,Asia,Diversified
+1027,2900,Technology,49,South Korea,Seoul,F,Asia,Samsung
+1027,2900,Healthcare,66,China,Shenzhen,M,Asia,Consumer products
+1027,2900,Healthcare,57,China,Changsha,M,Asia,Healthcare
+1027,2900,Manufacturing,61,China,Yuxi,M,Asia,Packaging
+1027,2900,Manufacturing,55,China,Shanghai,M,Asia,Flavorings
+1027,2900,Technology,54,Sweden,Stockholm,M,Europe,Spotify
+1027,2900,Energy,87,Hong Kong,Hong Kong,M,Asia,Energy
+1027,2900,Fashion & Retail,90,Germany,Ulm,M,Europe,Drugstores
+1027,2900,Technology,89,Germany,Munich,M,Europe,Software
+1027,2900,Real Estate,50,Russia,Moscow,M,Europe,Real estate
+1027,2900,Real Estate,52,India,Mumbai,M,Asia,Real estate
+1027,2900,Energy,87,Argentina,Buenos Aires,M,South America,Oil & gas
+1027,2900,Finance & Investments,73,Chile,Santiago,M,South America,Investments
+1027,2900,Automotive,65,India,Mumbai,M,Asia,Tires
+1027,2900,Healthcare,43,Russia,Moscow,M,Europe,Pharmaceuticals
+1027,2900,Media & Entertainment,78,United States,Beverly Hills,M,North America,"TV network, investments"
+1027,2900,Food & Beverage,73,United States,Laguna Beach,M,North America,Energy drinks
+1027,2900,Finance & Investments,48,United States,New York,M,North America,Hedge fund
+1027,2900,Healthcare,85,Germany,Leipzig,F,Europe,Medical devices
+1027,2900,Finance & Investments,46,United States,New York,M,North America,Hedge funds
+1027,2900,Food & Beverage,59,United States,North Palm Beach,M,North America,Chewing gum
+1027,2900,Fashion & Retail,61,China,Beijing,M,Asia,Supermarkets
+1027,2900,Fashion & Retail,62,China,Jiangyin,M,Asia,Fashion retail
+1067,2800,Fashion & Retail,66,India,Cochin,M,Asia,Jewelry
+1067,2800,Healthcare,74,China,Xinxiang,M,Asia,Pharmaceuticals
+1067,2800,Technology,44,United States,San Francisco,M,North America,Uber
+1067,2800,Gambling & Casinos,75,Cambodia,Phnom Penh,M,Asia,"Casinos, property, energy"
+1067,2800,Real Estate,69,Singapore,Singapore,M,Asia,Hotels
+1067,2800,Automotive,52,South Korea,Seoul,M,Asia,Hyundai
+1067,2800,Diversified,72,India,Mumbai,F,Asia,Consumer goods
+1067,2800,Fashion & Retail,90,United States,San Marcos,F,North America,Supermarkets
+1067,2800,Manufacturing,53,China,Beijing,M,Asia,Chemicals
+1067,2800,Sports,54,United States,Las Vegas,M,North America,"Casinos, mixed martial arts"
+1067,2800,Technology,65,Germany,Munich,M,Europe,Sensor technology
+1067,2800,Diversified,81,India,Mumbai,M,Asia,Consumer goods
+1067,2800,Diversified,74,India,Mumbai,M,Asia,Diversified
+1067,2800,Real Estate,56,Malaysia,Unknown,M,Asia,"Palm oil, property"
+1067,2800,Manufacturing,58,China,Beijing,M,Asia,Construction materials
+1067,2800,Manufacturing,54,Russia,Moscow,M,Europe,Chemicals
+1067,2800,Fashion & Retail,86,United States,Temple,M,North America,"Walmart, logistics"
+1067,2800,Telecom,67,Lebanon,Beirut,M,Asia,Telecom
+1067,2800,Telecom,78,Lebanon,Beirut,M,Asia,Telecom
+1067,2800,Real Estate,86,Japan,Tokyo,M,Asia,Real estate
+1067,2800,Diversified,71,India,Mumbai,M,Asia,Consumer goods
+1067,2800,Diversified,69,France,Paris,M,Europe,Art collection
+1067,2800,Technology,67,India,Bangalore,M,Asia,Software services
+1067,2800,Fashion & Retail,65,Germany,Hamburg,M,Europe,Retail
+1067,2800,Diversified,65,Germany,Berlin,F,Europe,"Retail, real estate"
+1067,2800,Service,50,India,Bangalore,M,Asia,Education
+1067,2800,Manufacturing,76,India,Mumbai,M,Asia,Adhesives
+1067,2800,Technology,43,United States,Los Angeles,M,North America,Facebook
+1067,2800,Healthcare,77,United States,New York,M,North America,Drug distribution
+1067,2800,Media & Entertainment,41,China,Beijing,M,Asia,Video streaming
+1067,2800,Manufacturing,73,China,Yingkou,M,Asia,"Metals, coal"
+1067,2800,Manufacturing,61,Taiwan,Unknown,M,Asia,Petrochemicals
+1067,2800,Logistics,85,Hong Kong,Hong Kong,M,Asia,Shipping
+1067,2800,Technology,66,United States,Los Angeles,F,North America,EBay
+1067,2800,Manufacturing,61,Hong Kong,Hong Kong,M,Asia,Building materials
+1067,2800,Healthcare,79,Hong Kong,Hong Kong,M,Asia,Pharmaceuticals
+1067,2800,Manufacturing,56,China,Shenzhen,M,Asia,Electrical equipment
+1104,2700,Finance & Investments,77,Brazil,Rio de Janeiro,M,South America,Investments
+1104,2700,Finance & Investments,81,Spain,Madrid,M,Europe,Investments
+1104,2700,Diversified,84,Oman,Muscat,M,Asia,Diversified
+1104,2700,Diversified,70,India,Mumbai,M,Asia,Diversified
+1104,2700,Diversified,68,India,Mumbai,M,Asia,Diversified
+1104,2700,Diversified,74,India,Mumbai,M,Asia,Diversified
+1104,2700,Finance & Investments,72,Hong Kong,Hong Kong,M,Asia,Commodities
+1104,2700,Healthcare,65,Germany,Munich,F,Europe,Biopharmaceuticals
+1104,2700,Healthcare,59,United Kingdom,Unknown,F,Europe,Pharmaceuticals
+1104,2700,Healthcare,57,United Kingdom,London,M,Europe,Pharmaceuticals
+1104,2700,Manufacturing,56,Russia,Moscow,M,Europe,"Metals, mining"
+1104,2700,Food & Beverage,80,Australia,Sydney,M,Oceania,Fast food
+1104,2700,Finance & Investments,65,United States,New York,M,North America,Hedge funds
+1104,2700,Energy,63,United Kingdom,London,M,Europe,Oil & gas
+1104,2700,Sports,61,United States,Las Vegas,M,North America,"Casinos, mixed martial arts"
+1104,2700,Automotive,78,India,Pune,M,Asia,Automobiles
+1104,2700,Finance & Investments,57,United Kingdom,London,M,Europe,Money management
+1104,2700,Service,84,Spain,Esporles,M,Europe,Hotels
+1104,2700,Metals & Mining,72,Singapore,Singapore,M,Asia,Mining
+1104,2700,Metals & Mining,58,Russia,Moscow,M,Europe,"Mining, steel"
+1104,2700,Diversified,72,India,Mumbai,M,Asia,Consumer goods
+1104,2700,Service,57,United States,Belle Vernon,F,North America,Building materials
+1104,2700,Finance & Investments,43,India,Bangalore,M,Asia,Financial services
+1104,2700,Construction & Engineering,57,Russia,Moscow,M,Europe,Real estate
+1104,2700,Real Estate,57,Hong Kong,Hong Kong,M,Asia,Real estate
+1104,2700,Diversified,92,Turkey,Istanbul,M,Asia,Diversified
+1104,2700,Finance & Investments,71,Russia,St. Petersburg,M,Europe,"Banking, insurance, media"
+1104,2700,Real Estate,37,Hong Kong,Hong Kong,M,Asia,Real estate
+1104,2700,Real Estate,31,Hong Kong,Hong Kong,M,Asia,Real Estate
+1104,2700,Manufacturing,71,Germany,Gräfelfing,M,Europe,3D printing
+1104,2700,Manufacturing,63,United States,Boston,M,North America,Scientific equipment
+1104,2700,Real Estate,78,United Kingdom,London,F,Europe,Real estate
+1104,2700,Real Estate,62,Hong Kong,Hong Kong,F,Asia,Casinos
+1104,2700,Technology,59,China,Beijing,M,Asia,Software
+1104,2700,Food & Beverage,54,China,Guangzhou,M,Asia,Nutritional supplements
+1104,2700,Sports,77,United States,Greenwich,M,North America,Entertainment
+1104,2700,Metals & Mining,61,South Africa,Johannesburg,M,Africa,Mining
+1104,2700,Telecom,64,Ireland,Dublin,M,Europe,Telecom
+1104,2700,Diversified,76,Sweden,Gothenburg,M,Europe,Diversified
+1104,2700,Technology,69,Japan,Tokyo,M,Asia,"Copy machines, software"
+1104,2700,Fashion & Retail,58,Hong Kong,Hong Kong,F,Asia,Consumer goods
+1104,2700,Diversified,79,India,Ahmedabad,M,Asia,Consumer goods
+1104,2700,Real Estate,84,United States,Palo Alto,M,North America,Real estate
+1104,2700,Healthcare,55,United States,Delray Beach,M,North America,Biotech investing
+1104,2700,Technology,68,United States,Palo Alto,M,North America,Facebook
+1104,2700,Technology,63,United States,Atlanta,M,North America,Technology services
+1104,2700,Manufacturing,75,India,Delhi,M,Asia,Agrochemicals
+1104,2700,Logistics,55,Russia,Moscow,M,Europe,"Real estate, airport"
+1104,2700,Technology,32,United States,Los Angeles,M,North America,Snapchat
+1104,2700,Service,81,United States,Mankato,M,North America,Printing
+1104,2700,Media & Entertainment,52,United States,Pittsburgh,M,North America,"Movies, investments"
+1104,2700,Metals & Mining,65,Kazakhstan,Nur-Sultan,M,Asia,"Mining, banking, hotels"
+1104,2700,Food & Beverage,29,Norway,Kverva,M,Europe,Fish farming
+1104,2700,Manufacturing,58,Hong Kong,Hong Kong,M,Asia,Furniture
+1104,2700,Healthcare,61,China,Danyang,M,Asia,Medical equipment
+1104,2700,Healthcare,59,China,Chengdu,M,Asia,Pharmaceuticals
+1164,2600,Real Estate,53,United States,New York,M,North America,Real estate
+1164,2600,Finance & Investments,54,United States,New York,M,North America,Biotech investing
+1164,2600,Finance & Investments,56,United States,New York,M,North America,Investing
+1164,2600,Media & Entertainment,60,United States,San Francisco,M,North America,Online games
+1164,2600,Food & Beverage,51,Brazil,Sao Paulo,M,South America,Beef processing
+1164,2600,Food & Beverage,50,Brazil,Sao Paulo,M,South America,Beef packing
+1164,2600,Media & Entertainment,46,Germany,Hamburg,F,Europe,"Magazines, media"
+1164,2600,Manufacturing,48,Switzerland,Rheinfelden,F,Europe,Chemicals
+1164,2600,Healthcare,58,China,Lianyungang,M,Asia,Pharmaceuticals
+1164,2600,Finance & Investments,64,Singapore,Singapore,M,Asia,Investments
+1164,2600,Manufacturing,47,China,Shenzhen,M,Asia,E-cigarettes
+1164,2600,Service,71,Mexico,Mexico City,M,North America,Airport management
+1164,2600,Energy,81,United States,Dallas,M,North America,Pipelines
+1164,2600,Construction & Engineering,67,Spain,Madrid,F,Europe,Construction
+1164,2600,Manufacturing,54,China,Changsha,M,Asia,Battery components
+1164,2600,Food & Beverage,79,Ireland,Dublin,M,Europe,Campbell Soup
+1164,2600,Diversified,61,Sweden,Stockholm,M,Europe,Investments
+1164,2600,Diversified,54,Sweden,Stockholm,M,Europe,Investments
+1164,2600,Manufacturing,58,Australia,Melbourne,F,Oceania,Manufacturing
+1164,2600,Finance & Investments,85,United States,Phoenix,M,North America,Berkshire Hathaway
+1164,2600,Healthcare,58,China,Hangzhou,M,Asia,Cosmetics
+1164,2600,Construction & Engineering,75,China,Shantou,M,Asia,Construction
+1164,2600,Service,54,Russia,Moscow,M,Europe,Airport
+1164,2600,Finance & Investments,69,Spain,Madrid,F,Europe,"Construction, investments"
+1164,2600,Real Estate,40,Hong Kong,Hong Kong,M,Asia,Real estate
+1164,2600,Finance & Investments,77,United States,Lake Worth,M,North America,Hedge funds
+1164,2600,Food & Beverage,76,France,Paris,M,Europe,Bakeries
+1164,2600,Technology,66,Canada,Toronto,M,North America,Software
+1164,2600,Automotive,59,China,Beijing,M,Asia,Auto dealerships
+1164,2600,Service,47,China,Beijing,M,Asia,Education
+1164,2600,Finance & Investments,69,Singapore,Singapore,M,Asia,Investments
+1164,2600,Diversified,52,China,Hangzhou,M,Asia,Diversified
+1164,2600,Service,95,Switzerland,Lugano,M,Europe,Travel
+1164,2600,Finance & Investments,84,Netherlands,Vorden,M,Europe,"Chemicals, investments"
+1164,2600,Food & Beverage,76,United States,Palm Beach,M,North America,Investments
+1164,2600,Manufacturing,61,Germany,Duderstadt,M,Europe,Prosthetics
+1164,2600,Fashion & Retail,60,India,Mumbai,F,Asia,Retailing
+1164,2600,Finance & Investments,55,United States,Los Angeles,M,North America,Investments
+1164,2600,Logistics,58,Russia,Moscow,M,Europe,"Real estate, airport"
+1164,2600,Finance & Investments,79,United States,Nicasio,M,North America,"Hotels, investments"
+1164,2600,Food & Beverage,46,United States,New York,M,North America,Beer
+1164,2600,Technology,57,United States,Highland Park,M,North America,Payroll software
+1164,2600,Automotive,81,Germany,Herzogenaurach,F,Europe,Auto parts
+1164,2600,Healthcare,70,United States,Tarrytown,M,North America,Pharmaceuticals
+1164,2600,Manufacturing,77,Germany,Hamburg,M,Europe,Chemicals
+1164,2600,Energy,67,United States,Miami Beach,M,North America,Liquefied natural gas
+1164,2600,Manufacturing,51,Germany,Munich,F,Europe,"Brakes, investments"
+1164,2600,Food & Beverage,69,United States,Springdale,M,North America,Food processing
+1164,2600,Manufacturing,65,Germany,Battenberg,F,Europe,Heating and cooling equipment
+1164,2600,Technology,57,China,Shanghai,M,Asia,Electronics
+1164,2600,Technology,52,China,Beijing,M,Asia,Security software
+1217,2500,Food & Beverage,98,United States,Palm Beach,M,North America,Slim-Fast
+1217,2500,Fashion & Retail,74,United States,Boston,M,North America,Shoes
+1217,2500,Fashion & Retail,77,United States,Scarborough,F,North America,Shoes
+1217,2500,Fashion & Retail,78,United States,Weston,M,North America,Shoes
+1217,2500,Construction & Engineering,71,United States,San Francisco,M,North America,"Engineering, construction"
+1217,2500,Diversified,56,United Kingdom,London,M,Europe,Investments
+1217,2500,Food & Beverage,91,United States,Palm Beach,M,North America,Liquor
+1217,2500,Food & Beverage,85,India,Delhi,M,Asia,Consumer goods
+1217,2500,Automotive,81,United States,Boston,M,North America,Car dealerships
+1217,2500,Media & Entertainment,39,China,Beijing,M,Asia,Video streaming app
+1217,2500,Food & Beverage,75,United States,Las Vegas,M,North America,Fast food
+1217,2500,Food & Beverage,75,United States,Las Vegas,F,North America,Fast food
+1217,2500,Finance & Investments,79,United States,Boca Raton,M,North America,Hedge funds
+1217,2500,Manufacturing,75,India,Delhi,M,Asia,Cement
+1217,2500,Food & Beverage,72,United States,Omaha,M,North America,Beef processing
+1217,2500,Metals & Mining,55,Russia,Moscow,M,Europe,"Aluminum, utilities"
+1217,2500,Technology,57,Cyprus,Paralimni,M,Europe,Software
+1217,2500,Finance & Investments,67,United States,New York,M,North America,Hedge funds
+1217,2500,Manufacturing,61,India,Ahmedabad,M,Asia,Plastic pipes
+1217,2500,Energy,73,Brazil,Curitiba,M,South America,Fertilizer
+1217,2500,Technology,73,Canada,Westmount,M,North America,Information technology
+1217,2500,Finance & Investments,70,United States,Beverly Hills,M,North America,Private equity
+1217,2500,Fashion & Retail,64,United States,Knoxville,M,North America,Gas stations
+1217,2500,Finance & Investments,74,United States,New York,M,North America,Investments
+1217,2500,Media & Entertainment,53,United States,New York,M,North America,Music
+1217,2500,Automotive,74,India,Pune,M,Asia,Engineering
+1217,2500,Energy,62,Turkey,Istanbul,M,Asia,Energy
+1217,2500,Real Estate,66,United States,Franklin,M,North America,Tobacco
+1217,2500,Construction & Engineering,70,Austria,Graz,M,Europe,Engineering
+1217,2500,Manufacturing,70,China,Yanzhou,M,Asia,Paper & related products
+1217,2500,Real Estate,76,Taiwan,Taipei,M,Asia,Real estate
+1217,2500,Fashion & Retail,36,China,Shenzhen,F,Asia,Jewelry
+1217,2500,Food & Beverage,77,Thailand,Bangkok,M,Asia,"Coffee, shipping"
+1217,2500,Healthcare,76,Switzerland,Burgdorf,M,Europe,Medical devices
+1217,2500,Automotive,92,India,Delhi,M,Asia,Tractors
+1217,2500,Technology,34,United States,Venice,M,North America,Snapchat
+1217,2500,Real Estate,49,Spain,Marbella,M,Europe,Shopping centers
+1217,2500,Manufacturing,64,United States,Reno,F,North America,Aerospace
+1217,2500,Finance & Investments,69,United States,San Francisco,M,North America,"Hotels, investments"
+1217,2500,Technology,77,China,Shangyu,F,Asia,Semiconductors
+1217,2500,Diversified,59,Turkey,Istanbul,M,Asia,Diversified
+1217,2500,Metals & Mining,77,China,Zhangjiagang,M,Asia,Steel production
+1217,2500,Diversified,60,China,Shanghai,M,Asia,"Online games, investments"
+1217,2500,Real Estate,63,United States,New York,M,North America,Real estate
+1217,2500,Diversified,69,Philippines,Manila,M,Asia,Diversified
+1217,2500,Diversified,71,Philippines,Manila,M,Asia,Diversified
+1217,2500,Energy,53,Singapore,Singapore,M,Asia,"Oil & gas, investments"
+1217,2500,Finance & Investments,64,United States,Winnetka,M,North America,Investments
+1217,2500,Real Estate,76,United States,Palm Beach,M,North America,Real estate
+1217,2500,Automotive,78,Germany,Neustadt an der Waldnaab,M,Europe,Auto repair
+1217,2500,Fashion & Retail,74,China,Nanjing,M,Asia,Retail
+1217,2500,Media & Entertainment,69,United States,Montecito,F,North America,TV shows
+1217,2500,Food & Beverage,88,China,Shenyang,M,Asia,Bakery chain
+1217,2500,Metals & Mining,66,Singapore,Unknown,M,Asia,Cobalt
+1217,2500,Fashion & Retail,45,China,Guangzhou,M,Asia,Retail
+1272,2400,Technology,51,United States,Palo Alto,M,North America,WhatsApp
+1272,2400,Automotive,83,United Arab Emirates,Dubai,M,Asia,"Auto dealers, investments"
+1272,2400,Energy,77,United States,Fort Worth,M,North America,"Oil, investments"
+1272,2400,Media & Entertainment,70,South Africa,Cape Town,M,Africa,"Media, investments"
+1272,2400,Healthcare,45,Germany,Melsungen,M,Europe,Medical technology
+1272,2400,Fashion & Retail,74,United States,Los Angeles,M,North America,Herbal products
+1272,2400,Fashion & Retail,86,Brazil,Sao Paulo,M,South America,Retail
+1272,2400,Finance & Investments,58,Switzerland,Zug,M,Europe,Private equity
+1272,2400,Fashion & Retail,91,United States,San Francisco,F,North America,Gap
+1272,2400,Finance & Investments,78,United States,Dallas,M,North America,Banking
+1272,2400,Healthcare,66,France,Paris,M,Europe,Pharmaceuticals
+1272,2400,Finance & Investments,55,Switzerland,Zug,M,Europe,Private equity
+1272,2400,Gambling & Casinos,88,Germany,Espelkamp,M,Europe,Gambling
+1272,2400,Real Estate,61,Canada,North York,M,North America,Real estate
+1272,2400,Finance & Investments,76,United Kingdom,Bristol,M,Europe,Financial services
+1272,2400,Healthcare,79,China,Taizhou,M,Asia,Pharmaceuticals
+1272,2400,Diversified,68,Singapore,Singapore,M,Asia,Diversified
+1272,2400,Manufacturing,77,United States,Fort Lauderdale,F,North America,Valve manufacturing
+1272,2400,Media & Entertainment,57,India,Chennai,M,Asia,Media
+1272,2400,Finance & Investments,48,United States,Berkeley,M,North America,Cryptocurrency
+1272,2400,Manufacturing,65,United States,Reno,M,North America,Aerospace
+1272,2400,Food & Beverage,59,China,foshan,M,Asia,Soy sauce
+1272,2400,Metals & Mining,58,Switzerland,Zug,M,Europe,Commodities
+1272,2400,Finance & Investments,63,United States,Marin County,M,North America,"Hotels, investments"
+1272,2400,Real Estate,61,China,Hangzhou,M,Asia,Real estate
+1272,2400,Manufacturing,61,China,Hangzhou,M,Asia,Hand tools
+1272,2400,Diversified,68,India,Mumbai,M,Asia,Diversified
+1272,2400,Finance & Investments,63,Switzerland,Zurich,M,Europe,Financial services
+1272,2400,Technology,55,Netherlands,Amsterdam,M,Europe,Payments software
+1272,2400,Diversified,67,Philippines,Manila,M,Asia,Diversified
+1272,2400,Diversified,66,Philippines,Manila,M,Asia,Diversified
+1272,2400,Diversified,88,Philippines,Manila,M,Asia,Diversified
+1272,2400,Technology,72,Taiwan,Hsinchu,M,Asia,Semiconductors
+1272,2400,Media & Entertainment,84,United States,Atlanta,M,North America,Cable television
+1272,2400,Real Estate,84,United States,New York,M,North America,Real estate
+1272,2400,Finance & Investments,61,Switzerland,Zug,M,Europe,Private equity
+1272,2400,Technology,54,United States,Los Altos Hills,M,North America,Yahoo
+1272,2400,Manufacturing,53,China,Wuxi,M,Asia,Machinery
+1272,2400,Manufacturing,54,China,Jiaxing,M,Asia,Chemicals
+1272,2400,Real Estate,85,United States,New York,M,North America,"Real estate, media"
+1312,2300,Finance & Investments,63,United Kingdom,London,M,Europe,Hedge funds
+1312,2300,Energy,66,United States,Fort Worth,M,North America,"Oil, investments"
+1312,2300,Technology,43,United States,San Francisco,M,North America,Sensor systems
+1312,2300,Technology,41,United States,San Francisco,M,North America,Sensor systems
+1312,2300,Fashion & Retail,73,United States,Portland,M,North America,Columbia Sportswear
+1312,2300,Technology,91,Taiwan,Hsinchu,M,Asia,Semiconductors
+1312,2300,Real Estate,78,Taiwan,Taipei,M,Asia,Real estate
+1312,2300,Manufacturing,53,Hong Kong,Hong Kong,F,Asia,Flavorings
+1312,2300,Technology,68,India,Bangalore,M,Asia,Software services
+1312,2300,Diversified,62,United States,Hattiesburg,M,North America,"Tires, diversified"
+1312,2300,Diversified,66,United States,Hattiesburg,M,North America,"Tires, diversified"
+1312,2300,Technology,40,Sweden,Stockholm,M,Europe,Spotify
+1312,2300,Fashion & Retail,61,United States,San Francisco,M,North America,Gap
+1312,2300,Fashion & Retail,61,Germany,Berlin,M,Europe,Retail
+1312,2300,Construction & Engineering,55,Turkey,Ankara,M,Asia,Construction
+1312,2300,Finance & Investments,45,United States,Chicago,M,North America,Private equity
+1312,2300,Technology,49,China,Weifang,M,Asia,Manufacturing
+1312,2300,Finance & Investments,67,United States,Los Angeles,M,North America,Private equity
+1312,2300,Technology,44,South Korea,Seoul,M,Asia,Online retailing
+1312,2300,Food & Beverage,59,China,Foshan,M,Asia,Soy sauce
+1312,2300,Healthcare,58,Hong Kong,Hong Kong,M,Asia,Pharmaceuticals
+1312,2300,Finance & Investments,70,Guernsey,St. Peter Port,M,Europe,Financial services
+1312,2300,Food & Beverage,59,China,Chengdu,F,Asia,Restaurants
+1312,2300,Finance & Investments,45,China,Shenzhen,M,Asia,Financial services
+1312,2300,Gambling & Casinos,71,Malaysia,Kuala Lumpur,M,Asia,Casinos
+1312,2300,Food & Beverage,88,India,Mumbai,M,Asia,Consumer goods
+1312,2300,Food & Beverage,82,United States,Brookville,M,North America,Pet food
+1312,2300,Fashion & Retail,65,China,Urumqi,M,Asia,Retail
+1312,2300,Food & Beverage,55,Russia,Moscow,M,Europe,"Agriculture, land"
+1312,2300,Food & Beverage,99,United States,Ventura,M,North America,"Dole, real estate"
+1312,2300,Fashion & Retail,75,United States,New York,M,North America,Art collection
+1312,2300,Finance & Investments,69,Brazil,Manaus,M,South America,Investments
+1312,2300,Food & Beverage,67,Switzerland,Lugano,M,Europe,Candy
+1312,2300,Food & Beverage,67,Switzerland,Lugano,M,Europe,Candy
+1312,2300,Fashion & Retail,69,Italy,Milan,M,Europe,Luxury goods
+1312,2300,Fashion & Retail,77,Italy,Milan,F,Europe,Luxury goods
+1312,2300,Diversified,56,Turkey,Istanbul,F,Asia,Diversified
+1312,2300,Food & Beverage,72,United States,Delray Beach,M,North America,Liquor
+1312,2300,Finance & Investments,75,Switzerland,Hurden,M,Europe,Investments
+1312,2300,Healthcare,78,Switzerland,Lugano,M,Europe,Medical devices
+1312,2300,Real Estate,47,United States,Delray Beach,M,North America,"Real estate, grains"
+1312,2300,Fashion & Retail,89,Hong Kong,Hong Kong,M,Asia,Fashion retail
+1312,2300,Technology,69,China,Hefei,M,Asia,Measuring instruments
+1312,2300,Finance & Investments,70,Taiwan,Taipei,M,Asia,Finance
+1312,2300,Technology,62,United States,Saratoga,F,North America,Computer networking
+1312,2300,Finance & Investments,56,United Kingdom,London,M,Europe,"Real estate, investments"
+1312,2300,Real Estate,77,Australia,Sydney,M,Oceania,Real estate
+1312,2300,Manufacturing,74,China,Zhaoyuan,M,Asia,Tires
+1312,2300,Real Estate,61,China,Shanghai,M,Asia,Real estate
+1312,2300,Food & Beverage,79,Germany,Rechterfeld,M,Europe,Chicken processing
+1312,2300,Fashion & Retail,56,China,Fuzhou,M,Asia,Pearlescent pigments
+1312,2300,Manufacturing,57,China,Hangzhou,M,Asia,"Construction, mining machinery"
+1312,2300,Healthcare,65,Liechtenstein,Vaduz,M,Europe,Dental materials
+1312,2300,Manufacturing,87,China,Ningbo,M,Asia,Precision machinery
+1368,2200,Real Estate,86,United States,Newport Beach,M,North America,"Real estate, investments"
+1368,2200,Finance & Investments,40,United States,San Francisco,M,North America,Cryptocurrency
+1368,2200,Energy,52,Russia,Moscow,M,Europe,"Oil, mining"
+1368,2200,Diversified,73,Turkey,Ankara,M,Asia,Diversified
+1368,2200,Technology,57,United States,San Francisco,M,North America,Business software
+1368,2200,Fashion & Retail,63,Bahamas,Paradise Island,M,North America,"Retail, agribusiness"
+1368,2200,Finance & Investments,85,United States,Ormond Beach,M,North America,Insurance
+1368,2200,Finance & Investments,55,China,Shanghai,F,Asia,Investments
+1368,2200,Healthcare,71,China,Weihai,M,Asia,Pharmaceuticals
+1368,2200,Finance & Investments,72,Ireland,Dublin,M,Europe,Finance
+1368,2200,Healthcare,52,China,Lianyungang,M,Asia,Pharmaceuticals
+1368,2200,Fashion & Retail,61,United States,Los Angeles,M,North America,Fashion
+1368,2200,Food & Beverage,69,China,Nanping,M,Asia,Poultry
+1368,2200,Finance & Investments,61,United States,New York,M,North America,Hedge funds
+1368,2200,Finance & Investments,64,United States,Los Angeles,M,North America,Investments
+1368,2200,Healthcare,67,China,Tianjin,M,Asia,Pharmaceuticals
+1368,2200,Automotive,78,Israel,Tel Aviv,M,Asia,Automotive
+1368,2200,Technology,83,Germany,Weinheim,M,Europe,SAP
+1368,2200,Healthcare,76,Germany,Grebenhain,M,Europe,Hospitals
+1368,2200,Real Estate,64,China,Shenzhen,M,Asia,Real estate
+1368,2200,Finance & Investments,80,United States,Saint Petersburg,M,North America,Finance
+1368,2200,Fashion & Retail,73,United States,San Juan Islands,M,North America,Sunglasses
+1368,2200,Automotive,75,United States,Franklin,M,North America,Damaged cars
+1368,2200,Fashion & Retail,48,China,Quanzhou,M,Asia,Sports apparel
+1368,2200,Finance & Investments,62,United States,San Francisco,M,North America,Cryptocurrency
+1368,2200,Fashion & Retail,78,Australia,Melbourne,M,Oceania,Retail
+1368,2200,Diversified,54,Singapore,Singapore,M,Asia,Conglomerate
+1368,2200,Diversified,68,Thailand,Bangkok,M,Asia,Diversified
+1368,2200,Technology,43,United States,San Francisco,M,North America,Software
+1368,2200,Energy,60,United States,Miami,M,North America,Investments
+1368,2200,Finance & Investments,76,United States,New York,M,North America,Private equity
+1368,2200,Finance & Investments,99,United States,Los Angeles,M,North America,Berkshire Hathaway
+1368,2200,Real Estate,44,United States,Miami,M,North America,WeWork
+1368,2200,Diversified,52,Vietnam,Ho Chi Minh City,F,Asia,Airlines
+1368,2200,Food & Beverage,71,China,Liuan,M,Asia,Beverages
+1368,2200,Manufacturing,60,Australia,Melbourne,F,Oceania,"Manufacturing, investment"
+1368,2200,Technology,52,China,Beijing,M,Asia,Software
+1368,2200,Technology,73,United States,Boston,M,North America,Health IT
+1368,2200,Healthcare,91,India,Chennai,M,Asia,Healthcare
+1368,2200,Sports,87,United States,Chicago,M,North America,Sports teams
+1368,2200,Technology,52,United States,Edmond,M,North America,Payroll processing
+1368,2200,Fashion & Retail,84,Switzerland,Geneva,M,Europe,Jewelry
+1368,2200,Healthcare,96,United States,El Cerrito,F,North America,Biotech
+1368,2200,Technology,43,Canada,Unknown,M,North America,Software
+1368,2200,Technology,66,United States,Menlo Park,M,North America,"Venture capital, Google"
+1368,2200,Real Estate,55,United States,Aventura,M,North America,Real estate
+1368,2200,Technology,67,United States,East Lyme,M,North America,Software
+1368,2200,Finance & Investments,65,United States,New York,M,North America,Hedge funds
+1368,2200,Diversified,63,Philippines,Manila,M,Asia,Diversified
+1368,2200,Diversified,72,Philippines,Manila,F,Asia,Diversified
+1368,2200,Real Estate,77,Japan,Tokyo,M,Asia,Real estate
+1368,2200,Manufacturing,67,China,Suzhou,M,Asia,"Textiles, petrochemicals"
+1368,2200,Technology,55,China,Shanghai,M,Asia,Software
+1368,2200,Fashion & Retail,73,Sweden,Stockholm,F,Europe,H&M
+1368,2200,Healthcare,46,United Arab Emirates,Abu Dhabi,M,Asia,Healthcare
+1368,2200,Technology,50,India,Chennai,F,Asia,Business software
+1368,2200,Fashion & Retail,66,China,Quanzhou,M,Asia,Sports apparel
+1368,2200,Service,78,China,Shanghai,M,Asia,Budget airline
+1368,2200,Food & Beverage,65,Israel,Unknown,M,Asia,Coca-Cola Israel
+1368,2200,Energy,55,China,Ningde,M,Asia,Batteries
+1368,2200,Food & Beverage,55,China,Guangzhou,M,Asia,Agribusiness
+1368,2200,Manufacturing,59,Hong Kong,Hong Kong,M,Asia,Electronics
+1368,2200,Logistics,57,China,Shanghai,M,Asia,Package delivery
+1368,2200,Finance & Investments,58,United States,Los Altos,M,North America,Investments
+1368,2200,Manufacturing,54,Canada,Windsor,M,North America,Steel
+1368,2200,Energy,57,China,Ningde,M,Asia,Batteries
+1434,2100,Metals & Mining,55,United Kingdom,London,M,Europe,"Mining, commodities"
+1434,2100,Food & Beverage,52,United States,Grants Pass,M,North America,Coffee
+1434,2100,Construction & Engineering,68,France,Paris,M,Europe,"Construction, media"
+1434,2100,Gambling & Casinos,91,United States,Las Vegas,M,North America,"Casinos, banking"
+1434,2100,Food & Beverage,70,India,Delhi,M,Asia,Consumer goods
+1434,2100,Manufacturing,71,China,Hangzhou,M,Asia,Manufacturing
+1434,2100,Technology,86,Taiwan,Taipei,M,Asia,Electronics
+1434,2100,Technology,52,China,Beijing,M,Asia,Software
+1434,2100,Energy,62,Hong Kong,Hong Kong,M,Asia,Oil & gas
+1434,2100,Healthcare,82,Switzerland,Zurich,M,Europe,Hearing aids
+1434,2100,Fashion & Retail,64,Italy,Milan,M,Europe,Luxury goods
+1434,2100,Technology,59,Germany,Montabaur,M,Europe,Internet service provider
+1434,2100,Diversified,50,United Kingdom,London,M,Europe,"Animal health, investments"
+1434,2100,Diversified,53,United Kingdom,London,M,Europe,"Animal health, investments"
+1434,2100,Real Estate,78,Australia,Surfers Paradise,M,Oceania,Real estate
+1434,2100,Energy,65,United States,El Paso,M,North America,Oil refining
+1434,2100,Fashion & Retail,60,Italy,Milan,M,Europe,Luxury goods
+1434,2100,Manufacturing,59,China,Huzhou,M,Asia,Steel
+1434,2100,Energy,89,United States,San Francisco,M,North America,Getty Oil
+1434,2100,Energy,64,United States,Naples,M,North America,"Space, energy"
+1434,2100,Healthcare,78,United States,Durham,M,North America,Clinical trials
+1434,2100,Diversified,65,India,Mumbai,M,Asia,Diversified
+1434,2100,Diversified,62,India,Kolkata,M,Asia,Diversified
+1434,2100,Real Estate,67,United States,New York,F,North America,Real estate
+1434,2100,Fashion & Retail,66,Norway,Oslo,M,Europe,Consumer goods
+1434,2100,Real Estate,56,Switzerland,Geneva,M,Europe,"Real estate, investments"
+1434,2100,Fashion & Retail,72,Spain,Valencia,F,Europe,Supermarkets
+1434,2100,Diversified,80,Taiwan,Taipei,M,Asia,Diversified
+1434,2100,Manufacturing,49,China,Suzhou,M,Asia,Machinery
+1434,2100,Technology,40,United States,Easton,M,North America,Payment processing
+1434,2100,Technology,57,Russia,Moscow,M,Europe,Software
+1434,2100,Fashion & Retail,48,Cyprus,Limassol,M,Europe,Retail
+1434,2100,Food & Beverage,47,Russia,Moscow,M,Europe,Retail
+1434,2100,Real Estate,71,Hong Kong,Hong Kong,M,Asia,Real estate
+1434,2100,Manufacturing,69,Hong Kong,Hong Kong,F,Asia,Smartphone screens
+1434,2100,Finance & Investments,62,United States,New York,M,North America,Hedge funds
+1434,2100,Finance & Investments,82,France,Lyon,M,Europe,Accounting services
+1434,2100,Sports,67,United States,Bethesda,M,North America,Sports teams
+1434,2100,Real Estate,82,Taiwan,Taipei,F,Asia,Real estate
+1434,2100,Manufacturing,60,China,Shenzhen,M,Asia,Power supply equipment
+1434,2100,Fashion & Retail,49,Cyprus,Paphos,M,Europe,Retail
+1434,2100,Food & Beverage,54,United States,New York,M,North America,Snack bars
+1434,2100,Technology,59,China,Beijing,F,Asia,Internet search
+1434,2100,Diversified,67,India,Mumbai,M,Asia,Diversified
+1434,2100,Fashion & Retail,72,India,Mumbai,M,Asia,Footwear
+1434,2100,Diversified,41,Sweden,Stockholm,F,Europe,Investments
+1434,2100,Healthcare,70,India,Bangalore,F,Asia,Biopharmaceuticals
+1434,2100,Automotive,65,India,Gurgaon,M,Asia,Auto parts
+1434,2100,Technology,43,China,Beijing,M,Asia,E-commerce
+1434,2100,Manufacturing,80,Ireland,Kingscourt,M,Europe,Building materials
+1434,2100,Finance & Investments,60,Russia,Moscow,M,Europe,"Metals, banking, fertilizers"
+1434,2100,Manufacturing,66,China,Suzhou,M,Asia,Appliances
+1434,2100,Construction & Engineering,76,Spain,Madrid,M,Europe,Construction
+1434,2100,Metals & Mining,62,Ukraine,Kiev,M,Europe,"Steel pipes, diversified"
+1434,2100,Technology,40,United States,Unknown,M,North America,E-commerce
+1434,2100,Technology,41,India,Bangalore,M,Asia,Education technology
+1434,2100,Construction & Engineering,65,India,Hyderabad,M,Asia,Infrastructure
+1434,2100,Fashion & Retail,41,United States,Los Angeles,M,North America,Fast fashion
+1434,2100,Healthcare,49,China,Beijing,M,Asia,Medical cosmetics
+1434,2100,Finance & Investments,73,United Arab Emirates,Dubai,M,Asia,Investments
+1434,2100,Healthcare,75,United States,Chestnut Hill,M,North America,Biotech
+1434,2100,Automotive,70,India,Chennai,M,Asia,Two-wheelers
+1434,2100,Fashion & Retail,68,United States,Sewickley,M,North America,Dick's Sporting Goods
+1434,2100,Food & Beverage,73,China,Yantai,M,Asia,Edible oil
+1434,2100,Finance & Investments,55,Russia,Moscow,M,Europe,Real estate
+1434,2100,Fashion & Retail,56,Germany,Krefeld,M,Europe,Pet food
+1434,2100,Food & Beverage,74,United States,Fayetteville,F,North America,Food processing
+1434,2100,Food & Beverage,50,United States,Norwich,M,North America,Greek yogurt
+1434,2100,Construction & Engineering,54,China,Beijing,M,Asia,Furniture retailing
+1434,2100,Food & Beverage,69,China,Tianjin,M,Asia,"Food, beverages"
+1434,2100,Food & Beverage,66,Taiwan,Taipei,M,Asia,"Food, beverages"
+1434,2100,Food & Beverage,64,China,Shanghai,M,Asia,"Food, beverages"
+1434,2100,Food & Beverage,68,Taiwan,Taipei,M,Asia,"Food, beverages"
+1434,2100,Gambling & Casinos,80,United States,Las Vegas,F,North America,"Casinos, hotels"
+1434,2100,Automotive,53,China,Ningbo,M,Asia,Auto parts
+1434,2100,Fashion & Retail,73,Hong Kong,Hong Kong,M,Asia,Retail
+1434,2100,Manufacturing,57,China,Ningbo,M,Asia,Glass
+1434,2100,Manufacturing,72,China,Suzhou,M,Asia,Metal processing
+1434,2100,Manufacturing,49,China,Shanghai,F,Asia,Chemicals
+1434,2100,Healthcare,57,China,Xi'an,M,Asia,Pharmaceuticals
+1516,2000,Construction & Engineering,80,India,Pune,F,Asia,Engineering
+1516,2000,Fashion & Retail,94,United Kingdom,London,M,Europe,"Retail, investments"
+1516,2000,Technology,49,United Kingdom,London,M,Europe,Online dating
+1516,2000,Finance & Investments,77,Turks and Caicos Islands,Turks and Caicos Islands,M,North America,Security
+1516,2000,Technology,62,Czech Republic,Prague,M,Europe,Software
+1516,2000,Healthcare,66,Germany,Unknown,M,Europe,Pharmaceuticals
+1516,2000,Manufacturing,44,China,Shangyu,M,Asia,Semiconductors
+1516,2000,Manufacturing,52,China,Shanghai,M,Asia,Stationery
+1516,2000,Diversified,71,Thailand,Bangkok,M,Asia,Diversified
+1516,2000,Diversified,69,China,Hangzhou,M,Asia,"Energy, chemicals"
+1516,2000,Food & Beverage,88,Monaco,Monaco,F,Europe,"Nutella, chocolates"
+1516,2000,Diversified,85,United States,Houston,M,North America,Low-cost airlines
+1516,2000,Healthcare,51,Monaco,Monaco,M,Europe,Pharmaceuticals
+1516,2000,Real Estate,68,United States,Rhinebeck,F,North America,Real estate
+1516,2000,Metals & Mining,47,United Kingdom,London,M,Europe,Mining
+1516,2000,Technology,58,China,Hangzhou,M,Asia,Technology
+1516,2000,Manufacturing,62,Hong Kong,Hong Kong,M,Asia,Silicon
+1516,2000,Media & Entertainment,64,China,Hangzhou,M,Asia,Amusement parks
+1516,2000,Finance & Investments,55,United States,Fort Lauderdale,M,North America,Finance
+1516,2000,Sports,60,United States,Jupiter,M,North America,"Charlotte Hornets, endorsements"
+1516,2000,Real Estate,77,United States,New York,F,North America,Real estate
+1516,2000,Technology,57,Israel,Tel Aviv,M,Asia,"Software, investments"
+1516,2000,Healthcare,77,Finland,Helsinki,M,Europe,Dental products
+1516,2000,Technology,50,Hong Kong,Hong Kong,M,Asia,E-commerce
+1516,2000,Technology,57,China,Fuzhou,M,Asia,Semiconductor
+1516,2000,Technology,40,China,Beijing,M,Asia,TikTok
+1516,2000,Manufacturing,58,China,Foshan,M,Asia,Appliances
+1516,2000,Energy,61,China,Linyi,M,Asia,"Energy, real estate"
+1516,2000,Manufacturing,64,Thailand,Bangkok,M,Asia,Petrochemicals
+1516,2000,Real Estate,73,Canada,Ottawa,M,North America,Real estate
+1516,2000,Finance & Investments,63,Israel,Tel Aviv,M,Asia,Investments
+1516,2000,Telecom,73,United States,Hunts Point,M,North America,Telecom
+1516,2000,Manufacturing,59,China,Wenzhou,M,Asia,Power equipment
+1516,2000,Service,47,China,Shanghai,M,Asia,Logistics
+1516,2000,Finance & Investments,75,Singapore,Singapore,M,Asia,Investments
+1516,2000,Metals & Mining,69,Australia,Brisbane,M,Oceania,Mining
+1516,2000,Technology,48,United States,Park City,M,North America,Cybersecurity
+1516,2000,Service,69,United States,Missoula,F,North America,"Hotels, investments"
+1516,2000,Construction & Engineering,53,India,Hyderabad,M,Asia,Infrastructure
+1516,2000,Metals & Mining,46,Australia,Brisbane,F,Oceania,Mining
+1516,2000,Metals & Mining,36,Australia,Sydney,F,Oceania,Mining
+1516,2000,Finance & Investments,87,United States,Sioux Falls,M,North America,"Banking, credit cards"
+1516,2000,Manufacturing,71,India,Ahmedabad,M,Asia,Engineering
+1516,2000,Media & Entertainment,66,Poland,Warsaw,M,Europe,TV broadcasting
+1516,2000,Fashion & Retail,67,Germany,Darmstadt,F,Europe,Cosmetics
+1516,2000,Technology,69,Indonesia,Jakarta,M,Asia,Data centers
+1516,2000,Sports,77,Canada,Toronto,M,North America,Sports
+1516,2000,Finance & Investments,76,Thailand,Bangkok,M,Asia,Investments
+1516,2000,Finance & Investments,83,Romania,Bucharest,M,Europe,"Banking, insurance"
+1516,2000,Metals & Mining,37,United States,New York,F,North America,Mining
+1516,2000,Manufacturing,82,United States,Ypsilanti,M,North America,Plastics
+1516,2000,Technology,57,China,Shenzhen,M,Asia,Touch screens
+1516,2000,Technology,57,China,Beijing,M,Asia,Semiconductor
+1516,2000,Manufacturing,73,China,Chaozhou,M,Asia,Electronics components
+1516,2000,Technology,48,China,Beijing,M,Asia,Software
+1516,2000,Energy,46,China,Shenzhen,M,Asia,Solar energy equipment
+1516,2000,Healthcare,59,China,Shanghai,M,Asia,Healthcare
+1575,1900,Diversified,74,Chile,Santiago,M,South America,"Forestry, mining"
+1575,1900,Energy,56,Finland,Helsinki,M,Europe,Oil & gas
+1575,1900,Sports,53,United States,New York,M,North America,Sports
+1575,1900,Finance & Investments,87,Brazil,Rio de Janeiro,M,South America,Banking
+1575,1900,Energy,55,Russia,Irkutsk,M,Europe,"Oil, gas"
+1575,1900,Fashion & Retail,82,Italy,Rome,M,Europe,Luxury goods
+1575,1900,Fashion & Retail,71,United States,San Antonio,M,North America,Supermarkets
+1575,1900,Fashion & Retail,56,China,Shanghai,M,Asia,Furniture retailing
+1575,1900,Manufacturing,52,China,Shanghai,M,Asia,Stationery
+1575,1900,Energy,59,China,Ningde,F,Asia,Batteries
+1575,1900,Technology,57,China,Xiamen,M,Asia,Communication equipment
+1575,1900,Diversified,74,Thailand,Bangkok,M,Asia,Diversified
+1575,1900,Diversified,74,Thailand,Bangkok,M,Asia,Diversified
+1575,1900,Food & Beverage,60,United States,Old Lyme,F,North America,Cargill
+1575,1900,Food & Beverage,57,Spain,Madrid,F,Europe,Coca-Cola bottler
+1575,1900,Sports,67,United States,Henderson,M,North America,Las Vegas Raiders
+1575,1900,Finance & Investments,63,United States,North Salem,M,North America,Hedge funds
+1575,1900,Automotive,65,Germany,Landshut,M,Europe,Auto parts
+1575,1900,Diversified,73,Turkey,Istanbul,M,Asia,"Pharmaceuticals, diversified"
+1575,1900,Diversified,68,Turkey,Istanbul,M,Asia,"Pharmaceuticals, diversified"
+1575,1900,Diversified,90,Argentina,Buenos Aires,M,South America,"Airports, investments"
+1575,1900,Real Estate,65,Hong Kong,Hong Kong,M,Asia,Real estate
+1575,1900,Fashion & Retail,59,China,Kunming,M,Asia,Cosmetics
+1575,1900,Manufacturing,81,India,Delhi,M,Asia,Electrical equipment
+1575,1900,Diversified,39,Switzerland,Wollerau,F,Europe,Conglomerate
+1575,1900,Finance & Investments,81,Mexico,Mexico City,M,North America,"Banking, investments"
+1575,1900,Technology,55,United States,Palo Alto,M,North America,LinkedIn
+1575,1900,Manufacturing,64,China,Jinhua,M,Asia,Chemicals
+1575,1900,Real Estate,63,United States,Jackson,M,North America,Storage facilities
+1575,1900,Real Estate,72,Hong Kong,Hong Kong,M,Asia,Real estate
+1575,1900,Finance & Investments,64,United States,Naples,M,North America,Private equity
+1575,1900,Finance & Investments,77,United States,Santa Monica,M,North America,Investments
+1575,1900,Finance & Investments,45,United Kingdom,London,F,Europe,Diversified
+1575,1900,Finance & Investments,60,United States,Miami Beach,M,North America,Sears
+1575,1900,Diversified,74,Thailand,Bangkok,M,Asia,Diversified
+1575,1900,Food & Beverage,85,United States,Indian Hills,M,North America,Cheese
+1575,1900,Real Estate,61,United States,Monsey,M,North America,Real estate
+1575,1900,Real Estate,56,China,Beijing,M,Asia,Real estate
+1575,1900,Food & Beverage,69,United States,Los Angeles,F,North America,Cargill
+1575,1900,Telecom,62,United Kingdom,London,M,Europe,Telecom
+1575,1900,Fashion & Retail,89,Hong Kong,Hong Kong,M,Asia,Retail
+1575,1900,Technology,55,United Kingdom,"St. Brelade, Jersey",M,Europe,Price comparison website
+1575,1900,Food & Beverage,74,Japan,Tokyo,M,Asia,Restaurants
+1575,1900,Manufacturing,65,India,Mumbai,M,Asia,Adhesives
+1575,1900,Manufacturing,84,India,Mumbai,M,Asia,Adhesives
+1575,1900,Finance & Investments,72,United States,Chicago,F,North America,"Hotels, investments"
+1575,1900,Fashion & Retail,80,India,Chennai,M,Asia,Jewellery
+1575,1900,Manufacturing,66,China,Hangzhou,M,Asia,Kitchen appliances
+1575,1900,Finance & Investments,53,United States,Alpine,M,North America,Hedge funds
+1575,1900,Construction & Engineering,81,United States,Palm Beach,M,North America,"Homebuilding, NFL team"
+1575,1900,Energy,59,China,Hangzhou,M,Asia,Photovoltaics
+1575,1900,Manufacturing,68,China,Hangzhou,M,Asia,Diversified
+1575,1900,Technology,60,China,Jiaxing,M,Asia,Semiconductors
+1575,1900,Manufacturing,95,Taiwan,Tainan,M,Asia,Plastics
+1575,1900,Finance & Investments,73,Indonesia,Surabaya,M,Asia,Investments
+1575,1900,Food & Beverage,63,United States,Greenwich,F,North America,Cargill
+1575,1900,Diversified,70,Philippines,Manila,F,Asia,Diversified
+1575,1900,Manufacturing,60,Indonesia,Surabaya,M,Asia,Paints
+1575,1900,Construction & Engineering,64,Turkey,Istanbul,M,Asia,Construction
+1575,1900,Fashion & Retail,76,Japan,Fukuoka,M,Asia,Drugstores
+1575,1900,Energy,90,Greece,Athens,M,Europe,Oil and gas
+1575,1900,Real Estate,57,India,Bangalore,M,Asia,Real estate
+1575,1900,Real Estate,67,China,Zhengzhou,M,Asia,Real estate
+1575,1900,Fashion & Retail,91,China,Zhengzhou,M,Asia,Retail
+1575,1900,Food & Beverage,80,United States,Hobe Sound,F,North America,Campbell Soup
+1575,1900,Healthcare,72,China,Nanjing,F,Asia,Pharmaceuticals
+1575,1900,Manufacturing,88,China,Hangzhou,M,Asia,"Chemicals, logistics"
+1575,1900,Finance & Investments,65,Israel,Unknown,M,Asia,"Precious metals, real estate"
+1575,1900,Diversified,68,China,Beijing,M,Asia,"Oil, banking"
+1575,1900,Manufacturing,71,United States,Charleston,F,North America,Chemicals
+1647,1800,Technology,43,Australia,Sydney,M,Oceania,Software
+1647,1800,Fashion & Retail,51,United Kingdom,Unknown,M,Europe,Home furnishings
+1647,1800,Diversified,75,Qatar,Doha,M,Asia,"Hotels, diversified"
+1647,1800,Sports,79,United States,Houston,M,North America,Sports team
+1647,1800,Real Estate,57,Japan,Tokyo,M,Asia,Home sales
+1647,1800,Fashion & Retail,49,Italy,Treviso,F,Europe,"Fashion retail, investments"
+1647,1800,Technology,59,India,Delhi,M,Asia,Internet
+1647,1800,Finance & Investments,58,United States,New York,M,North America,Hedge funds
+1647,1800,Energy,78,Uruguay,Manantiales,M,South America,Oil & gas
+1647,1800,Food & Beverage,74,India,Chennai,M,Asia,Dairy
+1647,1800,Diversified,67,Nepal,Kathmandu,M,Asia,Diversified
+1647,1800,Technology,42,United States,San Francisco,M,North America,Software
+1647,1800,Technology,62,United States,Cupertino,M,North America,Apple
+1647,1800,Finance & Investments,62,United Kingdom,London,M,Europe,Finance
+1647,1800,Media & Entertainment,68,Netherlands,Blaricum,M,Europe,TV programs
+1647,1800,Construction & Engineering,60,Spain,Madrid,M,Europe,Construction
+1647,1800,Technology,59,China,Beijing,M,Asia,Software
+1647,1800,Healthcare,78,United States,Clearwater,M,North America,Pharmaceuticals
+1647,1800,Sports,78,United States,Daytona Beach,M,North America,"Nascar, racing"
+1647,1800,Healthcare,86,United States,Miami Beach,M,North America,Pharmaceuticals
+1647,1800,Finance & Investments,77,Brazil,Sao Paulo,M,South America,Insurance
+1647,1800,Food & Beverage,80,United States,San Antonio,M,North America,Salsa
+1647,1800,Healthcare,86,India,Mumbai,M,Asia,Pharmaceuticals
+1647,1800,Finance & Investments,58,United States,New York,M,North America,Hedge funds
+1647,1800,Real Estate,63,China,Hangzhou,M,Asia,Real estate
+1647,1800,Automotive,72,China,Shanghai,M,Asia,Auto parts
+1647,1800,Healthcare,57,China,Changchun,M,Asia,Pharmaceuticals
+1647,1800,Healthcare,68,China,Beijing,M,Asia,Medical equipment
+1647,1800,Technology,46,Cyprus,Peyia,M,Europe,Software
+1647,1800,Diversified,45,South Korea,Seoul,M,Asia,LG
+1647,1800,Technology,52,United States,Paradise Valley,M,North America,Security software
+1647,1800,Sports,67,United States,Atherton,M,North America,Golden State Warriors
+1647,1800,Technology,33,United States,Stanford,M,North America,"Blockchain, technology"
+1647,1800,Diversified,43,Sweden,Stockholm,F,Europe,Investments
+1647,1800,Metals & Mining,47,China,Panzhihua,M,Asia,Mining
+1647,1800,Media & Entertainment,69,Brazil,Rio de Janeiro,M,South America,Media
+1647,1800,Media & Entertainment,67,Brazil,Rio de Janeiro,M,South America,Media
+1647,1800,Media & Entertainment,75,Brazil,Rio de Janeiro,M,South America,Media
+1647,1800,Healthcare,74,United States,Los Angeles,M,North America,Medical patents
+1647,1800,Technology,77,Canada,Montreal,M,North America,Electronics components
+1647,1800,Real Estate,51,Sweden,Stockholm,M,Europe,Real estate
+1647,1800,Technology,39,Netherlands,Amsterdam,M,Europe,Fintech
+1647,1800,Real Estate,78,India,Mumbai,M,Asia,Real estate
+1647,1800,Finance & Investments,77,Monaco,Monte Carlo,M,Europe,Art
+1647,1800,Manufacturing,70,India,Nagpur,M,Asia,Industrial explosives
+1647,1800,Diversified,72,Turkey,Ankara,M,Asia,Diversified
+1647,1800,Technology,53,China,Shenzhen,M,Asia,Electronics
+1647,1800,Media & Entertainment,61,Canada,Montreal,M,North America,Media
+1647,1800,Finance & Investments,80,United States,New York,M,North America,Leveraged buyouts
+1647,1800,Technology,46,United States,New York,M,North America,Cloud computing
+1647,1800,Media & Entertainment,76,Thailand,Bangkok,M,Asia,"Media, real estate"
+1647,1800,Manufacturing,70,India,Mumbai,M,Asia,Chemicals
+1647,1800,Technology,65,Germany,Gaildorf,F,Europe,Information technology
+1647,1800,Metals & Mining,58,Russia,Moscow,M,Europe,Steel pipes
+1647,1800,Food & Beverage,57,China,Beijing,M,Asia,Agribusiness
+1647,1800,Energy,75,China,Yixing,M,Asia,Chemical
+1647,1800,Technology,68,India,Bangalore,M,Asia,Software services
+1647,1800,Fashion & Retail,60,South Korea,Seoul,M,Asia,Cosmetics
+1647,1800,Food & Beverage,64,Indonesia,Unknown,M,Asia,Dairy & consumer products
+1647,1800,Manufacturing,73,China,Jinjiang,M,Asia,Hygiene products
+1647,1800,Logistics,83,Hong Kong,Hong Kong,M,Asia,Logistics
+1647,1800,Manufacturing,62,Vietnam,Hanoi,M,Asia,Steel
+1647,1800,Technology,67,United States,Brookline,M,North America,Software
+1647,1800,Finance & Investments,46,United States,Malibu,M,North America,E-cigarettes
+1647,1800,Technology,53,Netherlands,Amsterdam,M,Europe,Payments software
+1647,1800,Manufacturing,69,Germany,Allendorf,M,Europe,Heating and cooling equipment
+1647,1800,Technology,35,United States,San Francisco,M,North America,Blockchain technology
+1647,1800,Media & Entertainment,62,United States,Dallas,M,North America,Online media
+1647,1800,Technology,51,United States,San Francisco,M,North America,Twitter
+1647,1800,Metals & Mining,75,Australia,Sydney,M,Oceania,Investments
+1647,1800,Finance & Investments,72,Taiwan,Taipei,M,Asia,Finance
+1647,1800,Energy,56,China,Ningde,M,Asia,Batteries
+1647,1800,Healthcare,52,United States,Wilson,F,North America,Medical equipment
+1647,1800,Real Estate,50,China,Wuhan,M,Asia,Real estate
+1647,1800,Fashion & Retail,82,Japan,Unknown,M,Asia,cosmetics
+1647,1800,Manufacturing,60,United States,Bloomfield Hills,M,North America,Steel
+1647,1800,Real Estate,70,China,Guangzhou,M,Asia,Real estate
+1725,1700,Sports,67,United States,Nashville,F,North America,Tennessee Titans
+1725,1700,Finance & Investments,51,United States,Atherton,M,North America,Venture capital investing
+1725,1700,Metals & Mining,85,Italy,Cremona,M,Europe,Steel
+1725,1700,Real Estate,57,Netherlands,Amsterdam,M,Europe,Real estate
+1725,1700,Media & Entertainment,50,South Korea,Seoul,M,Asia,Entertainment
+1725,1700,Finance & Investments,77,United States,Austin,M,North America,Mutual funds
+1725,1700,Technology,61,United States,Austin,M,North America,Venture capital
+1725,1700,Manufacturing,59,China,Guangzhou,M,Asia,Household chemicals
+1725,1700,Manufacturing,79,Netherlands,Gorinchem,M,Europe,Shipbuilding
+1725,1700,Food & Beverage,83,United States,Delray Beach,M,North America,Energy drink
+1725,1700,Finance & Investments,53,Czech Republic,Prague,M,Europe,Investments
+1725,1700,Healthcare,53,United States,Annapolis,M,North America,Health IT
+1725,1700,Finance & Investments,47,Italy,Turin,M,Europe,"FIAT, investments"
+1725,1700,Automotive,74,France,Paris,M,Europe,"Motorhomes, RVs"
+1725,1700,Media & Entertainment,75,Japan,Tokyo,M,Asia,Video games
+1725,1700,Finance & Investments,81,United States,Greenwich,M,North America,Money management
+1725,1700,Finance & Investments,68,Switzerland,Zurich,M,Europe,Insurance
+1725,1700,Real Estate,67,United States,Fort Worth,M,North America,Real estate
+1725,1700,Fashion & Retail,73,Brazil,Porto Alegre,M,South America,Shoes
+1725,1700,Fashion & Retail,83,Australia,Sydney,M,Oceania,Retail
+1725,1700,Technology,49,China,Shenzhen,M,Asia,Software
+1725,1700,Real Estate,73,Thailand,Bangkok,M,Asia,Hotels
+1725,1700,Finance & Investments,66,Canada,Toronto,M,North America,Real estate finance
+1725,1700,Manufacturing,64,Finland,Helsinki,M,Europe,"Elevators, escalators"
+1725,1700,Real Estate,68,Singapore,Singapore,M,Asia,Real estate
+1725,1700,Finance & Investments,90,Canada,Toronto,M,North America,"Insurance, investments"
+1725,1700,Manufacturing,71,India,Delhi,M,Asia,Chemicals
+1725,1700,Real Estate,72,Thailand,Bangkok,M,Asia,Transportation
+1725,1700,Healthcare,52,United States,La Jolla,M,North America,Biotech
+1725,1700,Fashion & Retail,62,South Korea,Seoul,M,Asia,Apparel
+1725,1700,Fashion & Retail,59,Turkey,Istanbul,M,Asia,Fashion retail
+1725,1700,Real Estate,37,Hong Kong,Hong Kong,M,Asia,Real estate
+1725,1700,Real Estate,42,Hong Kong,Hong Kong,M,Asia,Real estate
+1725,1700,Diversified,87,Malaysia,"Tawau, Sabah",M,Asia,"Palm oil, property"
+1725,1700,Technology,48,United States,New York,M,North America,Cloud computing
+1725,1700,Healthcare,70,China,Lanzhou,F,Asia,Pharmaceuticals
+1725,1700,Healthcare,78,United States,San Antonio,M,North America,Medical products
+1725,1700,Food & Beverage,54,China,Foshan,F,Asia,Soy sauce
+1725,1700,Food & Beverage,59,United States,Key Largo,M,North America,Sandwich chain
+1725,1700,Metals & Mining,54,China,Bayannur,M,Asia,Iron ore mining
+1725,1700,Technology,59,China,Shenzhen,M,Asia,Drones
+1725,1700,Technology,30,United States,Newport Beach,M,North America,Virtual reality
+1725,1700,Finance & Investments,85,United States,Princeton,M,North America,Bloomberg LP
+1725,1700,Technology,47,Japan,Chiba,M,Asia,Online retail
+1725,1700,Fashion & Retail,60,Brazil,Sao Luis,M,South America,Supermarkets
+1725,1700,Manufacturing,74,China,Langfang,M,Asia,Chemicals
+1725,1700,Fashion & Retail,73,Spain,Madrid,M,Europe,Wedding dresses
+1725,1700,Manufacturing,75,India,Mumbai,F,Asia,Adhesives
+1725,1700,Fashion & Retail,56,Romania,Bacau,M,Europe,Retail
+1725,1700,Real Estate,73,United States,Miami,M,North America,Real estate
+1725,1700,Metals & Mining,59,Russia,Moscow,M,Europe,Steel pipes
+1725,1700,Healthcare,60,China,Nanjing,M,Asia,Pharmaceutical
+1725,1700,Media & Entertainment,63,United States,Philadelphia,M,North America,Comcast
+1725,1700,Food & Beverage,76,United States,Atlanta,M,North America,Waffle House
+1725,1700,Manufacturing,87,China,Shangyu,M,Asia,Chemicals
+1725,1700,Real Estate,67,United States,Palm Beach,M,North America,Homebuilder
+1725,1700,Diversified,64,Russia,Rostov-on-Don,M,Europe,Agribusiness
+1725,1700,Healthcare,58,Japan,Tokyo,M,Asia,Healthcare
+1725,1700,Manufacturing,89,India,Mumbai,M,Asia,Agrochemicals
+1725,1700,Fashion & Retail,53,China,Guangzhou,M,Asia,Cosmetics
+1725,1700,Real Estate,75,France,Paris,M,Europe,Real estate development
+1725,1700,Diversified,69,United States,New York,M,North America,"Insurance, NFL team"
+1725,1700,Service,63,United States,Denver,M,North America,Call centers
+1725,1700,Manufacturing,82,Taiwan,Yunlin,M,Asia,Footwear
+1725,1700,Technology,59,China,Beijing,M,Asia,Semiconductor
+1725,1700,Sports,72,United States,Los Angeles,M,North America,Sports teams
+1725,1700,Real Estate,76,United States,Dallas,M,North America,Real estate services
+1725,1700,Energy,80,United Kingdom,Aberdeen,M,Europe,Energy services
+1725,1700,Manufacturing,49,China,Shenzhen,F,Asia,Packaging
+1725,1700,Food & Beverage,49,China,Shenzhen,M,Asia,Bars
+1725,1700,Manufacturing,58,China,Beijing,M,Asia,Coking
+1725,1700,Telecom,74,Russia,Moscow,M,Europe,"Telecom, investments"
+1725,1700,Technology,49,United States,Atlanta,M,North America,Financial technology
+1725,1700,Logistics,53,China,Shanghai,F,Asia,Logistics
+1725,1700,Manufacturing,59,China,Shanghai,M,Asia,Manufacturing
+1725,1700,Manufacturing,60,China,Zhuzhou,F,Asia,Electronics
+1804,1600,Healthcare,60,United States,Lexington,M,North America,Biotech
+1804,1600,Construction & Engineering,71,Malaysia,Kuala Lumpur,M,Asia,"Engineering, automotive"
+1804,1600,Finance & Investments,83,United States,New York,M,North America,Investment banking
+1804,1600,Metals & Mining,71,Switzerland,Unknown,M,Europe,Real estate
+1804,1600,Finance & Investments,56,United States,Greenwich,M,North America,Money management
+1804,1600,Finance & Investments,66,United States,Oyster Bay,M,North America,Hedge funds
+1804,1600,Fashion & Retail,50,Austria,Kitzbuhel,M,Europe,Shoes
+1804,1600,Food & Beverage,89,Germany,Straelen,M,Europe,Frozen foods
+1804,1600,Technology,47,China,Jiujiang,M,Asia,Electronics
+1804,1600,Technology,38,China,Beijing,M,Asia,Semiconductors
+1804,1600,Real Estate,87,Taiwan,Taipei,M,Asia,Real estate
+1804,1600,Technology,62,South Korea,Seoul,M,Asia,"Oil, semiconductor"
+1804,1600,Real Estate,55,Slovakia,Bratislava,M,Europe,Real estate
+1804,1600,Construction & Engineering,64,United States,St. Louis,M,North America,Construction
+1804,1600,Finance & Investments,82,Canada,Toronto,M,North America,"Real estate, private equity"
+1804,1600,Finance & Investments,65,United States,Palo Alto,M,North America,Venture capital
+1804,1600,Sports,69,United States,Houston,M,North America,"Logistics, baseball"
+1804,1600,Logistics,68,France,Lyon,M,Europe,"Transport, logistics"
+1804,1600,Finance & Investments,67,United States,New York,M,North America,Banking
+1804,1600,Technology,51,United States,New York,M,North America,Software
+1804,1600,Finance & Investments,53,Brazil,Sao Paulo,M,South America,Banking
+1804,1600,Metals & Mining,49,Switzerland,Gstaad,M,Europe,"Commodities, investments"
+1804,1600,Finance & Investments,78,United States,Las Vegas,M,North America,Financial services
+1804,1600,Fashion & Retail,74,Canada,Boucherville,M,North America,Convinience stores
+1804,1600,Healthcare,54,China,Changsha,M,Asia,Pharmaceuticals
+1804,1600,Healthcare,45,Switzerland,Montagnola,M,Europe,Pharmaceuticals
+1804,1600,Finance & Investments,78,United States,Laguna Beach,M,North America,Investments
+1804,1600,Finance & Investments,73,United States,Laguna Beach,F,North America,Investments
+1804,1600,Sports,88,United States,Portola Valley,M,North America,"Telecommunication, sports"
+1804,1600,Energy,72,United States,Dallas,M,North America,"Oil & gas, investments"
+1804,1600,Manufacturing,58,Finland,Helsinki,F,Europe,"Elevators, escalators"
+1804,1600,Diversified,70,United States,Naples,M,North America,"Executive search, investments"
+1804,1600,Media & Entertainment,89,United States,St. Paul,M,North America,DirecTV
+1804,1600,Manufacturing,69,China,Jinjiang,M,Asia,Hygiene products
+1804,1600,Metals & Mining,60,China,Yinchuan,M,Asia,Non-ferrous metals
+1804,1600,Real Estate,59,China,Shanghai,M,Asia,Real estate
+1804,1600,Fashion & Retail,65,Russia,Moscow,M,Europe,"Retail, wholesale"
+1804,1600,Healthcare,69,United States,Manalapan,M,North America,Pharmaceuticals
+1804,1600,Energy,82,United States,Palm Beach,M,North America,"Oil, investments"
+1804,1600,Manufacturing,73,Austria,Wien,M,Europe,Investments
+1804,1600,Logistics,76,Japan,Osaka,M,Asia,Package delivery
+1804,1600,Healthcare,74,United States,Boston,M,North America,Biotech
+1804,1600,Diversified,68,United Kingdom,Nottinghamshire,M,Europe,Manufacturing
+1804,1600,Diversified,70,Greece,Athens,F,Europe,"Banking, shipping"
+1804,1600,Real Estate,45,Malaysia,Unknown,M,Asia,"Palm oil, property"
+1804,1600,Real Estate,66,China,Guangzhou,M,Asia,Real estate
+1804,1600,Real Estate,57,China,Shenzhen,M,Asia,Real estate
+1804,1600,Technology,46,China,Shanghai,M,Asia,Online games
+1804,1600,Technology,51,China,Yangzhou,F,Asia,Semiconductor devices
+1804,1600,Real Estate,75,Hong Kong,Hong Kong,M,Asia,Real estate
+1804,1600,Telecom,80,Canada,Ottawa,M,North America,Telecom
+1804,1600,Technology,57,United States,St. Louis,M,North America,Mobile payments
+1804,1600,Real Estate,74,United Arab Emirates,Dubai,M,Asia,Real estate
+1804,1600,Energy,77,Italy,Milan,M,Europe,Oil refinery
+1804,1600,Finance & Investments,69,Israel,Tel Aviv,F,Asia,Investments
+1804,1600,Automotive,66,Austria,Wels,M,Europe,Automotive
+1804,1600,Finance & Investments,58,Germany,Marburg,M,Europe,Mutual funds
+1804,1600,Finance & Investments,63,Germany,Marburg,M,Europe,Mutual funds
+1804,1600,Energy,74,United States,Chicago,M,North America,Electric power
+1804,1600,Manufacturing,58,Spain,Madrid,M,Europe,"Steel, autoparts"
+1804,1600,Metals & Mining,54,Spain,Madrid,M,Europe,"Steel, investments"
+1804,1600,Food & Beverage,44,United States,New York,M,North America,Beer
+1804,1600,Food & Beverage,68,Thailand,Bangkok,M,Asia,energy drinks
+1804,1600,Manufacturing,49,China,Hefei,M,Asia,Manufacturing
+1804,1600,Food & Beverage,55,Switzerland,Geneva,M,Europe,Alcohol
+1804,1600,Metals & Mining,59,United Kingdom,London,M,Europe,"Metals, investments"
+1804,1600,Technology,44,United States,Provo,M,North America,Cloud computing
+1804,1600,Diversified,61,Russia,Saint Petersburg,M,Europe,"Pulp and paper, diversified"
+1804,1600,Service,63,United States,Phoenix,M,North America,Education
+1804,1600,Diversified,72,United States,New York,F,North America,"Insurance, NFL team"
+1804,1600,Diversified,74,United States,Beverly Hills,M,North America,Insurance
+1804,1600,Manufacturing,57,Austria,Vienna,M,Europe,"Batteries, investments"
+1804,1600,Healthcare,67,United States,Cincinnati,M,North America,Pharmaceutical services
+1804,1600,Manufacturing,75,Taiwan,Unknown,F,Asia,Petrochemicals
+1804,1600,Technology,51,India,Chennai,M,Asia,Business software
+1804,1600,Energy,70,Australia,Brisbane,M,Oceania,Mining
+1804,1600,Media & Entertainment,57,China,Beijing,M,Asia,"TV, movie production"
+1804,1600,Media & Entertainment,36,China,Beijing,M,Asia,Toys
+1804,1600,Technology,67,United States,Logan,M,North America,Fitness equipment
+1804,1600,Energy,66,United States,Cisco,M,North America,Natural gas
+1804,1600,Fashion & Retail,82,Australia,Melbourne,M,Oceania,Retailing
+1804,1600,Fashion & Retail,76,Australia,Melbourne,M,Oceania,Retailing
+1804,1600,Fashion & Retail,85,Australia,Melbourne,M,Oceania,Retailing
+1804,1600,Technology,57,United States,Palo Alto,M,North America,Roku
+1804,1600,Manufacturing,58,China,Xianyang,M,Asia,Materials
+1804,1600,Healthcare,53,China,Lianyungang,F,Asia,Pharmaceuticals
+1804,1600,Technology,49,China,Xiamen,M,Asia,electronics
+1804,1600,Manufacturing,59,China,Wenzhou,M,Asia,Waste disposal
+1804,1600,Technology,64,China,Beijing,M,Asia,Software
+1804,1600,Healthcare,63,United States,Yorktown Heights,M,North America,Pharmaceuticals
+1804,1600,Technology,40,China,Changsha,M,Asia,Electronics
+1804,1600,Automotive,52,China,Dongguan,M,Asia,Auto dealerships
+1804,1600,Diversified,62,China,Changsha,M,Asia,Conglomerate
+1804,1600,Manufacturing,55,China,Changsha,F,Asia,Electronic components
+1804,1600,Technology,48,China,Shanghai,M,Asia,Online games
+1804,1600,Metals & Mining,75,China,Liaocheng,M,Asia,Aluminum
+1804,1600,Food & Beverage,58,China,Suqian,M,Asia,Wine
+1804,1600,Gambling & Casinos,52,Sweden,Stockholm,M,Europe,Gambling products
+1905,1500,Food & Beverage,82,India,Nagpur,M,Asia,Snacks
+1905,1500,Diversified,62,Morocco,Casablanca,M,Africa,"Petroleum, diversified"
+1905,1500,Diversified,68,Turkey,Istanbul,M,Asia,Diversified
+1905,1500,Manufacturing,61,Italy,Cesena,M,Europe,Gym equipment
+1905,1500,Diversified,26,Norway,Oslo,F,Europe,Investments
+1905,1500,Diversified,27,Norway,Oslo,F,Europe,Investments
+1905,1500,Diversified,68,Chile,Santiago,F,South America,"Forestry, mining"
+1905,1500,Healthcare,70,Israel,Herzliya Pituach,M,Asia,Pharmaceuticals
+1905,1500,Fashion & Retail,53,Italy,Campodoro,F,Europe,"Fashion retail, investments"
+1905,1500,Metals & Mining,79,Australia,Perth,F,Oceania,Mining
+1905,1500,Diversified,79,Israel,Tel Aviv,M,Asia,"Banking, oil"
+1905,1500,Fashion & Retail,85,Italy,Rome,M,Europe,Luxury goods
+1905,1500,Food & Beverage,46,United Arab Emirates,Dubai,M,Asia,Consumer goods
+1905,1500,Diversified,65,Turkey,Istanbul,M,Asia,"Energy, banking, construction"
+1905,1500,Technology,61,United States,Redwood City,F,North America,Software
+1905,1500,Logistics,68,Taiwan,Taipei,M,Asia,"Shipping, airlines"
+1905,1500,Manufacturing,60,China,Hangzhou,M,Asia,Manufacturing
+1905,1500,Diversified,70,Hungary,Budapest,M,Europe,"Finance, real estate"
+1905,1500,Finance & Investments,49,Brazil,Sao Paulo,F,South America,Banking
+1905,1500,Manufacturing,55,Italy,Milan,M,Europe,Electrodes
+1905,1500,Technology,70,United States,Fisher Island,M,North America,IT consulting
+1905,1500,Diversified,47,Tanzania,Dar es Salaam,M,Africa,Diversified
+1905,1500,Finance & Investments,49,United States,Atherton,M,North America,Private equity
+1905,1500,Manufacturing,60,China,Ningbo,M,Asia,Manufacturing
+1905,1500,Media & Entertainment,94,United States,Liberty,M,North America,Cable television
+1905,1500,Fashion & Retail,69,France,Pujols,M,Europe,Retail stores
+1905,1500,Logistics,78,Malaysia,Kuala Lumpur,M,Asia,Ports
+1905,1500,Fashion & Retail,87,Switzerland,Basel,F,Europe,Art collection
+1905,1500,Manufacturing,58,China,Shenzhen,M,Asia,Consumer electronics
+1905,1500,Technology,67,United States,Portola Valley,M,North America,Software
+1905,1500,Finance & Investments,54,United States,Hillsborough,M,North America,Private equity
+1905,1500,Finance & Investments,53,Slovakia,Bratislava,M,Europe,Investments
+1905,1500,Manufacturing,69,China,Leshan,M,Asia,Chemicals
+1905,1500,Real Estate,73,India,Mumbai,M,Asia,Real estate
+1905,1500,Finance & Investments,52,Vietnam,Hanoi,M,Asia,"Consumer products, banking"
+1905,1500,Technology,70,Taiwan,Taipei,M,Asia,Semiconductors
+1905,1500,Media & Entertainment,61,New Zealand,Wellington,M,Oceania,"Movies, digital effects"
+1905,1500,Finance & Investments,97,Canada,Montreal,M,North America,Money management
+1905,1500,Healthcare,57,India,Delhi,M,Asia,Phamaceuticals
+1905,1500,Healthcare,67,India,Delhi,M,Asia,Pharmaceuticals
+1905,1500,Diversified,62,China,Xiamen,M,Asia,Investments
+1905,1500,Diversified,78,South Korea,Seoul,M,Asia,Diversified
+1905,1500,Fashion & Retail,95,United States,New York,M,North America,Retail
+1905,1500,Food & Beverage,73,United States,Newton,M,North America,Beer
+1905,1500,Real Estate,68,Singapore,Singapore,M,Asia,"Real estate, hotels"
+1905,1500,Diversified,76,Switzerland,Geneva,M,Europe,"Banking, shipping"
+1905,1500,Manufacturing,56,Germany,Schwieberdingen,M,Europe,Machine tools
+1905,1500,Manufacturing,60,Germany,Berlin,F,Europe,Machine tools
+1905,1500,Manufacturing,63,Germany,Berlin,F,Europe,Manufacturing
+1905,1500,Manufacturing,50,China,Shenzhen,M,Asia,Lithium-ion battery cap
+1905,1500,Manufacturing,59,China,Chengdu,M,Asia,Chemicals
+1905,1500,Fashion & Retail,71,China,Ningbo,M,Asia,Apparel
+1905,1500,Manufacturing,66,China,Kunshan,M,Asia,Stainless steel products
+1905,1500,Technology,90,Taiwan,Taichung,M,Asia,Optical components
+1905,1500,Manufacturing,66,China,Shanghai,M,Asia,Chemicals
+1905,1500,Automotive,80,China,Tonghua,F,Asia,Education
+1905,1500,Logistics,59,China,Shanghai,M,Asia,Logistics
+1905,1500,Diversified,77,Egypt,Cairo,M,Africa,Diversified
+1905,1500,Real Estate,79,Australia,Gold Coast,M,Oceania,Hotels
+1905,1500,Diversified,88,Italy,Spilamberto,M,Europe,"Utilities, diversified"
+1905,1500,Finance & Investments,48,United States,New York,M,North America,Private equity
+1905,1500,Fashion & Retail,70,Italy,Crocetta del Montello,M,Europe,Shoes
+1905,1500,Service,78,Bahrain,Manama,M,Asia,Fine jewelry
+1905,1500,Logistics,79,United States,Tolleson,M,North America,Transportation
+1905,1500,Technology,63,United States,Los Altos,M,North America,Semiconductors
+1905,1500,Diversified,74,United Kingdom,London,M,Europe,Diversified
+1905,1500,Energy,73,Brazil,Sao Paulo,M,South America,"Sugar, ethanol"
+1905,1500,Finance & Investments,80,United States,Bedford,M,North America,Investments
+1905,1500,Construction & Engineering,49,Mexico,Mexico City,M,North America,Toll roads
+1905,1500,Fashion & Retail,48,Sweden,Stockholm,M,Europe,H&M
+1905,1500,Food & Beverage,55,United States,Windermere,M,North America,Sports drink
+1905,1500,Food & Beverage,66,United States,Palm Beach,M,North America,Beer distribution
+1905,1500,Real Estate,39,Singapore,Singapore,M,Asia,"Real estate, hotels"
+1905,1500,Finance & Investments,63,Peru,Lima,M,South America,Finance
+1905,1500,Finance & Investments,52,United Kingdom,London,M,Europe,Hedge fund
+1905,1500,Service,56,United States,Coral Gables,M,North America,Healthcare services
+1905,1500,Technology,53,United States,Menlo Park,F,North America,Facebook
+1905,1500,Automotive,62,Israel,Kfar Shmaryahu,M,Asia,Automotive technology
+1905,1500,Media & Entertainment,40,United States,San Francisco,M,North America,Social media
+1905,1500,Fashion & Retail,64,Singapore,Singapore,M,Asia,retail
+1905,1500,Finance & Investments,73,Russia,Moscow,M,Europe,Investments
+1905,1500,Healthcare,82,India,Mumbai,M,Asia,Pharmaceuticals
+1905,1500,Technology,64,United States,Pleasanton,M,North America,Software
+1905,1500,Real Estate,79,Australia,Canberra,M,Oceania,"Airports, real estate"
+1905,1500,Real Estate,72,United States,Sagaponack,M,North America,Real estate
+1905,1500,Finance & Investments,65,United States,San Francisco,M,North America,Hedge funds
+1905,1500,Fashion & Retail,56,Russia,Moscow,M,Europe,"Liquor stores, supermarkets"
+1905,1500,Real Estate,74,China,Shantou,F,Asia,"Utilities, real estate"
+1905,1500,Technology,39,United States,San Francisco,M,North America,Instagram
+1905,1500,Food & Beverage,59,China,Guangzhou,F,Asia,Feed
+1905,1500,Food & Beverage,40,China,Beijing,M,Asia,Beverages
+1905,1500,Technology,59,China,Shanghai,M,Asia,Semiconductors
+1905,1500,Manufacturing,79,Thailand,Bangkok,M,Asia,Paints
+1905,1500,Healthcare,50,United States,Palo Alto,M,North America,Healthcare IT
+1905,1500,Fashion & Retail,63,China,Hefei,M,Asia,Contact Lens
+1905,1500,Telecom,67,Australia,Sydney,M,Oceania,Telecom
+1905,1500,Manufacturing,79,Andorra,Unknown,F,Europe,"Investments, art"
+1905,1500,Automotive,63,Vietnam,Ho Chi Minh City,M,Asia,Automotive
+1905,1500,Telecom,75,United States,Dallas,M,North America,Telecom
+1905,1500,Gambling & Casinos,52,Sweden,Stockholm,M,Europe,Gambling products
+1905,1500,Healthcare,54,China,Chengdu,M,Asia,Pharmaceuticals
+1905,1500,Healthcare,61,China,Shenzhen,M,Asia,Medical devices
+1905,1500,Energy,71,United States,Cisco,M,North America,Natural gas
+1905,1500,Real Estate,87,Hong Kong,Hong Kong,M,Asia,Real estate
+1905,1500,Technology,47,China,Shenzhen,M,Asia,Software
+1905,1500,Media & Entertainment,59,China,Shanghai,M,Asia,Online games
+1905,1500,Technology,50,China,Wuxi,M,Asia,Electronics
+1905,1500,Food & Beverage,62,China,Suqian,M,Asia,Brewery
+1905,1500,Service,61,China,Beijing,M,Asia,Education
+1905,1500,Media & Entertainment,59,China,Shanghai,M,Asia,Online games
+1905,1500,Service,43,China,Beijing,M,Asia,Education
+1905,1500,Energy,59,China,Hangzhou,F,Asia,Solar
+1905,1500,Fashion & Retail,66,China,Shenzhen,M,Asia,Jewelry
+2020,1400,Diversified,83,Finland,Helsinki,M,Europe,Diversified
+2020,1400,Finance & Investments,80,Spain,Madrid,M,Europe,Investments
+2020,1400,Fashion & Retail,52,Australia,Melbourne,M,Oceania,Retail
+2020,1400,Technology,40,Singapore,Singapore,M,Asia,Flipkart
+2020,1400,Healthcare,75,India,Mumbai,M,Asia,Pharmaceuticals
+2020,1400,Diversified,79,United Kingdom,Aberdyfi,M,Europe,"Real estate, manufacturing"
+2020,1400,Energy,71,Russia,Surgut,M,Europe,Oil
+2020,1400,Food & Beverage,53,India,Delhi,M,Asia,Consumer goods
+2020,1400,Metals & Mining,52,China,Ningbo,M,Asia,Nickel
+2020,1400,Technology,64,United States,McLean,M,North America,AOL
+2020,1400,Technology,55,China,Suzhou,M,Asia,Testing equipment
+2020,1400,Real Estate,74,Singapore,Singapore,M,Asia,Real estate
+2020,1400,Finance & Investments,83,Brazil,Sao Paulo,M,South America,Banking
+2020,1400,Metals & Mining,65,Australia,Perth,M,Oceania,Mining
+2020,1400,Manufacturing,97,United States,New York,M,North America,Chemicals
+2020,1400,Finance & Investments,65,United States,Palm Beach,M,North America,Investments
+2020,1400,Fashion & Retail,75,Switzerland,Geneva,M,Europe,Beauty products
+2020,1400,Technology,44,United States,San Francisco,M,North America,Data analytics
+2020,1400,Diversified,55,Philippines,Manila,M,Asia,Diversified
+2020,1400,Manufacturing,64,India,Ludhiana,M,Asia,"Textiles, paper"
+2020,1400,Service,80,Switzerland,Lucerne,M,Europe,Cruises
+2020,1400,Construction & Engineering,44,France,Paris,M,Europe,"Construction, investments"
+2020,1400,Finance & Investments,79,Mexico,Mexico City,M,North America,"Banking, investments"
+2020,1400,Automotive,45,China,Guangzhou,M,Asia,Electric vehicles
+2020,1400,Fashion & Retail,65,United Kingdom,London,M,Europe,Consumer goods
+2020,1400,Fashion & Retail,81,United States,Kearney,M,North America,Fashion retail
+2020,1400,Technology,40,United States,Austin,M,North America,Cloud storage service
+2020,1400,Manufacturing,58,China,Xuancheng,M,Asia,Chemicals
+2020,1400,Manufacturing,74,India,Mumbai,M,Asia,Textiles
+2020,1400,Healthcare,68,China,Chengdu,M,Asia,Pharmaceuticals
+2020,1400,Media & Entertainment,56,South Korea,Seoul,M,Asia,Online games
+2020,1400,Real Estate,59,Singapore,Singapore,M,Asia,"Real estate, hotels"
+2020,1400,Manufacturing,51,Russia,Moscow,M,Europe,Building materials
+2020,1400,Finance & Investments,76,India,Mumbai,M,Asia,Financial services
+2020,1400,Finance & Investments,42,Switzerland,Unknown,M,Europe,Diversified
+2020,1400,Real Estate,77,Singapore,Singapore,M,Asia,Real estate
+2020,1400,Real Estate,65,Singapore,Singapore,M,Asia,Real estate
+2020,1400,Real Estate,70,Singapore,Singapore,M,Asia,Real estate
+2020,1400,Real Estate,76,Singapore,Singapore,M,Asia,Real estate
+2020,1400,Diversified,71,Singapore,Singapore,M,Asia,Diversified
+2020,1400,Diversified,67,Singapore,Singapore,M,Asia,Diversified
+2020,1400,Real Estate,69,Hong Kong,Hong Kong,M,Asia,Real estate
+2020,1400,Diversified,60,South Korea,Seoul,M,Asia,Diversified
+2020,1400,Finance & Investments,72,Canada,Burlington,M,North America,Mutual funds
+2020,1400,Service,69,Monaco,Monte Carlo,M,Europe,Cruises
+2020,1400,Fashion & Retail,97,United Kingdom,London,M,Europe,Fashion retailer
+2020,1400,Metals & Mining,59,China,Chifeng,F,Asia,Mining
+2020,1400,Automotive,48,China,Beijing,M,Asia,Electric vehicles
+2020,1400,Manufacturing,52,Sweden,Helsingborg,F,Europe,Powdered metal
+2020,1400,Technology,69,Taiwan,Taipei,M,Asia,Manufacturing
+2020,1400,Manufacturing,60,Hong Kong,Hong Kong,M,Asia,Paper
+2020,1400,Metals & Mining,70,Russia,Moscow,M,Europe,Investments
+2020,1400,Food & Beverage,79,Canada,Vancouver,M,North America,Drugstores
+2020,1400,Diversified,90,Brazil,Rondonopolis,F,South America,Agribusiness
+2020,1400,Media & Entertainment,69,United States,Denver,M,North America,"Cable TV, investments"
+2020,1400,Technology,82,China,Ningbo,M,Asia,Cooking appliances
+2020,1400,Manufacturing,82,United Kingdom,Wotton-under-Edge,M,Europe,Manufacturing
+2020,1400,Manufacturing,66,India,Vadodara,M,Asia,Chemicals
+2020,1400,Real Estate,68,China,Shenzhen,M,Asia,Real estate
+2020,1400,Healthcare,55,China,Zhengzhou,M,Asia,Clinical diagnostics
+2020,1400,Real Estate,82,Japan,Tokyo,F,Asia,Real estate
+2020,1400,Technology,57,Israel,Tel Aviv,M,Asia,Software
+2020,1400,Healthcare,72,Japan,Kobe,F,Asia,Medical diagnostic equipment
+2020,1400,Metals & Mining,59,Ukraine,Kiev,M,Europe,Steel
+2020,1400,Finance & Investments,49,Thailand,Bangkok,M,Asia,"Energy drinks,investments"
+2020,1400,Finance & Investments,57,Australia,Sydney,F,Oceania,Investments
+2020,1400,Manufacturing,58,China,Nanjing,M,Asia,Manufacturing
+2020,1400,Real Estate,60,China,Beijing,M,Asia,Real estate
+2020,1400,Healthcare,56,United States,Audubon,M,North America,Medical devices
+2020,1400,Fashion & Retail,38,Sweden,Stockholm,M,Europe,H&M
+2020,1400,Automotive,50,China,Wuxi,F,Asia,Electric scooters
+2020,1400,Manufacturing,57,China,Qingdao,M,Asia,Tire
+2020,1400,Healthcare,65,India,Hyderabad,M,Asia,Pharmaceuticals
+2020,1400,Diversified,93,Indonesia,Jakarta,M,Asia,Diversified
+2020,1400,Fashion & Retail,35,United States,Los Angeles,F,North America,"Music, cosmetics"
+2020,1400,Construction & Engineering,66,Russia,Moscow,M,Europe,"Construction, pipes, chemicals"
+2020,1400,Real Estate,79,India,Mumbai,M,Asia,Real estate
+2020,1400,Manufacturing,50,Russia,Moscow,M,Europe,Building materials
+2020,1400,Healthcare,61,Brazil,Santo Andre,M,South America,Generic drugs
+2020,1400,Real Estate,85,United States,Seattle,M,North America,Real estate
+2020,1400,Energy,61,Russia,Kazan,M,Europe,"Refinery, chemicals"
+2020,1400,Energy,58,Russia,Kazan,M,Europe,"Refinery, chemicals"
+2020,1400,Fashion & Retail,97,Japan,Saitama,M,Asia,Retail
+2020,1400,Technology,48,United States,Provo,M,North America,Cloud computing
+2020,1400,Fashion & Retail,46,Sweden,Stockholm,F,Europe,H&M
+2020,1400,Healthcare,52,India,Bangalore,M,Asia,Pharmaceuticals
+2020,1400,Healthcare,57,India,Bangalore,M,Asia,Pharmaceuticals
+2020,1400,Finance & Investments,95,United States,New York,F,North America,Diversified
+2020,1400,Technology,60,China,Hangzhou,M,Asia,Fiber optic cables
+2020,1400,Logistics,58,China,Shanghai,M,Asia,Logistics
+2020,1400,Manufacturing,68,China,Hangzhou,M,Asia,Manufacturing
+2020,1400,Manufacturing,76,China,Weihai,F,Asia,Carbon fiber products
+2020,1400,Metals & Mining,26,China,Jiaozuo,M,Asia,Chemicals
+2020,1400,Manufacturing,84,Switzerland,Zurich,M,Europe,Electronic components
+2020,1400,Manufacturing,37,Brazil,Joinville,F,South America,Industrial machinery
+2020,1400,Finance & Investments,80,United States,Paoli,M,North America,Money management
+2020,1400,Manufacturing,68,China,Nanjing,M,Asia,Machinery
+2020,1400,Manufacturing,53,China,Meishan,M,Asia,Chemicals
+2020,1400,Technology,43,China,Shenzhen,M,Asia,Drones
+2020,1400,Manufacturing,59,China,Changzhou,M,Asia,Motors
+2020,1400,Food & Beverage,58,China,Hengshui,M,Asia,Beverages
+2020,1400,Real Estate,63,China,Shanghai,M,Asia,Real estate
+2020,1400,Healthcare,52,China,Shenzhen,F,Asia,Pharmaceuticals
+2020,1400,Manufacturing,60,China,Zhongshan,M,Asia,Machinery
+2020,1400,Real Estate,62,China,Guangzhou,M,Asia,Real estate
+2020,1400,Real Estate,57,China,Beijing,F,Asia,Real estate
+2020,1400,Manufacturing,60,China,Chongqing,M,Asia,Machinery
+2020,1400,Manufacturing,62,China,Ningbo,M,Asia,Electrical equipment
+2020,1400,Real Estate,65,Singapore,Singapore,M,Asia,Real estate
+2020,1400,Fashion & Retail,57,China,Shanghai,M,Asia,Fashion retail
+2020,1400,Diversified,63,Russia,Saint Petersburg,M,Europe,"Pulp and paper, diversified"
+2133,1300,Automotive,53,United States,Dallas,M,North America,Damaged cars
+2133,1300,Logistics,85,Indonesia,Surabaya,M,Asia,Chemicals
+2133,1300,Healthcare,64,India,Mumbai,M,Asia,Pharmaceuticals
+2133,1300,Healthcare,76,India,Baroda,M,Asia,Pharmaceuticals
+2133,1300,Real Estate,72,Thailand,Bangkok,M,Asia,Real estate
+2133,1300,Finance & Investments,55,Russia,Moscow,M,Europe,"Banking, development"
+2133,1300,Automotive,64,Israel,Mevaseret Zion,M,Asia,Automotive technology
+2133,1300,Fashion & Retail,41,India,Bangalore,M,Asia,Flipkart
+2133,1300,Energy,83,Indonesia,Jakarta,M,Asia,Coal
+2133,1300,Construction & Engineering,60,United Kingdom,London,F,Europe,"Investments, real estate"
+2133,1300,Healthcare,70,India,Mumbai,M,Asia,Pharmaceuticals
+2133,1300,Finance & Investments,90,Morocco,Casablanca,M,Africa,"Banking, insurance"
+2133,1300,Diversified,66,India,Delhi,M,Asia,Diversified
+2133,1300,Healthcare,70,India,Delhi,M,Asia,"Pharmaceuticals, food"
+2133,1300,Technology,50,United States,Aspen,M,North America,Messaging software
+2133,1300,Technology,71,China,Quanzhou,M,Asia,Electronic components
+2133,1300,Technology,40,United States,Monkton,M,North America,Software
+2133,1300,Manufacturing,58,China,Shanghai,M,Asia,Industrial equipment
+2133,1300,Real Estate,76,Taiwan,Taipei,M,Asia,"Real estate, electronics"
+2133,1300,Metals & Mining,62,China,Tongxiang,M,Asia,Minerals processing
+2133,1300,Manufacturing,50,China,Shanghai,M,Asia,Power tools
+2133,1300,Automotive,64,Taiwan,Taoyuan,M,Asia,Auto parts
+2133,1300,Telecom,52,United States,Miami Beach,M,North America,Cell phone distribution
+2133,1300,Finance & Investments,77,Spain,Madrid,M,Europe,Investments
+2133,1300,Real Estate,76,Argentina,Buenos Aires,M,South America,Real estate
+2133,1300,Food & Beverage,54,China,Changsha,M,Asia,Food
+2133,1300,Technology,60,India,Pune,M,Asia,Technology
+2133,1300,Media & Entertainment,86,Turkey,Istanbul,M,Asia,Media
+2133,1300,Finance & Investments,52,Italy,Segrate,F,Europe,Financial services
+2133,1300,Finance & Investments,55,Italy,Milan,M,Europe,Financial services
+2133,1300,Healthcare,59,China,Shenzhen,M,Asia,Vaccines
+2133,1300,Energy,67,United States,Midland,M,North America,Energy
+2133,1300,Media & Entertainment,74,Japan,Yokohama City,F,Asia,Video games
+2133,1300,Media & Entertainment,72,Japan,Yokohama City,M,Asia,Video games
+2133,1300,Finance & Investments,45,Canada,Montreal,M,North America,Online payments
+2133,1300,Real Estate,87,United States,Houston,M,North America,Real estate
+2133,1300,Construction & Engineering,45,Italy,Milan,F,Europe,Chemical products
+2133,1300,Finance & Investments,65,United States,Gladwyne,M,North America,"Trading, investments"
+2133,1300,Finance & Investments,59,China,Shenzhen,M,Asia,Investments
+2133,1300,Manufacturing,36,Finland,Helsinki,M,Europe,"Elevators, escalators"
+2133,1300,Real Estate,70,China,Shanghai,M,Asia,Real estate
+2133,1300,Finance & Investments,57,United States,New York,M,North America,Asset management
+2133,1300,Service,72,United States,Locust Valley,M,North America,Industrial equipment
+2133,1300,Manufacturing,61,India,Aurangabad,M,Asia,Auto parts
+2133,1300,Manufacturing,64,China,Dezhou,M,Asia,Manufacturing
+2133,1300,Manufacturing,56,China,Fuxin,M,Asia,Manufacturing
+2133,1300,Finance & Investments,62,Sweden,Stockholm,M,Europe,Asset management
+2133,1300,Finance & Investments,101,United States,Los Angeles,M,North America,Insurance
+2133,1300,Technology,57,Singapore,Singapore,M,Asia,Call centers
+2133,1300,Diversified,60,Poland,Cieszyn,M,Europe,"Real estate, gambling"
+2133,1300,Technology,55,United States,Palo Alto,M,North America,Software firm
+2133,1300,Healthcare,58,United States,Irvine,M,North America,Medical devices
+2133,1300,Finance & Investments,65,United States,Chestnut Hill,M,North America,Investments
+2133,1300,Technology,82,Japan,Tokyo,M,Asia,Video games
+2133,1300,Technology,69,United States,Highland Park,M,North America,Retail
+2133,1300,Technology,70,Czech Republic,Prague,M,Europe,Software
+2133,1300,Finance & Investments,42,United Kingdom,London,M,Europe,"Payments, banking"
+2133,1300,Fashion & Retail,60,United States,Atherton,M,North America,Estée Lauder
+2133,1300,Technology,55,South Korea,Seoul,M,Asia,Internet
+2133,1300,Diversified,73,United States,Hillsborough,M,North America,"Genentech, Apple"
+2133,1300,Food & Beverage,73,China,Laizhou,M,Asia,Seed production
+2133,1300,Diversified,61,China,Ruzhou,F,Asia,"Steel, diversified"
+2133,1300,Manufacturing,58,China,Hangzhou,M,Asia,Petro Firbe
+2133,1300,Manufacturing,46,China,Wuhan,M,Asia,Machinery
+2133,1300,Healthcare,71,China,Chengdu,M,Asia,Pharmaceuticals
+2133,1300,Food & Beverage,68,Brazil,Rondonopolis,M,South America,Agribusiness
+2133,1300,Media & Entertainment,45,China,Xiamen,M,Asia,Online games
+2133,1300,Healthcare,58,China,Hangzhou,M,Asia,Medical equipment
+2133,1300,Food & Beverage,66,Brazil,Cuiaba,M,South America,Agribusiness
+2133,1300,Diversified,61,Egypt,Cairo,M,Africa,Diversified
+2133,1300,Fashion & Retail,59,China,Shanghai,M,Asia,E-commerce
+2133,1300,Real Estate,81,United States,Los Altos Hills,M,North America,Real estate
+2133,1300,Healthcare,57,France,Nantes,M,Europe,Laboratory services
+2133,1300,Finance & Investments,63,Germany,Munich,M,Europe,Finance services
+2133,1300,Logistics,58,Switzerland,Lugano,M,Europe,Aircraft leasing
+2133,1300,Finance & Investments,60,United States,Paradise Valley,M,North America,Investments
+2133,1300,Finance & Investments,67,United States,New York,M,North America,"Investments, energy"
+2133,1300,Food & Beverage,59,Vietnam,Ho Chi Minh City,M,Asia,"Consumer products, banking"
+2133,1300,Gambling & Casinos,80,Japan,Tokyo,M,Asia,Casinos
+2133,1300,Healthcare,55,United States,Unknown,M,North America,Biotech
+2133,1300,Manufacturing,87,United States,McLean,M,North America,Defense contractor
+2133,1300,Fashion & Retail,38,China,Shanghai,F,Asia,E-commerce
+2133,1300,Real Estate,67,India,Hyderabad,M,Asia,Real estate
+2133,1300,Logistics,72,India,Bangalore,M,Asia,Infrastructure
+2133,1300,Healthcare,65,India,Hyderabad,M,Asia,Pharmaceuticals
+2133,1300,Healthcare,55,India,Hyderabad,M,Asia,Pharmaceuticals
+2133,1300,Fashion & Retail,75,Spain,Valencia,M,Europe,Supermarkets
+2133,1300,Diversified,49,Russia,Moscow,M,Europe,"Investments, real estate"
+2133,1300,Manufacturing,60,United States,Unknown,M,North America,Chemicals
+2133,1300,Diversified,77,Turkey,Istanbul,F,Asia,Diversified
+2133,1300,Food & Beverage,77,Japan,Tokyo,M,Asia,Beverages
+2133,1300,Gambling & Casinos,81,Japan,Tokyo,M,Asia,"Video games, pachinko"
+2133,1300,Technology,66,United States,Atherton,M,North America,Software
+2133,1300,Healthcare,70,India,Bangalore,M,Asia,Healthcare
+2133,1300,Diversified,70,Russia,Kazan,M,Europe,"Refinery, chemicals"
+2133,1300,Food & Beverage,50,Australia,Gold Coast,M,Oceania,"Food, retail"
+2133,1300,Manufacturing,56,China,Yantai,M,Asia,Machinery
+2133,1300,Sports,54,United States,Tampa,M,North America,Sports
+2133,1300,Sports,59,United States,Tampa,F,North America,Sports
+2133,1300,Sports,63,United States,Tampa,F,North America,Sports
+2133,1300,Metals & Mining,64,Russia,Chelyabinsk,M,Europe,"Gold, coal mining"
+2133,1300,Energy,69,Russia,Kazan,M,Europe,"Refinery, chemicals"
+2133,1300,Food & Beverage,66,Germany,Rheda-Wiedenbrück,M,Europe,Meat processing
+2133,1300,Food & Beverage,44,Germany,Rheda-Wiedenbrück,M,Europe,Meat processing
+2133,1300,Real Estate,77,Australia,Brisbane,M,Oceania,Real estate
+2133,1300,Healthcare,89,Thailand,Bangkok,M,Asia,Hospitals
+2133,1300,Fashion & Retail,63,China,Nanjing,M,Asia,Retail
+2133,1300,Service,54,China,Shanghai,M,Asia,Airline
+2133,1300,Manufacturing,55,China,Shenzhen,M,Asia,Electronics components
+2133,1300,Technology,47,China,Shanghai,M,Asia,Software
+2133,1300,Fashion & Retail,83,Cayman Islands,Grand Cayman,M,North America,Health products
+2133,1300,Manufacturing,50,China,Chengdu,F,Asia,Battery components
+2133,1300,Diversified,74,China,Wuhu,M,Asia,Internet
+2133,1300,Healthcare,57,China,Shenzhen,M,Asia,Medical devices
+2133,1300,Technology,60,China,Shenzhen,M,Asia,Software
+2133,1300,Technology,53,China,Beijing,F,Asia,Software
+2133,1300,Manufacturing,54,China,Changsha,M,Asia,Aluminum products
+2133,1300,Service,52,China,Beijing,M,Asia,Online recruitment
+2133,1300,Service,56,Hong Kong,Hong Kong,F,Asia,Hotels
+2133,1300,Metals & Mining,49,Ukraine,Kiev,M,Europe,Mining
+2133,1300,Manufacturing,59,China,Jinan,M,Asia,Semiconductor materials
+2259,1200,Finance & Investments,52,India,Jaipur,M,Asia,Banking
+2259,1200,Finance & Investments,63,Qatar,Doha,M,Asia,Investments
+2259,1200,Diversified,70,Brazil,São Paulo,M,South America,Pharmaceuticals
+2259,1200,Metals & Mining,60,Switzerland,Gstaad,M,Europe,Steel
+2259,1200,Finance & Investments,50,United States,Nyack,M,North America,Finance
+2259,1200,Technology,41,United States,Atlanta,M,North America,Software
+2259,1200,Healthcare,66,Turkey,Istanbul,M,Asia,Hospitals
+2259,1200,Real Estate,55,Israel,Herzliya,F,Asia,Real estate
+2259,1200,Real Estate,57,Canada,Toronto,F,North America,Real estate
+2259,1200,Real Estate,62,Canada,Montreal,F,North America,Real estate
+2259,1200,Energy,59,China,Ningbo,M,Asia,Lithium battery
+2259,1200,Finance & Investments,86,United States,Aspen,M,North America,Money management
+2259,1200,Healthcare,46,Germany,Melsungen,M,Europe,Medical technology
+2259,1200,Healthcare,36,Germany,Melsungen,F,Europe,Medical technology
+2259,1200,Healthcare,39,Germany,Melsungen,F,Europe,Medical technology
+2259,1200,Real Estate,78,Malaysia,Kuala Lumpur,M,Asia,"Property, healthcare"
+2259,1200,Food & Beverage,63,China,Hefei,M,Asia,Food
+2259,1200,Healthcare,54,China,Hefei,M,Asia,Pharmaceuticals
+2259,1200,Fashion & Retail,54,South Korea,Seoul,M,Asia,Retail
+2259,1200,Service,82,United States,Dallas,M,North America,Software
+2259,1200,Fashion & Retail,69,Italy,Sant'' Elpidio A Mare,M,Europe,Shoes
+2259,1200,Manufacturing,71,India,Surat,M,Asia,Specialty chemicals
+2259,1200,Media & Entertainment,71,United Kingdom,London,M,Europe,Publishing
+2259,1200,Fashion & Retail,52,China,Quanzhou,M,Asia,"Sneakers, sportswear"
+2259,1200,Fashion & Retail,85,Turkey,Istanbul,M,Asia,Fashion retail
+2259,1200,Media & Entertainment,60,Germany,Potsdam,M,Europe,Media
+2259,1200,Manufacturing,84,United States,Denver,M,North America,Solar panels
+2259,1200,Diversified,65,Brazil,Sao Paulo,M,South America,Diversified
+2259,1200,Diversified,70,Brazil,Sao Paulo,M,South America,Diversified
+2259,1200,Manufacturing,56,China,Shunde,M,Asia,Home appliances
+2259,1200,Manufacturing,66,Brazil,São Paulo,M,South America,Pulp and paper
+2259,1200,Manufacturing,51,Hungary,Unknown,M,Europe,Manufacturing
+2259,1200,Fashion & Retail,30,United Kingdom,Birmingham,M,Europe,Fitness clothing
+2259,1200,Fashion & Retail,65,United States,Belvedere,M,North America,Furniture retail
+2259,1200,Metals & Mining,49,Israel,Bnei Brak,M,Asia,Mining
+2259,1200,Manufacturing,56,India,Mumbai,M,Asia,Textiles
+2259,1200,Finance & Investments,63,United States,New York,M,North America,Private equity
+2259,1200,Manufacturing,72,India,Delhi,F,Asia,Steel tubes
+2259,1200,Technology,67,Australia,Melbourne,M,Oceania,Technology
+2259,1200,Construction & Engineering,42,United Kingdom,London,M,Europe,"Construction, investments"
+2259,1200,Fashion & Retail,75,United States,Philadelphia,M,North America,Urban Outfitters
+2259,1200,Finance & Investments,73,Australia,Melbourne,M,Oceania,Financial services
+2259,1200,Technology,43,United States,Seattle,M,North America,Software
+2259,1200,Gambling & Casinos,46,Hong Kong,Hong Kong,M,Asia,Casinos
+2259,1200,Fashion & Retail,58,China,Ningbo,M,Asia,"Textiles, apparel"
+2259,1200,Technology,68,Australia,Melbourne,M,Oceania,Technology
+2259,1200,Telecom,76,United Kingdom,London,M,Europe,Communications
+2259,1200,Food & Beverage,66,Taiwan,Tainan,F,Asia,Food & beverage retailing
+2259,1200,Finance & Investments,55,United States,Los Angeles,M,North America,Finance
+2259,1200,Fashion & Retail,42,United States,Hidden Hills,F,North America,"Shapewear, cosmetics, reality TV"
+2259,1200,Manufacturing,57,China,Shanghai,M,Asia,Auto parts
+2259,1200,Healthcare,56,China,Guangzhou,M,Asia,Retailing
+2259,1200,Real Estate,55,Russia,Moscow,M,Europe,Real estate
+2259,1200,Manufacturing,65,Germany,Berlin,F,Europe,Building materials
+2259,1200,Manufacturing,65,Germany,Iphofen,M,Europe,Building materials
+2259,1200,Automotive,86,India,Chennai,M,Asia,Auto parts
+2259,1200,Media & Entertainment,63,Canada,Montreal,M,North America,Cirque du Soleil
+2259,1200,Technology,45,South Korea,Unknown,M,Asia,Hospitality
+2259,1200,Manufacturing,53,China,Hangzhou,M,Asia,Petro Fibre
+2259,1200,Healthcare,59,China,Shenzhen,M,Asia,Pharmaceuticals
+2259,1200,Healthcare,43,China,Beijing,M,Asia,Medical services
+2259,1200,Manufacturing,59,China,Hefei,M,Asia,Lithium batteries
+2259,1200,Manufacturing,59,China,Shenzhen,M,Asia,Conglomerate
+2259,1200,Energy,60,Hong Kong,Hong Kong,M,Asia,Natural gas distribution
+2259,1200,Technology,68,United States,San Diego,M,North America,Software
+2259,1200,Food & Beverage,63,United States,Boulder,M,North America,Cargill
+2259,1200,Food & Beverage,73,United States,Plymouth,M,North America,Cargill
+2259,1200,Food & Beverage,71,United States,Orono,F,North America,Cargill
+2259,1200,Food & Beverage,68,United States,Englewood,M,North America,Cargill
+2259,1200,Diversified,99,India,Mumbai,M,Asia,Diversified
+2259,1200,Manufacturing,60,China,Changsha,M,Asia,Manufacturing
+2259,1200,Construction & Engineering,60,United States,Miami,M,North America,Construction
+2259,1200,Diversified,57,Hungary,Felcsút,M,Europe,Diversified
+2259,1200,Technology,66,United States,Minnetonka,M,North America,Data management
+2259,1200,Healthcare,85,United States,Lower Merion,M,North America,Healthcare services
+2259,1200,Diversified,68,Brazil,Sao Paulo,F,South America,Diversified
+2259,1200,Finance & Investments,50,United States,New York,M,North America,Private equity
+2259,1200,Food & Beverage,56,Germany,Berlin,M,Europe,Candy
+2259,1200,Technology,48,United States,Miami Beach,M,North America,Stock photos
+2259,1200,Food & Beverage,58,Russia,Murmansk,M,Europe,Fisheries
+2259,1200,Real Estate,82,Brazil,Rio de Janeiro,M,South America,Shopping malls
+2259,1200,Media & Entertainment,43,Sweden,Stockholm,M,Europe,Computer games
+2259,1200,Technology,57,United States,San Francisco,M,North America,Online games
+2259,1200,Diversified,82,Indonesia,Jakarta,M,Asia,Diversified
+2259,1200,Healthcare,90,United States,Cleveland,M,North America,Health care
+2259,1200,Food & Beverage,57,China,Nanyang,F,Asia,Pig breeding
+2259,1200,Manufacturing,76,United States,Abbeville,M,North America,Lumber
+2259,1200,Finance & Investments,59,Switzerland,Lugano,M,Europe,Investments
+2259,1200,Food & Beverage,67,Brazil,Rondonopolis,M,South America,Agribusiness
+2259,1200,Finance & Investments,59,United States,Los Angeles,M,North America,Finance
+2259,1200,Real Estate,52,India,Mumbai,M,Asia,Real estate
+2259,1200,Finance & Investments,62,United Kingdom,London,M,Europe,Hedge funds
+2259,1200,Food & Beverage,72,Canada,Montreal,M,North America,Cheese
+2259,1200,Construction & Engineering,78,United Arab Emirates,Dubai,M,Asia,"Engineering, sugar"
+2259,1200,Finance & Investments,81,Canada,Toronto,M,North America,Finance
+2259,1200,Fashion & Retail,80,United Kingdom,London,M,Europe,Cosmetics
+2259,1200,Technology,52,China,Guangzhou,M,Asia,Online apparel retail
+2259,1200,Technology,43,United States,San Francisco,M,North America,Software
+2259,1200,Automotive,43,Germany,Munich,M,Europe,Car rentals
+2259,1200,Automotive,40,Germany,Munich,M,Europe,Car rentals
+2259,1200,Energy,73,Indonesia,Jakarta,M,Asia,"Coal, investments"
+2259,1200,Healthcare,49,India,Mumbai,M,Asia,Healthcare
+2259,1200,Technology,52,United Kingdom,London,M,Europe,Software
+2259,1200,Construction & Engineering,51,Italy,Milan,M,Europe,Chemical products
+2259,1200,Construction & Engineering,51,Italy,Milan,F,Europe,Chemical products
+2259,1200,Finance & Investments,82,United States,Mount Kisco,M,North America,Hedge funds
+2259,1200,Technology,58,United States,Berkeley,M,North America,Data analytics
+2259,1200,Metals & Mining,77,Indonesia,Jakarta,M,Asia,Coal
+2259,1200,Manufacturing,61,Belgium,Deinze,M,Europe,"Textile, chemicals"
+2259,1200,Food & Beverage,70,Philippines,Manila,M,Asia,Food
+2259,1200,Manufacturing,59,China,Changsha,M,Asia,Manufacturing
+2259,1200,Real Estate,78,Australia,Melbourne,M,Oceania,Real estate
+2259,1200,Finance & Investments,75,Italy,Tombolo,F,Europe,Financial services
+2259,1200,Manufacturing,60,China,Dongguan,M,Asia,Manufacturing
+2259,1200,Media & Entertainment,81,Netherlands,Baarn,M,Europe,TV shows
+2259,1200,Finance & Investments,54,Armenia,Erevan,M,Europe,Investment banking
+2259,1200,Fashion & Retail,63,Italy,Milan,M,Europe,Fashion
+2259,1200,Real Estate,65,Thailand,Bangkok,M,Asia,Real estate
+2259,1200,Finance & Investments,57,Hong Kong,Hong Kong,M,Asia,Asset management
+2259,1200,Healthcare,59,China,Zhangzhou,M,Asia,Pharmaceuticals
+2259,1200,Manufacturing,61,Taiwan,Taipei,M,Asia,Pneumatic equipments
+2259,1200,Manufacturing,54,China,Urumchi,M,Asia,Lithium
+2259,1200,Diversified,87,United States,Jacksonville,M,North America,Shoes
+2259,1200,Food & Beverage,67,Israel,Bnei Atarot,F,Asia,Coca Cola Israel
+2259,1200,Finance & Investments,41,United States,New York,M,North America,Cryptocurrency
+2259,1200,Finance & Investments,41,United States,New York,M,North America,Cryptocurrency
+2259,1200,Manufacturing,67,Taiwan,Chang Hwa County,M,Asia,Manufacturing
+2259,1200,Finance & Investments,77,Taiwan,Taipei,M,Asia,Finance
+2259,1200,Fashion & Retail,52,China,Xiamen,M,Asia,Apparel
+2259,1200,Manufacturing,58,China,Guangzhou,M,Asia,Batteries
+2259,1200,Manufacturing,60,China,Changsha,M,Asia,Manufacturing
+2259,1200,Food & Beverage,58,China,Huaibei city,M,Asia,Wine
+2259,1200,Manufacturing,60,China,Nantong,M,Asia,Manufacturing
+2259,1200,Service,78,China,Ningbo,M,Asia,Education
+2259,1200,Manufacturing,61,China,Hangzhou,F,Asia,Petro Fibre
+2259,1200,Healthcare,60,Russia,Moscow,M,Europe,Pharmacy
+2259,1200,Fashion & Retail,46,China,Guangzhou,F,Asia,Retail
+2259,1200,Technology,37,United States,Berkeley,M,North America,Data analytics
+2259,1200,Diversified,60,China,Nantong,M,Asia,Diversified
+2259,1200,Technology,47,China,Jiaxing,M,Asia,Telecom
+2259,1200,Manufacturing,66,China,Dongguan,F,Asia,Paper manufacturing
+2259,1200,Healthcare,56,China,Shanghai,F,Asia,Pharmaceuticals
+2259,1200,Manufacturing,58,China,Shanghai,M,Asia,Chemicals
+2259,1200,Construction & Engineering,63,China,Suzhou,M,Asia,Construction
+2405,1100,Fashion & Retail,66,India,Delhi,M,Asia,Sports shoes
+2405,1100,Energy,67,Russia,Moscow,M,Europe,Investments
+2405,1100,Finance & Investments,51,United States,New York,M,North America,Private equity
+2405,1100,Food & Beverage,42,United States,Rochester,F,North America,Liquor
+2405,1100,Fashion & Retail,52,United States,Atlanta,F,North America,Spanx
+2405,1100,Finance & Investments,68,United States,New York,M,North America,Banking
+2405,1100,Diversified,61,Ukraine,Dnipro,M,Europe,"Banking, investments"
+2405,1100,Real Estate,56,Switzerland,Lens,M,Europe,Real estate
+2405,1100,Diversified,58,Switzerland,Lipperswil,M,Europe,Diversified
+2405,1100,Technology,28,United States,Miami,M,North America,E-commerce software
+2405,1100,Fashion & Retail,72,Germany,St. Wendel,M,Europe,Retail
+2405,1100,Technology,61,Indonesia,Jakarta,F,Asia,Data centers
+2405,1100,Food & Beverage,80,India,Delhi,M,Asia,Consumer goods
+2405,1100,Healthcare,59,China,Lianyungang,M,Asia,Pharmaceuticals
+2405,1100,Manufacturing,60,China,Quzhou,M,Asia,Air compressors
+2405,1100,Food & Beverage,82,Italy,Milan,F,Europe,Supermarkets
+2405,1100,Food & Beverage,45,Italy,Milan,F,Europe,Supermarkets
+2405,1100,Technology,40,China,Beijing,M,Asia,Technology
+2405,1100,Healthcare,61,China,Linhai,M,Asia,Pharmaceutical
+2405,1100,Energy,55,China,Guangzhou,M,Asia,Solar energy
+2405,1100,Logistics,47,China,Shanghai,F,Asia,Package delivery
+2405,1100,Technology,73,Taiwan,Taichung,M,Asia,Electronics
+2405,1100,Manufacturing,55,China,Shantou,F,Asia,Stationery
+2405,1100,Food & Beverage,58,China,Changzhou,M,Asia,Poultry breeding
+2405,1100,Technology,61,United States,Las Vegas,F,North America,Semiconductors
+2405,1100,Food & Beverage,70,Spain,Barcelona,F,Europe,Coca-Cola bottler
+2405,1100,Manufacturing,72,China,Zhongshan,M,Asia,Paper
+2405,1100,Finance & Investments,87,Israel,Tel Aviv,M,Asia,Insurance
+2405,1100,Finance & Investments,65,United Kingdom,Cardiff,M,Europe,Insurance
+2405,1100,Service,88,Spain,Palma de Majorca,M,Europe,Hotels
+2405,1100,Manufacturing,63,Brazil,São Paulo,M,South America,Pulp and paper
+2405,1100,Telecom,56,Cyprus,Limassol,M,Europe,Investments
+2405,1100,Fashion & Retail,79,United States,Brookline,M,North America,Reebok
+2405,1100,Fashion & Retail,69,United States,San Francisco,M,North America,Gap
+2405,1100,Fashion & Retail,66,Germany,Rottendorf,M,Europe,Fashion retail
+2405,1100,Manufacturing,82,United States,Los Angeles,M,North America,Manufacturing
+2405,1100,Healthcare,74,China,Beijing,M,Asia,Pharmaceuticals
+2405,1100,Fashion & Retail,70,India,Delhi,M,Asia,Mattresses
+2405,1100,Finance & Investments,60,United States,New York,M,North America,Private equity
+2405,1100,Real Estate,47,Russia,Moscow,M,Europe,"Building, development"
+2405,1100,Fashion & Retail,63,United Kingdom,London,F,Europe,Fashion retail
+2405,1100,Fashion & Retail,63,United Kingdom,London,M,Europe,Fashion retail
+2405,1100,Energy,34,United Kingdom,London,M,Europe,"Retail, investments"
+2405,1100,Service,63,Monaco,Monaco,M,Europe,EasyJet
+2405,1100,Food & Beverage,57,China,Kunming,M,Asia,Pig breeding
+2405,1100,Finance & Investments,65,Germany,Hamburg,M,Europe,Coffee
+2405,1100,Finance & Investments,65,Germany,Hamburg,F,Europe,Coffee
+2405,1100,Technology,78,United States,Seattle,M,North America,Software
+2405,1100,Technology,52,China,Shenzhen,M,Asia,Software
+2405,1100,Technology,61,China,Shenzhen,F,Asia,Printed circuit boards
+2405,1100,Automotive,76,Japan,Tokyo,M,Asia,Tires
+2405,1100,Gambling & Casinos,74,Japan,Tokyo,M,Asia,Pachinko machines
+2405,1100,Finance & Investments,71,Thailand,Bangkok,M,Asia,Auto loans
+2405,1100,Finance & Investments,36,India,Bangalore,M,Asia,Financial services
+2405,1100,Finance & Investments,57,United Kingdom,London,M,Europe,IKEA
+2405,1100,Finance & Investments,53,United Kingdom,London,M,Europe,IKEA
+2405,1100,Finance & Investments,59,Belgium,Tervuren,M,Europe,IKEA
+2405,1100,Service,66,Japan,Kobe,M,Asia,Waste management
+2405,1100,Automotive,51,India,Delhi,M,Asia,Auto parts
+2405,1100,Energy,88,Turkey,Istanbul,M,Asia,Energy
+2405,1100,Healthcare,60,China,Guangzhou,M,Asia,Retailing
+2405,1100,Sports,58,Switzerland,Zurich,M,Europe,Sports data
+2405,1100,Technology,64,South Korea,Seoul,M,Asia,LG
+2405,1100,Energy,62,Russia,Moscow,M,Europe,Banking
+2405,1100,Manufacturing,74,India,Mumbai,M,Asia,Specialty chemicals
+2405,1100,Healthcare,73,India,Delhi,M,Asia,Medical diagnostics
+2405,1100,Gambling & Casinos,78,Spain,Matadepera,M,Europe,Casinos
+2405,1100,Construction & Engineering,82,South Korea,Seoul,M,Asia,"Construction, real estate"
+2405,1100,Finance & Investments,62,United States,Cleveland,F,North America,"Banking, credit cards"
+2405,1100,Finance & Investments,87,United States,Cleveland,F,North America,Banking
+2405,1100,Finance & Investments,61,United States,Cleveland,M,North America,"Banking, credit cards"
+2405,1100,Healthcare,47,China,Xiamen,M,Asia,Medical devices
+2405,1100,Healthcare,49,China,Xiamen,M,Asia,Medical devices
+2405,1100,Manufacturing,68,United States,Chattanooga,M,North America,Flooring
+2405,1100,Telecom,52,China,Xiamen,M,Asia,Telecommunication
+2405,1100,Fashion & Retail,60,China,Shanghai,M,Asia,Cosmetics
+2405,1100,Technology,46,Japan,Tokyo,M,Asia,Internet and software
+2405,1100,Automotive,68,India,Delhi,M,Asia,Two wheelers
+2405,1100,Automotive,68,India,Delhi,F,Asia,Two wheelers
+2405,1100,Automotive,70,India,Delhi,M,Asia,Motorcycles
+2405,1100,Energy,56,Russia,Kemerovo,M,Europe,Coal
+2405,1100,Automotive,81,Singapore,Singapore,M,Asia,"Tires, retail"
+2405,1100,Fashion & Retail,54,Romania,Bacau,M,Europe,Retail
+2405,1100,Diversified,69,Italy,Bergamo,M,Europe,"Real estate, diversified"
+2405,1100,Fashion & Retail,50,United States,Lutherville-Timonium,M,North America,Under Armour
+2405,1100,Healthcare,62,India,Hyderabad,M,Asia,Pharmaceuticals
+2405,1100,Healthcare,60,China,Beijing,M,Asia,Medical equipment
+2405,1100,Healthcare,58,China,Shenzhen,M,Asia,Pharmaceuticals
+2405,1100,Service,76,Spain,Madrid,F,Europe,Security services
+2405,1100,Finance & Investments,50,United States,Chicago,M,North America,Cryptocurrency
+2405,1100,Technology,42,United States,San Francisco,M,North America,Pinterest
+2405,1100,Finance & Investments,53,India,Mumbai,M,Asia,Finance
+2405,1100,Energy,58,United States,Gallatin,M,North America,Solar systems
+2405,1100,Finance & Investments,67,United Kingdom,"London, Suffolk",M,Europe,Stock exchange
+2405,1100,Finance & Investments,79,United States,New York,M,North America,Investments
+2405,1100,Food & Beverage,41,United States,Jackson,M,North America,Liquor
+2405,1100,Manufacturing,73,Australia,Melbourne,M,Oceania,Toys
+2405,1100,Technology,49,China,Shanghai,M,Asia,Semiconductors
+2405,1100,Manufacturing,59,China,Yantai,M,Asia,Oilfield equipment
+2405,1100,Technology,61,United States,Las Vegas,M,North America,Semiconductors
+2405,1100,Media & Entertainment,45,Singapore,Singapore,M,Asia,gaming
+2405,1100,Fashion & Retail,52,Malaysia,Selangor,M,Asia,Retail
+2405,1100,Automotive,77,China,Changzhou,M,Asia,Auto parts
+2405,1100,Manufacturing,51,Thailand,Bangkok,M,Asia,"Wire & cables, paints"
+2405,1100,Food & Beverage,76,Taiwan,Taipei,M,Asia,Food
+2405,1100,Manufacturing,58,China,Dongguan,M,Asia,Manufacturing
+2405,1100,Technology,59,Israel,Tel Aviv,M,Asia,Search engine
+2405,1100,Manufacturing,71,Germany,Starnberg,M,Europe,Chemicals
+2405,1100,Food & Beverage,82,China,Luohe,M,Asia,Food
+2405,1100,Diversified,35,China,Shanghai,M,Asia,Airline
+2405,1100,Media & Entertainment,46,Sweden,Karlstad,M,Europe,Video games
+2405,1100,Manufacturing,73,Hong Kong,Hong Kong,M,Asia,Electronics
+2405,1100,Sports,47,United States,Jupiter Island,M,North America,Golf
+2405,1100,Fashion & Retail,81,Germany,Detmold,M,Europe,Footwear
+2405,1100,Telecom,53,China,Xiamen,M,Asia,Electronics
+2405,1100,Manufacturing,82,Taiwan,Kaohsiung,M,Asia,Electronic components
+2405,1100,Food & Beverage,54,China,Beijing,M,Asia,Consumer
+2405,1100,Healthcare,68,China,Tonghua,M,Asia,Pharmaceuticals
+2405,1100,Healthcare,61,China,Leping,M,Asia,Vitamins
+2405,1100,Telecom,72,China,Nantong,M,Asia,Cable
+2405,1100,Manufacturing,83,Singapore,Singapore,M,Asia,Manufacturing
+2405,1100,Technology,68,China,Hangzhou,F,Asia,Software
+2405,1100,Food & Beverage,53,China,Foshan,M,Asia,Soy sauce
+2405,1100,Media & Entertainment,51,China,Shaoxing,M,Asia,"Tourism, cultural industry"
+2405,1100,Metals & Mining,40,China,Yongzhou,M,Asia,Aluminium
+2405,1100,Construction & Engineering,58,China,Linhai,M,Asia,Building materials
+2405,1100,Fashion & Retail,51,China,Fuzhou,M,Asia,Supermarkets
+2405,1100,Food & Beverage,48,China,Changsha,M,Asia,Snacks
+2405,1100,Technology,50,China,Beijing,M,Asia,Semiconductors
+2405,1100,Manufacturing,49,China,Shenzhen,M,Asia,Smartphones
+2405,1100,Manufacturing,57,Hong Kong,Hong Kong,F,Asia,Printed circuit boards
+2540,1000,Food & Beverage,68,India,Delhi,M,Asia,Snacks
+2540,1000,Finance & Investments,44,United Kingdom,London,M,Europe,Investments
+2540,1000,Fashion & Retail,76,Japan,Tokyo,M,Asia,Retail
+2540,1000,Healthcare,44,Germany,Melsungen,F,Europe,Medical technology
+2540,1000,Healthcare,43,Germany,Melsungen,F,Europe,Medical technology
+2540,1000,Healthcare,40,Germany,Melsungen,M,Europe,Medical technology
+2540,1000,Healthcare,33,Germany,Melsungen,M,Europe,Medical technology
+2540,1000,Diversified,98,Peru,Lima,F,South America,"Mining, banking"
+2540,1000,Media & Entertainment,76,United States,Palm Beach,M,North America,"Entertainment, Margaritaville"
+2540,1000,Gambling & Casinos,70,Japan,Tokyo,M,Asia,Pachinko machines
+2540,1000,Finance & Investments,75,France,Paris,M,Europe,Asset management
+2540,1000,Logistics,75,Taiwan,Taipei,M,Asia,Transportation
+2540,1000,Manufacturing,64,China,Shangyu,M,Asia,Manufacturing
+2540,1000,Media & Entertainment,45,China,Shanghai,M,Asia,Online entertainment
+2540,1000,Manufacturing,59,China,Tongxiang,M,Asia,Polyester
+2540,1000,Technology,49,United States,Atherton,M,North America,Online games
+2540,1000,Energy,55,China,Ningde,M,Asia,Batteries
+2540,1000,Food & Beverage,65,Hong Kong,Hong Kong,M,Asia,Liquor
+2540,1000,Manufacturing,72,India,Kochi,M,Asia,Electrical appliances
+2540,1000,Real Estate,57,Monaco,Monaco,M,Europe,Real estate
+2540,1000,Finance & Investments,64,Hong Kong,Hong Kong,F,Asia,"Financial services, property"
+2540,1000,Diversified,67,Turkey,Istanbul,M,Asia,Diversified
+2540,1000,Technology,56,United States,San Carlos,M,North America,Software
+2540,1000,Real Estate,63,Monaco,Monaco,M,Europe,Office real estate
+2540,1000,Technology,50,China,Guangzhou,M,Asia,Software
+2540,1000,Healthcare,58,China,Beijing,F,Asia,Pharmaceuticals
+2540,1000,Healthcare,68,Denmark,Copenhagen,F,Europe,Medical devices
+2540,1000,Fashion & Retail,66,United States,San Francisco,M,North America,Gap
+2540,1000,Manufacturing,56,China,Shenzhen,M,Asia,Industrial lasers
+2540,1000,Real Estate,60,China,Langfang,M,Asia,Real estate
+2540,1000,Finance & Investments,79,Sweden,Stockholm,M,Europe,Financial services
+2540,1000,Service,52,Monaco,Monte Carlo,F,Europe,EasyJet
+2540,1000,Service,56,Monaco,Monte Carlo,M,Europe,EasyJet
+2540,1000,Manufacturing,55,China,Wuxi,F,Asia,Machinery
+2540,1000,Manufacturing,66,China,Chengdu,M,Asia,Manufacturing
+2540,1000,Energy,79,Indonesia,Jakarta,F,Asia,Coal
+2540,1000,Technology,46,China,Beijing,M,Asia,Smartphones
+2540,1000,Fashion & Retail,70,South Korea,Seoul,M,Asia,Convenience stores
+2540,1000,Healthcare,59,China,Shanghai,M,Asia,Bio-Pharma
+2540,1000,Technology,45,Italy,Rome,M,Europe,Online universities
+2540,1000,Finance & Investments,68,Germany,Dusseldorf,F,Europe,Investments
+2540,1000,Manufacturing,70,India,Mumbai,M,Asia,Cables & wires
+2540,1000,Sports,38,United States,Los Angeles,M,North America,Basketball
+2540,1000,Fashion & Retail,56,Norway,Oslo,M,Europe,Grocery stores
+2540,1000,Technology,93,Israel,Beit Yanay,M,Asia,Software
+2540,1000,Manufacturing,75,India,Delhi,M,Asia,Tiles
+2540,1000,Finance & Investments,53,Brazil,Sao Paulo,M,South America,Banking
+2540,1000,Sports,79,United States,Paradise Valley,M,North America,"Banking, sports team"
+2540,1000,Technology,53,United States,Chicago,M,North America,"Software, investments"
+2540,1000,Energy,68,Singapore,Singapore,M,Asia,Power
+2540,1000,Fashion & Retail,48,South Korea,Seoul,M,Asia,Cosmetics
+2540,1000,Diversified,60,Ukraine,Kiev,M,Europe,"Banking, investments"
+2540,1000,Real Estate,55,China,Guangzhou,M,Asia,Real estate
+2540,1000,Manufacturing,74,South Korea,Seoul,M,Asia,Electronics
+2540,1000,Real Estate,78,Singapore,Singapore,M,Asia,Hotels
+2540,1000,Real Estate,82,United States,Palm Beach,M,North America,Real estate
+2540,1000,Finance & Investments,57,Russia,Moscow,M,Europe,Cement
+2540,1000,Finance & Investments,73,South Africa,Stellenbosch,M,Africa,Banking
+2540,1000,Technology,45,China,Beijing,M,Asia,Smartphones
+2540,1000,Fashion & Retail,69,China,Wuhan,M,Asia,Pharmacies
+2540,1000,Healthcare,74,Singapore,Singapore,M,Asia,Healthcare
+2540,1000,Technology,59,China,Shanghai,M,Asia,Electronics
+2540,1000,Manufacturing,52,China,Shanghai,F,Asia,LED lighting
+2540,1000,Technology,36,United States,San Francisco,M,North America,Grocery delivery service
+2540,1000,Manufacturing,65,Germany,Landsberg am Lech,F,Europe,Appliances
+2540,1000,Manufacturing,56,Germany,Landsberg,F,Europe,Appliances
+2540,1000,Construction & Engineering,51,Russia,Moscow,M,Europe,Construction materials
+2540,1000,Manufacturing,78,Italy,Reggio Emilia,M,Europe,Hydraulic pumps
+2540,1000,Media & Entertainment,53,United States,Atlanta,M,North America,"Movies, television"
+2540,1000,Fashion & Retail,72,Canada,Westmount,M,North America,Convenience stores
+2540,1000,Food & Beverage,74,Bermuda,Unknown,F,North America,Beer
+2540,1000,Energy,76,United States,Milton,M,North America,Energy services
+2540,1000,Media & Entertainment,69,Indonesia,Jakarta,M,Asia,"Media, tech"
+2540,1000,Technology,68,United States,Fisher Island,F,North America,"IT consulting, outsourcing"
+2540,1000,Technology,73,United States,Provo,M,North America,Cloud computing
+2540,1000,Service,60,Norway,Oslo,M,Europe,Hotels
+2540,1000,Diversified,53,Russia,Moscow,M,Europe,"Metals, telecom"
+2540,1000,Finance & Investments,51,Russia,Moscow,M,Europe,"Finance, development"
+2540,1000,Manufacturing,70,Indonesia,Surabaya,M,Asia,Paints
+2540,1000,Manufacturing,59,Indonesia,Jakarta,M,Asia,Manufacturing
+2540,1000,Food & Beverage,77,United States,Arcadia,M,North America,Hot sauce
+2540,1000,Media & Entertainment,82,Japan,Osaka,M,Asia,Video games
+2540,1000,Telecom,75,Turkey,Istanbul,M,Asia,Telecom
+2540,1000,Technology,70,Japan,"Nakano, Tokyo",M,Asia,Software
+2540,1000,Healthcare,54,China,Shenzhen,M,Asia,Medical equipment
+2540,1000,Finance & Investments,72,Canada,Toronto,M,North America,"Insurance, investments"
+2540,1000,Food & Beverage,60,China,Yunfu,M,Asia,Agribusiness
+2540,1000,Sports,51,Monaco,Unknown,M,Europe,Sports
+2540,1000,Fashion & Retail,54,China,Guangzhou,M,Asia,Apparel
+2540,1000,Manufacturing,59,China,Jiaozuo,M,Asia,Chemicals
+2540,1000,Manufacturing,53,China,Taicang,M,Asia,Manufacturing
+2540,1000,Healthcare,63,China,Guangzhou,M,Asia,Pharmaceuticals
+2540,1000,Healthcare,51,China,Shanghai,M,Asia,Health clinics
+2540,1000,Food & Beverage,80,United States,Pottsville,M,North America,Beer
+2540,1000,Manufacturing,60,China,Gaomi,M,Asia,Tyre manufacturing machinery
+2540,1000,Real Estate,71,China,Nanjing,M,Asia,Real estate
+2540,1000,Diversified,66,Philippines,Makati,M,Asia,Diversified
