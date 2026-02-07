@@ -18,8 +18,8 @@ def load_data():
     return pd.read_csv("billionaires.csv")
 
 df = load_data()
-st.write(df.columns)
-st.stop()
+df["wealth"] = pd.to_numeric(df["wealth"], errors="coerce")
+
 
 
 # --------------------------------------------------
@@ -28,8 +28,9 @@ st.stop()
 st.title("Billionaires Dashboard")
 st.markdown(
     "This interactive dashboard analyzes global billionaire data by country, "
-    "industry, gender, and net worth."
+    "industry, gender, and wealth."
 )
+
 
 # --------------------------------------------------
 # Sidebar Filters
@@ -63,12 +64,12 @@ col1, col2, col3 = st.columns(3)
 
 col1.metric("Total Billionaires", len(filtered_df))
 col2.metric(
-    "Total Net Worth ($B)",
-    round(filtered_df["netWorth"].sum(), 2)
+    "Total Wealth ($B)",
+    round(filtered_df["wealth"].sum(), 2)
 )
 col3.metric(
-    "Average Net Worth ($B)",
-    round(filtered_df["netWorth"].mean(), 2)
+    "Average Wealth ($B)",
+    round(filtered_df["wealth"].mean(), 2)
 )
 
 # --------------------------------------------------
@@ -121,14 +122,16 @@ st.plotly_chart(fig2, use_container_width=True)
 # --------------------------------------------------
 # Visualization 3: Net Worth Distribution
 # --------------------------------------------------
-st.subheader("Net Worth Distribution")
+st.subheader("Wealth Distribution")
+
 
 fig3 = px.histogram(
     filtered_df,
-    x="netWorth",
+    x="wealth",
     nbins=30,
-    title="Distribution of Net Worth ($ Billions)"
+    title="Distribution of Wealth ($ Billions)"
 )
+
 
 st.plotly_chart(fig3, use_container_width=True)
 
@@ -165,3 +168,4 @@ st.markdown("""
 - Billionaire wealth is highly concentrated among a small number of individuals.
 - Male billionaires significantly outnumber female billionaires.
 """)
+
